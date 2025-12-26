@@ -1,13 +1,15 @@
 # utils.py
+from optparse import Option
 import re
 import subprocess
 import os
+from token import OP
 from typing import Optional, Any, Type, TypedDict, List
 from langchain_openai import ChatOpenAI
 from pydantic import BaseModel, Field
 from langchain.chat_models import init_chat_model
 from pathlib import Path
-
+from model import ClozeTest, ReadingTask
 from sklearn import base
 import requests
 import time
@@ -160,6 +162,13 @@ class LLMService:
         print(f"Average tokens per call: {stats['average_tokens']:.2f}\n")
         print("</LLM Service Statistics>")
 
+
+class GraphState(TypedDict):
+    Cloze: Optional[list[ClozeTest]]
+    Reading: Optional[list[ReadingTask]]
+    llm_service: Optional['LLMService']
+    Cloze_answers: Optional[dict[str, Any]]
+    Reading_answers: Optional[dict[str, Any]]
 
 
 def tokenize(text: str) -> str:

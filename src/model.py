@@ -125,7 +125,7 @@ if __name__ == "__main__":
         ],
         "answers": ["A", "B"] # 小写会被自动转为大写
     }
-
+    print(data_ok)
     try:
         test = ClozeTest(**data_ok)
         print("✅ 验证通过！数据结构正确。")

@@ -16,10 +16,27 @@ import time
 import random
 import shutil
 from botocore.exceptions import ClientError
+import json
 
 class ResponseWithThinkPydantic(BaseModel):
     think: str = Field(description="Thought process of the LLM")
     response: str = Field(description="Response of the LLM")
+
+def _extract_json_object(text: str) -> str:
+    text = (text or "").strip()
+    if not text:
+        return text
+    try:
+        json.loads(text)
+        return text
+    except Exception:
+        pass
+
+    # Try to extract the first {...} or [...] block.
+    m = re.search(r"(\{[\s\S]*\}|\[[\s\S]*\])", text)
+    if m:
+        return m.group(1).strip()
+    return text
 
 class LLMService:
     def __init__(self, config: object):
@@ -77,8 +94,25 @@ class LLMService:
         while True:
             try:
                 if pydantic_obj:
-                    structured_llm = self.llm.with_structured_output(pydantic_obj)
-                    response = structured_llm.invoke(messages)
+                    try:
+                        structured_llm = self.llm.with_structured_output(pydantic_obj)
+                        response = structured_llm.invoke(messages)
+                    except Exception as e:
+                        # Some providers/models reject certain `response_format` / schema modes.
+                        # Fallback: ask for strict JSON and validate with Pydantic locally.
+                        field_names = list(getattr(pydantic_obj, "model_fields", {}).keys())
+                        fallback_system = (
+                            "Return ONLY a valid JSON value (no Markdown, no code fences). "
+                            f"Top-level keys MUST be: {field_names}."
+                        )
+                        fallback_messages = messages.copy()
+                        fallback_messages.insert(0, {"role": "system", "content": fallback_system})
+
+                        raw = self.llm.invoke(fallback_messages)
+                        raw_text = raw.content if hasattr(raw, "content") else str(raw)
+                        raw_text = _extract_json_object(raw_text)
+                        parsed = json.loads(raw_text)
+                        response = pydantic_obj.model_validate(parsed)
                 else:
                     if self.model_version.startswith("deepseek"):
                         structured_llm = self.llm.with_structured_output(ResponseWithThinkPydantic)

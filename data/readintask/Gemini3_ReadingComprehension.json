@@ -1,0 +1,266 @@
+[
+{
+"title": "Shakespeare and Children's Development",
+"content": "The grammar school boy from Stratford-upon-Avon has landed a scholarly punch after groundbreaking research showed that Shakespeare does benefit children’s literacy and emotional development. But only if you act him out. A study found that a “rehearsal room” approach to teaching Shakespeare broadened children’s vocabulary and the complexity of their writing as well as their emotional literacy. “The research shows that the way actors work makes a big difference to the way children use language and also how they think about themselves,” Jacqui O’Hanlon of the Royal Shakespeare Company (RSC), which commissioned the study, said. The randomised control trial involved hundreds of Year 5 pupils—aged nine and ten—at 45 state primary schools that had not been “previously exposed to RSC pedagogy.” They were split into target and control groups and asked to write, for example, a message in a bottle as Ferdinand after the shipwreck in The Tempest. The target group was given a 30-minute drama-based activity to accompany the passage. The peer-reviewed results showed that the target group of pupils drew on a wider vocabulary, used words “classed as more sophisticated or rarer”, and wrote at greater length. They also “appear to be more comfortable writing in role... while [control] pupils imagine how they themselves would react to being shipwrecked, [target] children put themselves in the shoes of a literary character and express that character’s emotion”. The Time to Act study also found that while control pupils relied on “desert island clichés” such as palm trees, target pupils were “more expansive giving a broader picture of the sky, the sea and the atmospheric conditions”. O’Hanlon said she had been most surprised by the “emotional literacy that was evident in the [target] children’s writing” and that they were “more resilient in their writing, more hopeful”. She added: “The emotional understanding was very evident and it is probably related to the [rehearsal room process] where you are used to trying to imagine your way through. They were comfortable in describing different emotional states and part of what you do in drama is put yourself in different shoes”. The study showed the importance of embedding arts in education, she said. “But could the results be replicated with any old dramatist?” O’Hanlon said more research would be needed but suggested that Shakespeare’s use of 20,000 words, compared with the everyday 2,000 words, gave a “massive expansion of language into children’s lives”, which was combined with children “using their whole bodies to bring words to life”.",
+"questions": [
+{
+"id": 1,
+"prompt": "According to the first two paragraphs, the benefits of Shakespeare's works can be fully realized when ______.",
+"options": {
+"A": "students are exposed to his original grammar school style",
+"B": "the teaching process involves physical performance",
+"C": "children focus on the complexity of his writing",
+"D": "teachers adopt a traditional scholarly approach"
+},
+"answer": "B",
+"explanation": "解析：事实细节同义改写。原文第一段提到“But only if you act him out”，第二段提到“rehearsal room approach”（排练室方法）以及“the way actors work”。选项B中的“physical performance”是“act him out”和“rehearsal”的同义改写。A项“grammar school style”是原文第一段词汇的错误拼凑；C项是结果而非实现条件；D项与原文“rehearsal room”方法相反。"
+},
+{
+"id": 2,
+"prompt": "What characterized the writing of the target group in the trial?",
+"options": {
+"A": "A heavy reliance on conventional maritime metaphors.",
+"B": "A tendency to describe personal reactions to disasters.",
+"C": "The utilization of advanced and infrequent terminology.",
+"D": "The ability to replicate RSC pedagogy independently."
+},
+"answer": "C",
+"explanation": "解析：事实细节同义改写。原文第四段提到“drew on a wider vocabulary”和“used words classed as more sophisticated or rarer”。选项C中的“advanced and infrequent terminology”对应“sophisticated or rarer”。A项是control group（对照组）的特征；B项也是对照组的表现（imagine how they themselves would react）；D项文中未提及。"
+},
+{
+"id": 3,
+"prompt": "In Paragraph 4, the phrase “put themselves in the shoes of” is closest in meaning to ______.",
+"options": {
+"A": "empathized with",
+"B": "competed with",
+"C": "dressed like",
+"D": "relied on"
+},
+"answer": "A",
+"explanation": "解析：语境语义题。该短语在文中语境是“put themselves in the shoes of a literary character and express that character’s emotion”，意为设身处地地感受角色的情感。A项“empathized with”（同感，共鸣）最为贴切。C项是字面意思（穿鞋/打扮）的强干扰。"
+},
+{
+"id": 4,
+"prompt": "What can be inferred from O’Hanlon’s comments in the last paragraph?",
+"options": {
+"A": "Any dramatist’s work can produce the same educational effect.",
+"B": "Children’s daily vocabulary is insufficient for emotional expression.",
+"C": "The physical involvement in drama aids linguistic enrichment.",
+"D": "Shakespeare’s plays are superior to all modern literature."
+},
+"answer": "C",
+"explanation": "解析：逻辑推理题。最后一段提到Shakespeare的词汇量优势结合“children using their whole bodies to bring words to life”，推导出身体参与有助于语言丰富。A项与文中“could the results be replicated... more research would be needed”不符；B项推理过度，文中只说Shakespeare词汇量更大；D项过于绝对。"
+},
+{
+"id": 5,
+"prompt": "The primary purpose of the text is to ______.",
+"options": {
+"A": "criticize the current state of primary school literacy",
+"B": "promote the Royal Shakespeare Company’s new pedagogy",
+"C": "report on research regarding drama-based Shakespeare teaching",
+"D": "compare Shakespeare’s vocabulary with modern language"
+},
+"answer": "C",
+"explanation": "解析：主旨大意题。文章围绕一项关于通过戏剧方法教授莎士比亚对儿童影响的研究（Time to Act study）展开。B项虽有涉及但文章更像是一则客观的研究报道；A项文中未体现批评；D项只是文中的一个小细节。"
+}
+]
+},
+{
+"title": "Sustainable Science and Computing",
+"content": "I was shocked to learn recently that some scientists want to scale back their research in an effort to decrease carbon emissions. The crisis is here, they said, and we need to cut back on our energy-intensive modelling. At the very least, we need to make our energy use far more sustainable. It is unarguable that our laboratories, scientific instruments, rockets and satellites—the tools we scientists need to measure the planet’s pulse—demand significant amounts of energy both in their construction and operation. And it is equally true that science’s unrelenting appetite for information has caused a mushrooming of energy-intensive data centres around the world. According to the International Energy Agency, these buildings now consume about 1 percent of the world’s electricity. If the world is to meet its net-zero ambitions, we must think hard about how we can deliver sustainable computing and deliver more LUMIs. Every day, scientists, technologists and engineers are discovering new ways to exploit renewable energy sources and develop techniques not just to use power more intelligently but to power our intelligence. A great example of this is Europe’s largest supercomputer, LUMI in Finland, which is astonishingly carbon-negative. Established in an old paper mill, it is powered by a nearby river and its remote heat warms the people who live in the surrounding town of Kajaani.",
+"questions": [
+{
+"id": 6,
+"prompt": "The author’s initial reaction to some scientists’ proposal was one of ______.",
+"options": {
+"A": "indifference",
+"B": "astonishment",
+"C": "approval",
+"D": "skepticism"
+},
+"answer": "B",
+"explanation": "解析：态度观点题。第一段首句明确提到“I was shocked to learn...”，B项“astonishment”是“shocked”的同义替换。A、C、D均不符合语境。"
+},
+{
+"id": 7,
+"prompt": "The phrase “measure the planet’s pulse” in Paragraph 2 most likely refers to ______.",
+"options": {
+"A": "monitoring Earth’s environmental health",
+"B": "calculating the speed of planetary rotation",
+"C": "checking the energy consumption of rockets",
+"D": "diagnosing diseases in the global population"
+},
+"answer": "A",
+"explanation": "解析：语境语义题。联系上下文，科学家使用实验室、卫星等工具是为了应对“crisis”（气候危机），因此“测量地球脉搏”隐喻监测地球的环境状况。B、C、D均属于字面意思或错误联想。"
+},
+{
+"id": 8,
+"prompt": "What is identified as a significant contributor to the increasing energy demand in science?",
+"options": {
+"A": "The construction of traditional paper mills.",
+"B": "The global expansion of data storage facilities.",
+"C": "The inefficiency of renewable energy sources.",
+"D": "The lack of cooperation between technologists."
+},
+"answer": "B",
+"explanation": "解析：事实细节同义改写。原文第二段提到“mushrooming of energy-intensive data centres”，选项B中的“global expansion of data storage facilities”是其同义改写。A项是将LUMI的选址背景张冠李戴；C、D文中未提及。"
+},
+{
+"id": 9,
+"prompt": "The LUMI supercomputer is considered carbon-negative because it ______.",
+"options": {
+"A": "operates without any form of electricity",
+"B": "was built using recycled paper from an old mill",
+"C": "utilizes hydro-power and provides heating for locals",
+"D": "is the only supercomputer that ignores data demands"
+},
+"answer": "C",
+"explanation": "解析：事实细节同义改写。最后一段提到“powered by a nearby river”（水电）且“its remote heat warms the people”（余热供暖）。C项概括了这两个关键点。A项错误，它仍需用电；B项混淆了厂址与建筑材料；D项无中生有。"
+},
+{
+"id": 10,
+"prompt": "The author’s attitude toward the future of energy-intensive research is ______.",
+"options": {
+"A": "pessimistic",
+"B": "prohibitive",
+"C": "cautiously optimistic",
+"D": "entirely dismissive"
+},
+"answer": "C",
+"explanation": "解析：逻辑推理与态度题。作者承认科学研究消耗能源巨大，但随后提出了LUMI等正面例子，并提到专家们正在寻找“new ways to exploit renewable energy”，显示出一种通过技术手段解决问题的谨慎乐观态度。A、B、D均偏向负面。"
+}
+]
+},
+{
+"title": "The Economic Impact of Digital Piracy",
+"content": "Ever since taking on Netflix Inc at its own game, old Hollywood has struggled to turn a profit in streaming, with the likes of Disney+, Peacock and Paramount losing billions of dollars each year, sparking concerns that the services will never be as profitable as cable once was. But the age of streaming has been a boon for some unintended winners: pirates that use software to rip a film or television show in seconds from legitimate online video platforms and host the titles on their own, illegitimate services, which rake in about $2 billion annually from ads and subscriptions. With no video production costs, illegal streaming sites have achieved profit margins approaching 90%, according to the Motion Picture Association (MPA), a trade group representing Hollywood studios that’s working to crack down on the thousands of illegal platforms that have cropped up in recent years. Initially the rise of legitimate online businesses such as Netflix actually helped curb digital piracy, which had largely been based on file uploads. But now piracy involving illegal streaming services as well as file-sharing costs the US economy about $30 billion in lost revenue a year and some 250,000 jobs, estimates the US Chamber of Commerce’s Global Innovation Policy Center. The global impact is about $71 billion annually. “The people who are stealing our movies and our television shows and operating piracy sites are not mom and pop operations,” says Charles Rivkin, chief executive officer of the MPA. “This is organized crime.” Rivkin joined the MPA in 2017 after the organization failed five years earlier to build consensus between Hollywood and Silicon Valley to win passage of legislation in Congress aimed at stopping online piracy. In 2017 the association formed the Alliance for Creativity and Entertainment (ACE), an enforcement taskforce of about 100 detectives circling the globe to help local authorities arrest streaming pirates. ACE says it’s helped shrink the number of illegal streaming services in North America to 126, from more than 1,400 in 2018, aided in part by the MPA’s support for a 2020 federal law that made large-scale streaming of copyright material a serious crime. Consulting firm Parks Associates predicts that legitimate US streaming services’ cumulative loss from piracy since 2022 will reach $113 billion in the next two years. “While there is some optimism that emerging countermeasures and best practices may see piracy begin to plateau by 2027, there is no consensus among stakeholders as to when it may begin to decline,” says analyst Steve Hawley.",
+"questions": [
+{
+"id": 11,
+"prompt": "What is the main reason for the high profit margins of illegal streaming sites?",
+"options": {
+"A": "Their adoption of advanced ripping software.",
+"B": "The absence of expenses related to content creation.",
+"C": "Their ability to charge higher subscription fees than Netflix.",
+"D": "The massive investment from organized crime syndicates."
+},
+"answer": "B",
+"explanation": "解析：事实细节同义改写。第一段提到“With no video production costs... profit margins approaching 90%”。选项B中的“absence of expenses related to content creation”是“no video production costs”的同义改写。"
+},
+{
+"id": 12,
+"prompt": "According to the second paragraph, the relationship between legitimate streaming and piracy ______.",
+"options": {
+"A": "has always been one of mutual destruction",
+"B": "has undergone a shift from suppression to a new surge",
+"C": "was initially worsened by the emergence of Netflix",
+"D": "is now characterized by a decrease in global financial loss"
+},
+"answer": "B",
+"explanation": "解析：逻辑推理题。第二段提到最初Netflix的兴起“helped curb digital piracy”，但随后由于非法流媒体服务的发展，盗版造成了巨大的经济损失。这反映了从抑制到再次激增的转变。C项与原文相反；D项错误，损失巨大。"
+},
+{
+"id": 13,
+"prompt": "The phrase “not mom and pop operations” in Paragraph 3 implies that piracy sites are ______.",
+"options": {
+"A": "family-owned small businesses",
+"B": "legal but unethical enterprises",
+"C": "highly sophisticated and professional",
+"D": "struggling to maintain their operations"
+},
+"answer": "C",
+"explanation": "解析：语境语义题。紧接该句作者提到“This is organized crime”，说明盗版不再是零散的小作坊（mom and pop），而是规模化、有组织的。C项符合语境。A项是该词组的字面意思。"
+},
+{
+"id": 14,
+"prompt": "The significant decrease in illegal services in North America since 2018 is partly due to ______.",
+"options": {
+"A": "a new consensus between Hollywood and Silicon Valley",
+"B": "the voluntary closure of thousands of illegal platforms",
+"C": "the implementation of stricter federal legislation",
+"D": "a global decline in the popularity of pirated content"
+},
+"answer": "C",
+"explanation": "解析：事实细节同义改写。第四段提到“aided in part by the MPA’s support for a 2020 federal law that made large-scale streaming... a serious crime”。选项C中的“stricter federal legislation”对应文中的“2020 federal law”。"
+},
+{
+"id": 15,
+"prompt": "What is Steve Hawley’s view on the future of digital piracy?",
+"options": {
+"A": "A sharp decline is expected to occur before 2027.",
+"B": "Countermeasures will have no impact on piracy rates.",
+"C": "The timeline for piracy’s actual reduction remains uncertain.",
+"D": "Stakeholders have reached an agreement on how to end piracy."
+},
+"answer": "C",
+"explanation": "解析：逻辑推理题。最后一段提到虽然有乐观情绪认为2027年可能达到平台期，但“there is no consensus... as to when it may begin to decline”。选项C是对“no consensus”的同义改写。A、B、D均与原文表述不符。"
+}
+]
+},
+{
+"title": "The Challenge of Digital Preservation",
+"content": "Visit any antiques store and you’ll encounter artifacts from the past: photographs, letters, a brochure detailing the Sinclair dinosaur exhibit from the 1964-65 World’s Fair, the ephemera of history. Yet these objects aren’t truly ephemeral, because they’re still here, decades, even centuries later. Why? Because they’re tangible. Have you pondered the life cycle of intangible formats, digital information, given that those who produce these artifacts seldom make provision for their long-term preservation? For millennia, we’ve known what we’ve known due to artifacts that have survived, often despite their original creators’ neglect. The thing itself is the medium that delivers the information. At the time of creation, no attempts were made at intentional preservation, yet analog materials have a chance of surviving and serving as the historical record that biographers, historians, and novelists rely on. Libraries and archives have traditionally shouldered the responsibility of organization, preservation, and access to information. One of S. R. Ranganathan’s foundational Laws of Library Science is “Save the time of the reader.” Thus, librarians digitize the tangible so that researchers the world over can quickly search and access their holdings. The result is an embarrassment of historical riches, which brings its own needle-and-haystack problems. Librarians’ innate altruism can act against us when users point to universality of access by holding up a cell phone and saying, “it’s all in here,” or noting “I never have to leave my laptop” as evidence that libraries are less vital for researchers today. Yet how was that universality of access made possible and, perhaps more importantly, how is it maintained? Who curates what is preserved? When it comes to born-digital information, the terrifying answer can be: if not librarians and archivists, then no one. Digital information requires a great deal more care than analog. Even when a digital object is preserved, it may only be the carrier that’s saved, not the information itself. As technology advances and a format becomes obsolete, the object is useless. Have you ever stared helplessly at a ZIP disk, thinking: how do I get the files off this? Without constant migration of digital assets, a nightmare about the foreseeable future is what keeps historians up at night: a historical record that abruptly stops when digital replaces analog. This phenomenon is frightening because it’s pervasive, from the photos on your phone to the official U.S. federal government publications integral to documenting our republic and informing its electorate. There’s also the horror of sheer volume; we are drowning in a sea of unorganized digital information. Digital objects increase exponentially in a way tangible formats do not. In the 1990s, a family might have had a few hours of home movies documenting three generations. My millennial sister has thousands of hours of video from her two-year-old’s still brief time on this planet with no organizational metadata (i.e., it’s unsearchable). So when it comes to preservation, the situation is akin to bailing that digital sea with a teacup. From a “historical record” standpoint, this doesn’t even touch on the issue of authentication, which is increasingly important in an era of deep fakes, manipulation, and after-the-fact revision of primary sources.",
+"questions": [
+{
+"id": 16,
+"prompt": "The author mentions antiques store artifacts to emphasize that analog materials ______.",
+"options": {
+"A": "were intentionally preserved for future generations",
+"B": "possess an inherent durability due to their physical nature",
+"C": "are superior in aesthetic value to digital records",
+"D": "represent a limited view of historical events"
+},
+"answer": "B",
+"explanation": "解析：逻辑推理题。第一、二段对比了tangible（有形）和intangible（无形）物品。指出有形物品即使在创作者忽略的情况下也能幸存（survive），因为“the thing itself is the medium”。B项“inherent durability”对应这种自然幸存的能力。A项与文中“despite original creators’ neglect”矛盾。"
+},
+{
+"id": 17,
+"prompt": "According to Paragraph 3, digitization by librarians has led to ______.",
+"options": {
+"A": "the complete obsolescence of physical archives",
+"B": "a simplified search process without any difficulties",
+"C": "an abundance of data that is difficult to navigate",
+"D": "a decrease in the funding for library science research"
+},
+"answer": "C",
+"explanation": "解析：事实细节同义改写。原文第三段末尾提到“an embarrassment of historical riches, which brings its own needle-and-haystack problems”。C项中的“abundance”对应“riches”，“difficult to navigate”对应“needle-and-haystack problems”（大海捞针）。"
+},
+{
+"id": 18,
+"prompt": "What is the author’s primary concern regarding “born-digital” information?",
+"options": {
+"A": "The lack of public interest in accessing digital archives.",
+"B": "The high cost of purchasing digital storage devices.",
+"C": "The risk of permanent loss without professional intervention.",
+"D": "The ethical implications of sharing personal data online."
+},
+"answer": "C",
+"explanation": "解析：事实细节/逻辑推理题。第四段末尾提到“if not librarians and archivists, then no one”会去负责保存，第五段提到“nightmare... a historical record that abruptly stops”。这表明如果没有专业干预（librarians/archivists），数字信息面临消失的风险。C项正确。"
+},
+{
+"id": 19,
+"prompt": "The example of the author's sister’s videos illustrates the problem of ______.",
+"options": {
+"A": "format obsolescence",
+"B": "unmanageable quantity",
+"C": "intentional revision",
+"D": "hardware malfunction"
+},
+"answer": "B",
+"explanation": "解析：逻辑推理题。第六段提到“horror of sheer volume”，并用妹妹给两岁孩子拍了几千小时视频且“no organizational metadata”为例。这说明了数字化导致信息量过大且难以组织、检索。B项“unmanageable quantity”是“sheer volume”的改写。"
+},
+{
+"id": 20,
+"prompt": "Which of the following would be the best title for this text?",
+"options": {
+"A": "The Evolution of Library Science Laws",
+"B": "From Antiques to ZIP Disks: A History of Storage",
+"C": "The Fragile Future of Our Digital Legacy",
+"D": "How to Authenticate Primary Sources in the Digital Age"
+},
+"answer": "C",
+"explanation": "解析：主旨大意题。全文讨论了虽然数字时代获取信息方便，但数字信息的保存（preservation）极其脆弱，面临格式过时、数量激增和缺乏专业维护的挑战。C项最能涵盖这一中心。A、D只是局部细节；B项侧重历史而非当下的危机。"
+}
+]
+}
+]

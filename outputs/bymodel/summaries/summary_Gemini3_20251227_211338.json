@@ -1,0 +1,117 @@
+{
+  "generated_at": "20251227_211338",
+  "source_settings": {
+    "target": "考研英语",
+    "language": "English",
+    "llm_enabled": true,
+    "model_provider": "openai",
+    "judge_model_version": "deepseek-chat"
+  },
+  "counts": {
+    "cloze": 1,
+    "reading": 4,
+    "total": 5
+  },
+  "overall": {
+    "cloze_avg_score": 85.6,
+    "reading_avg_score": 85.3,
+    "cloze_avg_aspect_scores": {
+      "coherence": 9.0,
+      "difficulty": 8.0,
+      "language": 9.0,
+      "option_setting": 8.0,
+      "question_quality": 9.0
+    },
+    "reading_avg_aspect_scores": {
+      "difficulty": 7.25,
+      "grounding": 9.25,
+      "language": 9.0,
+      "option_setting": 8.25,
+      "question_quality": 9.0
+    },
+    "cloze_avg_ai_accuracy": 0.9,
+    "reading_avg_ai_accuracy": 1.0
+  },
+  "per_passage": [
+    {
+      "type": "cloze",
+      "source": "data/clozetest/Gemini3_ClozeTest.json",
+      "name": "id=1",
+      "score": 85.6,
+      "aspect_scores": {
+        "option_setting": 8.0,
+        "question_quality": 9.0,
+        "difficulty": 8.0,
+        "language": 9.0,
+        "coherence": 9.0
+      },
+      "ai_accuracy": 0.9,
+      "ai_correct": 18,
+      "ai_total": 20
+    },
+    {
+      "type": "reading",
+      "source": "data/readintask/Gemini3_ReadingComprehension.json",
+      "name": "Shakespeare and Children's Development",
+      "score": 84.4,
+      "aspect_scores": {
+        "option_setting": 8.0,
+        "question_quality": 9.0,
+        "grounding": 9.0,
+        "difficulty": 7.0,
+        "language": 9.0
+      },
+      "ai_accuracy": 1.0,
+      "ai_correct": 5,
+      "ai_total": 5
+    },
+    {
+      "type": "reading",
+      "source": "data/readintask/Gemini3_ReadingComprehension.json",
+      "name": "Sustainable Science and Computing",
+      "score": 86.8,
+      "aspect_scores": {
+        "option_setting": 9.0,
+        "question_quality": 9.0,
+        "grounding": 10.0,
+        "difficulty": 7.0,
+        "language": 9.0
+      },
+      "ai_accuracy": 1.0,
+      "ai_correct": 5,
+      "ai_total": 5
+    },
+    {
+      "type": "reading",
+      "source": "data/readintask/Gemini3_ReadingComprehension.json",
+      "name": "The Economic Impact of Digital Piracy",
+      "score": 84.4,
+      "aspect_scores": {
+        "option_setting": 8.0,
+        "question_quality": 9.0,
+        "grounding": 9.0,
+        "difficulty": 7.0,
+        "language": 9.0
+      },
+      "ai_accuracy": 1.0,
+      "ai_correct": 5,
+      "ai_total": 5
+    },
+    {
+      "type": "reading",
+      "source": "data/readintask/Gemini3_ReadingComprehension.json",
+      "name": "The Challenge of Digital Preservation",
+      "score": 85.6,
+      "aspect_scores": {
+        "option_setting": 8.0,
+        "question_quality": 9.0,
+        "grounding": 9.0,
+        "difficulty": 8.0,
+        "language": 9.0
+      },
+      "ai_accuracy": 1.0,
+      "ai_correct": 5,
+      "ai_total": 5
+    }
+  ]
+}

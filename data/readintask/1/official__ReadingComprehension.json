@@ -1,0 +1,266 @@
+[
+{
+"title": "Text 1",
+"content": "The grammar school boy from Stratford-upon-Avon has landed a scholarly punch after groundbreaking research showed that Shakespeare does benefit children’s literacy and emotional development. But only if you act him out.\n\nA study found that a “rehearsal room” approach to teaching Shakespeare broadened children’s vocabulary and the complexity of their writing as well as their emotional literacy. “The research shows that the way actors work makes a big difference to the way children use language and also how they think about themselves,” Jacqui O’Hanlon of the Royal Shakespeare Company (RSC), which commissioned the study, said.\n\nThe randomised control trial involved hundreds of Year 5 pupils—aged nine and ten—at 45 state primary schools that had not been “previously exposed to RSC pedagogy.” They were split into target and control groups and asked to write, for example, a message in a bottle as Ferdinand after the shipwreck in The Tempest.\n\nThe target group was given a 30-minute drama-based activity to accompany the passage. The peer-reviewed results showed that the target group of pupils drew on a wider vocabulary, used words “classed as more sophisticated or rarer”, and wrote at greater length. They also “appear to be more comfortable writing in role... while [control] pupils imagine how they themselves would react to being shipwrecked, [target] children put themselves in the shoes of a literary character and express that character’s emotion”.\n\nThe Time to Act study also found that while control pupils relied on “desert island clichés” such as palm trees, target pupils were “more expansive giving a broader picture of the sky, the sea and the atmospheric conditions”.\n\nO’Hanlon said she had been most surprised by the “emotional literacy that was evident in the [target] children’s writing” and that they were “more resilient in their writing, more hopeful”. She added: “The emotional understanding was very evident and it is probably related to the [rehearsal room process] where you are used to trying to imagine your way through. They were comfortable in describing different emotional states and part of what you do in drama is put yourself in different shoes”.\n\nThe study showed the importance of embedding arts in education, she said. “But could the results be replicated with any old dramatist?” O’Hanlon said more research would be needed but suggested that Shakespeare’s use of 20,000 words, compared with the everyday 2,000 words, gave a “massive expansion of language into children’s lives”, which was combined with children “using their whole bodies to bring words to life”.",
+"questions": [
+{
+"id": 1,
+"prompt": "21. The rehearsal room approach requires pupils to____.",
+"options": {
+    "A": "rewrite the lines from Shakespeare",
+    "B": "watch RSC actors performances",
+    "C": "play the roles in Shakespeare",
+    "D": "study drama under RSC artists"
+},
+"answer": "C",
+"explanation": "解析要点（来自答案页）：文章强调该方法通过戏剧化表演（acting out / drama-based activity），让学生“put themselves in the shoes of literary characters”。"
+},
+{
+"id": 2,
+"prompt": "22. The study divided the pupils into two groups to find____.",
+"options": {
+    "A": "whether a the change in situation enhance learning outcomes",
+    "B": "expanding vocabulary helps develop reading fluency",
+    "C": "see emotion affects understanding of sophisticated workers",
+    "D": "the classroom activity stimulates interest in the arts"
+},
+"answer": "A",
+"explanation": "解析要点（来自答案页）：研究采用随机对照试验，将学生分为目标组（戏剧化教学）与对照组，旨在比较两种教学方法效果。"
+},
+{
+"id": 3,
+"prompt": "23. Control pupil's reliance on desert island cliches shows their____.",
+"options": {
+    "A": "weakness in description",
+    "B": "omission of small details",
+    "C": "casual style of writing",
+    "D": "the preference for big words"
+},
+"answer": "A",
+"explanation": "解析要点（来自答案页）：对照组写作更依赖陈词滥调（clichés），与目标组对比体现其描写不足。"
+},
+{
+"id": 4,
+"prompt": "24. What can promote children's emotional literacy according to O'Helen?",
+"options": {
+    "A": "Writing in an imaginative manner",
+    "B": "Identifying with literacy characters",
+    "C": "Drawing inspiration from nature",
+    "D": "Centralizing on real life situations"
+},
+"answer": "B",
+"explanation": "解析要点（来自答案页）：O’Hanlon 提到该活动帮助学生理解并表达角色情感，提高情感素养（emotional literacy）。"
+},
+{
+"id": 5,
+"prompt": "25. It can inferred from the last paragraph that____.",
+"options": {
+    "A": "a the new teaching method may work best with Shakespeare",
+    "B": "the language of Shakespeare may be formidable for pupils",
+    "C": "other older dramatists may be included in primary education",
+    "D": "the pupils may be reluctant to work on other old dramatists"
+},
+"answer": "A",
+"explanation": "解析要点（来自答案页）：文末提及莎士比亚词汇量远超日常英语者，研究者认为仍需更多研究验证机制。"
+}
+]
+},
+{
+"title": "Text 2",
+"content": "I was shocked to learn recently that some scientists want to scale back their research in an effort to decrease carbon emissions. I discovered this when I was sitting on a panel discussing sustainable space activities and my colleagues’ concerns about their contribution to global warming was palpable. The crisis is here, they said, and we need to cut back on our energy intensive modelling. At the very least, we need to make our energy use far more sustainable.\n\nIt is unarguable that our laboratories, scientific instruments, rockets and satellites — the tools we scientists need to measure the planet’s pulse — demand significant amounts of energy both in their construction and operation. And it is equally true that science’s unrelenting appetite for information has caused a mushrooming of energy-intensive data centres around the world.\n\nHowever, this is a price we must pay for understanding the world. How can we inform decision makers about the best ways to bring down carbon emissions if we can’t track the amount of carbon dioxide in the atmosphere, where it’s coming from and who’s producing it? The carbon emissions from technological research are well spent: ultimately this research will safeguard the future of our planet.\n\nRecognising the hope that science and engineering can bring was the impetus behind the creation of the Millennium Technology Prize... Thanks to innovations like modern solar panels, we have a real chance to decrease the world’s carbon emissions.\n\nA great example is Europe’s largest supercomputer, LUMI in Finland... It is powered by a nearby river and its remote heat warms the surrounding town of Kajaani. If the world is to meet its net-zero ambitions, we must think hard about how we can deliver sustainable computing and deliver more LUMIs.",
+"questions": [
+{
+"id": 6,
+"prompt": "26. The author expressed great surprise at some scientists’ ______.",
+"options": {
+"A": "unwillingness to cut carbon emissions",
+"B": "intention to reduce their research",
+"C": "suspicions about sustainable energy",
+"D": "waste of electricity in their projects"
+},
+"answer": "B",
+"explanation": "开篇明确写到作者“shocked to learn... scale back their research”。"
+},
+{
+"id": 7,
+"prompt": "27. The author believes that carbon emissions from research ______.",
+"options": {
+"A": "have caused Scare consequences",
+"B": "have aroused groundless worries",
+"C": "are hard to handle at present",
+"D": "are justifiable in the long run"
+},
+"answer": "D",
+"explanation": "作者认为科研排放是“a price we must pay”，并称其“well spent”。"
+},
+{
+"id": 8,
+"prompt": "28. The example of green in paragraph 5 is used to illustrate ______.",
+"options": {
+"A": "the achievements of great scientists",
+"B": "the urgency of addressing climate change",
+"C": "the reverse of scientific endeavors",
+"D": "the value of fostering human ingenuity"
+},
+"answer": "C",
+"explanation": "第 5 段通过 Millennium Technology Prize 与太阳能技术说明科研推动减排的“反向”作用（不是减科研，而是用科研减排）。"
+},
+{
+"id": 9,
+"prompt": "29. It can be learned from the last two paragraphs that LUMI ______.",
+"options": {
+"A": "is a model of sustainable efforts",
+"B": "is a triumph against energy shortage",
+"C": "owes much to global net zero initiatives",
+"D": "aims to explore the power of intelligence"
+},
+"answer": "A",
+"explanation": "文中将 LUMI 作为“carbon-negative”的可持续计算例子，并呼吁“deliver more LUMIs”。"
+},
+{
+"id": 10,
+"prompt": "30. Which of the following statements would they also agree with?",
+"options": {
+"A": "emission free modeling demands extra funding",
+"B": "the need for super computers is difficult to meet",
+"C": "energy intensive research work is inevitable",
+"D": "the goals of researchers out to be realistic"
+},
+"answer": "C",
+"explanation": "作者承认科研与数据中心能耗“unarguable”，但强调这是必须付出的代价。"
+}
+]
+},
+{
+"title": "Text 3",
+"content": "Ever since taking on Netflix Inc at its own game, old Hollywood has struggled to turn a profit in streaming... But the age of streaming has been a boon for some unintended winners: pirates that use software to rip a film or television show in seconds from legitimate online video platforms and host the titles on their own, illegitimate services, which rake in about $2 billion annually from ads and subscriptions.\n\nWith no video production costs, illegal streaming sites have achieved profit margins approaching 90%, according to the Motion Picture Association (MPA)...\n\nInitially the rise of legitimate online businesses such as Netflix actually helped curb digital piracy... But now piracy involving illegal streaming services as well as file-sharing costs the US economy about $30 billion in lost revenue a year and some 250,000 jobs... The global impact is about $71 billion annually.\n\nRivkin joined the MPA in 2017... In 2017 the association formed the Alliance for Creativity and Entertainment (ACE)... ACE says it's helped shrink the number of illegal streaming services in North America...\n\nParks Associates predicts legitimate US streaming services’ cumulative loss from piracy since 2022 will reach $113 billion... piracy may begin to plateau by 2027, but there is no consensus on when it may begin to decline, says analyst Steve Hawley.",
+"questions": [
+{
+"id": 11,
+"prompt": "31. According to paragraph 1, legitimate streaming services ______.",
+"options": {
+"A": "have drawn lessons from Hollywood",
+"B": "have surpassed cable in revenue",
+"C": "are unpopular with advertiser",
+"D": "are confronted with a real threat"
+},
+"answer": "D",
+"explanation": "首段强调传统好莱坞流媒体盈利困难且盗版带来威胁，触发市场担忧。"
+},
+{
+"id": 12,
+"prompt": "32. It can be learned that streamers like Netflix ______.",
+"options": {
+"A": "played a part in the fight against illegal file-sharing",
+"B": "reaped benefits from the war with digital pirates",
+"C": "promised to become big job creators in the US",
+"D": "used to collaborate with file-uploading platforms"
+},
+"answer": "A",
+"explanation": "文中说“rise of legitimate... helped curb digital piracy”。"
+},
+{
+"id": 13,
+"prompt": "33. It can be inferred from paragraph 4 that MPA ______.",
+"options": {
+"A": "was denied cooperation by Silicon Valley",
+"B": "led a national protest against online privacy",
+"C": "was urged to reform an enforcement task force",
+"D": "failed to win support from local authorities"
+},
+"answer": "A",
+"explanation": "文中提到 MPA 在更早尝试推动立法时未能在 Hollywood 与 Silicon Valley 建立共识。"
+},
+{
+"id": 14,
+"prompt": "34. According to Hawley, digital piracy ______.",
+"options": {
+"A": "cannot be checked in spite of new legislation",
+"B": "will possibly overwhelm legitimate streamers",
+"C": "is unlikely to diminish in the near future",
+"D": "has been underestimated by some analysts"
+},
+"answer": "C",
+"explanation": "Hawley 指出虽可能“plateau by 2027”，但对何时下降“no consensus”。"
+},
+{
+"id": 15,
+"prompt": "35. Which of the following is emphasized in the text?",
+"options": {
+"A": "The need to coordinate anti-piracy action",
+"B": "The criminal nature of copyright violation",
+"C": "Prospect of eliminating online piracy",
+"D": "Economic harm from illegal streaming"
+},
+"answer": "D",
+"explanation": "全文反复强调盗版带来的巨大经济损失（$30B、$71B、$113B 等）。"
+}
+]
+},
+{
+"title": "Text 4",
+"content": "Visit any antiques stores and you may encounter artifact from the past: photographs, letters, a brochure Sinclair dinosaur 1964-1965 Fair... Yet they aren’t truly ephemeral. Why? Because they are still here, decades, and they are tangible.\n\nHave you pondered the life cycle of intangible formats, digital information... The thing itself is the medium that delivers the information... Libraries and archives have traditionally shouldered the responsibility of organization, preservation, and access to information...\n\nWhen it comes to born-digital information, the terrifying answer can be: if not librarians and archivists, then no one. Digital information requires a great deal more care than analog.\n\nEven when a digital object is preserved, it may only be the carrier that’s saved... As technology advances and a format becomes obsolete, the object is useless... Without constant migration of digital assets... a historical record that abrupt stops when digital assets replaces analog.\n\nYet researchers can take some comfort... librarians are devoted to discovering, organizing, and preserving digital information... future researchers may find the digital realm challenging, but not impossible.",
+"questions": [
+{
+"id": 16,
+"prompt": "36. The author mentions the art crafts from the past to ______.",
+"options": {
+"A": "introduce the coming of antiques",
+"B": "contrast them with everyday items",
+"C": "bring up the issue of preservation",
+"D": "comment on their historical value"
+},
+"answer": "C",
+"explanation": "开头用“仍然存在的有形文物”引出对数字信息保存问题的讨论。"
+},
+{
+"id": 17,
+"prompt": "37. Compared with digital objects, tangible artifacts ______.",
+"options": {
+"A": "are less subject to their creators' neglect",
+"B": "convey information in a more direct way",
+"C": "require more intentional preservation",
+"D": "are less likely to suffer serious damage"
+},
+"answer": "B",
+"explanation": "文中指出有形文物“the thing itself is the medium that delivers the information”，信息传递更直接。"
+},
+{
+"id": 18,
+"prompt": "38. According to the passage, librarians' work may result in ______.",
+"options": {
+"A": "oversupply of materials",
+"B": "undervaluation of libraries",
+"C": "researchers' under-performance",
+"D": "users' overreliance on technology"
+},
+"answer": "B",
+"explanation": "文中提到用户以“it’s all in here”暗示图书馆不再重要，导致图书馆价值被低估。"
+},
+{
+"id": 19,
+"prompt": "39. The “ZIP disk” is cited as an example to show ______.",
+"options": {
+"A": "the difficulty of retrieving files through unusual means",
+"B": "the infeasibility of constantly migrating digital assets",
+"C": "the possibility of losing information in obsolete formats",
+"D": "the inconvenience of storing information on analog device"
+},
+"answer": "C",
+"explanation": "ZIP disk 作为过时格式示例，说明数字载体/格式淘汰会导致信息不可用甚至丢失。"
+},
+{
+"id": 20,
+"prompt": "40. Which of the following statements best summarizes the text?",
+"options": {
+"A": "Hard work should be done to preserve artifacts",
+"B": "The contribution of librarians should be recognized",
+"C": "Accessing databases is essential to researchers",
+"D": "Keeping digital historical records is a challenge"
+},
+"answer": "D",
+"explanation": "全文围绕数字信息保存的脆弱性与持续迁移难题展开，核心总结为数字历史记录保存具有挑战。"
+}
+]
+}
+]

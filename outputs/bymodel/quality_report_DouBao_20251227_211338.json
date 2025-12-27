@@ -1,0 +1,842 @@
+{
+  "generated_at": "20251227_211338",
+  "model": "DouBao",
+  "settings": {
+    "target": "考研英语",
+    "language": "English",
+    "llm_enabled": true,
+    "model_provider": "openai",
+    "judge_model_version": "deepseek-chat"
+  },
+  "totals": {
+    "cloze": {
+      "count": 1,
+      "fatal": 0,
+      "warning": 0,
+      "info": 0,
+      "avg_score": 85.6
+    },
+    "reading": {
+      "count": 4,
+      "fatal": 0,
+      "warning": 0,
+      "info": 0,
+      "avg_score": 83.5
+    }
+  },
+  "items": [
+    {
+      "type": "cloze",
+      "path": "data/clozetest/DouBao_ClozeTest.json#0",
+      "source_file": "data/clozetest/DouBao_ClozeTest.json",
+      "index_in_file": 0,
+      "id": 1,
+      "score": 85.6,
+      "rule_issues": [],
+      "rule_stats": {
+        "placeholders_count": 20,
+        "options_count": 20,
+        "answers_count": 20,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": [
+          "A",
+          "A",
+          "B",
+          "C",
+          "A",
+          "A",
+          "B",
+          "B",
+          "B",
+          "C",
+          "D",
+          "A",
+          "B",
+          "C",
+          "A",
+          "D",
+          "C",
+          "C",
+          "D",
+          "D"
+        ],
+        "confidence": [
+          0.95,
+          0.9,
+          0.8,
+          0.85,
+          0.9,
+          0.95,
+          0.85,
+          0.8,
+          0.85,
+          0.8,
+          0.9,
+          0.95,
+          0.85,
+          0.8,
+          0.9,
+          0.85,
+          0.8,
+          0.85,
+          0.8,
+          0.85
+        ],
+        "answer_mismatch_indices": [],
+        "overall_scores": {
+          "option_setting": 8,
+          "question_quality": 9,
+          "difficulty": 8,
+          "language": 9,
+          "coherence": 9
+        },
+        "overall_score": 86.0,
+        "per_blank": [
+          {
+            "index": 0,
+            "predicted": "A",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'Emerged as' fits historical origin context best. Others are less idiomatic."
+          },
+          {
+            "index": 1,
+            "predicted": "A",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 9,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "'Prone to' is standard for geographical susceptibility. Others are near-synonyms but slightly less common for natural disasters."
+          },
+          {
+            "index": 2,
+            "predicted": "B",
+            "confidence": 0.8,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "blank_quality": 8,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "'Slowly' is acceptable, but 'gradually' (A) is also strong. Distinction is subtle; both fit context of gradual sinking."
+          },
+          {
+            "index": 3,
+            "predicted": "C",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "'Shrouded in' is poetic and fits 'sand' well. 'Covered by/with' are more literal but less evocative."
+          },
+          {
+            "index": 4,
+            "predicted": "A",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 9,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "'Eroded' is correct for natural barrier worn by currents. Others imply different types of decay."
+          },
+          {
+            "index": 5,
+            "predicted": "A",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'When' correctly links the survey event to the discovery. Others introduce unnecessary temporal complexity."
+          },
+          {
+            "index": 6,
+            "predicted": "B",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "'Inspect' fits checking a location. 'Examine' (A) is also good; subtle difference."
+          },
+          {
+            "index": 7,
+            "predicted": "B",
+            "confidence": 0.8,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "'In spite of' is correct, but 'Despite' (A) is equally valid and more concise. Both are grammatically correct."
+          },
+          {
+            "index": 8,
+            "predicted": "B",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 9,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "'Untouched' best implies no archaeological work. 'Undisturbed' (A) is also plausible but slightly less specific."
+          },
+          {
+            "index": 9,
+            "predicted": "C",
+            "confidence": 0.8,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "'Renewed' fits restarting after a pause. Others are near-synonyms; 'resumed' (A) is also strong."
+          },
+          {
+            "index": 10,
+            "predicted": "D",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 9,
+              "clarity": 9
+            },
+            "notes": "'In association with' is slightly less formal but acceptable. 'In collaboration with' (B) might be more precise for joint work."
+          },
+          {
+            "index": 11,
+            "predicted": "A",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "'Had made' correctly uses past perfect for actions before 2009. Others are grammatically incorrect here."
+          },
+          {
+            "index": 12,
+            "predicted": "B",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "'Utilized' is fine. 'Employed' (A) is equally common. Subtle stylistic choice."
+          },
+          {
+            "index": 13,
+            "predicted": "C",
+            "confidence": 0.8,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "'Up-to-date' is acceptable for technology. 'State-of-the-art' (A) or 'cutting-edge' (B) might be stronger."
+          },
+          {
+            "index": 14,
+            "predicted": "A",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 9,
+              "clarity": 9
+            },
+            "notes": "'Bring to light' is idiomatic for revealing hidden things. Others are more literal but possible."
+          },
+          {
+            "index": 15,
+            "predicted": "D",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 9,
+              "clarity": 9
+            },
+            "notes": "'Crisscrossed' vividly describes intersecting roads. Others are simpler but less descriptive."
+          },
+          {
+            "index": 16,
+            "predicted": "C",
+            "confidence": 0.8,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 9,
+              "clarity": 8
+            },
+            "notes": "'Oblong' is less common but fits elongated rectangles. 'Rectangular' (A) is more general and likely intended."
+          },
+          {
+            "index": 17,
+            "predicted": "C",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 9,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "'Implying' suggests indirect evidence. 'Suggesting' (A) is very close; both work contextually."
+          },
+          {
+            "index": 18,
+            "predicted": "D",
+            "confidence": 0.8,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "'Prospering' fits economic success. 'Thriving' (A), 'booming' (B), 'flourishing' (C) are all strong synonyms; distinction is minimal."
+          },
+          {
+            "index": 19,
+            "predicted": "D",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "'Healthy' is acceptable for an industry. 'Robust' (A) might be slightly more common in economic contexts."
+          }
+        ],
+        "fatal_issues": [],
+        "improvements": [
+          "For blank 2, consider removing 'slowly' or 'gradually' to reduce ambiguity, as both are highly similar in meaning and context. 2. For blank 7, 'Despite' and 'In spite of' are functionally identical",
+          "providing both may test rote memory rather than comprehension. 3. For blank 16, 'oblong' is a less common term",
+          "'rectangular' is more standard and likely the intended answer for clarity. 4. For blanks 18 and 19, the synonym sets are very close",
+          "consider using more distinct options or providing clearer contextual clues to differentiate."
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/DouBao_ReadingComprehension.json#0",
+      "source_file": "data/readintask/DouBao_ReadingComprehension.json",
+      "index_in_file": 0,
+      "title": "Shakespeare and Children's Development",
+      "score": 84.4,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 424,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": {
+          "1": "B",
+          "2": "B",
+          "3": "B",
+          "4": "B",
+          "5": "B"
+        },
+        "confidence": {
+          "1": 0.95,
+          "2": 0.98,
+          "3": 0.99,
+          "4": 0.9,
+          "5": 0.96
+        },
+        "answer_mismatch_ids": [],
+        "overall_scores": {
+          "option_setting": 8,
+          "question_quality": 9,
+          "grounding": 9,
+          "difficulty": 7,
+          "language": 9
+        },
+        "overall_score": 84.0,
+        "per_question": [
+          {
+            "id": 1,
+            "predicted": "B",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 9,
+              "grounding": 9,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "Question directly targets the main finding. Options are distinct and plausible distractors. Option B is explicitly supported by the passage's opening and subsequent details."
+          },
+          {
+            "id": 2,
+            "predicted": "B",
+            "confidence": 0.98,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 9,
+              "grounding": 10,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "Question is factual and precisely grounded in the passage's description of the target group's activity. Option A describes the control group, making the correct answer clear."
+          },
+          {
+            "id": 3,
+            "predicted": "B",
+            "confidence": 0.99,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 9,
+              "difficulty": 5,
+              "clarity": 9
+            },
+            "notes": "Standard vocabulary-in-context question. The phrase's meaning is clearly illustrated by the surrounding text about expressing a character's emotions. Options A, C, and D are overly literal or tangential."
+          },
+          {
+            "id": 4,
+            "predicted": "B",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "question_quality": 8,
+              "grounding": 8,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "The author's attitude is inferred from the positive reporting of the study's findings and O'Hanlon's supportive quotes. The passage does not present a counter-argument, making 'Supportive' the best choice. 'Neutral' is a plausible distractor."
+          },
+          {
+            "id": 5,
+            "predicted": "B",
+            "confidence": 0.96,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 9,
+              "grounding": 10,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Question focuses on a specific, well-supported point from the passage's conclusion. Option B uses the exact phrase 'massive expansion of language' from the text. Other options contradict the passage's findings."
+          }
+        ],
+        "fatal_issues": [],
+        "improvements": [
+          "Slightly increase the difficulty of Q1 and Q2 by making the correct answer less directly verbatim from the passage. 2. For Q4, consider adding a quote from the passage that more explicitly shows the author's endorsement to strengthen grounding. 3. The passage is slightly long for 5 questions",
+          "consider adding one more inference or application question to better utilize the text."
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/DouBao_ReadingComprehension.json#1",
+      "source_file": "data/readintask/DouBao_ReadingComprehension.json",
+      "index_in_file": 1,
+      "title": "Sustainable Computing in Science",
+      "score": 83.19999999999999,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 228,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": {
+          "6": "B",
+          "7": "B",
+          "8": "C",
+          "9": "B",
+          "10": "D"
+        },
+        "confidence": {
+          "6": 1.0,
+          "7": 1.0,
+          "8": 1.0,
+          "9": 0.9,
+          "10": 1.0
+        },
+        "answer_mismatch_ids": [],
+        "overall_scores": {
+          "option_setting": 8,
+          "question_quality": 8,
+          "grounding": 9,
+          "difficulty": 7,
+          "language": 9
+        },
+        "overall_score": 82.0,
+        "per_question": [
+          {
+            "id": 6,
+            "predicted": "B",
+            "confidence": 1.0,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 9,
+              "grounding": 10,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "Directly supported by first paragraph: 'in an effort to decrease carbon emissions' and 'energy-intensive modelling'. Distractors plausible but not mentioned."
+          },
+          {
+            "id": 7,
+            "predicted": "B",
+            "confidence": 1.0,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 9,
+              "grounding": 10,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Explicitly stated in second paragraph: 'demand significant amounts of energy both in their construction and operation'. Other options not supported."
+          },
+          {
+            "id": 8,
+            "predicted": "C",
+            "confidence": 1.0,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 10,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "Directly described as 'astonishingly carbon-negative' and 'Europe's largest supercomputer'. Distractors partially related but incorrect."
+          },
+          {
+            "id": 9,
+            "predicted": "B",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "question_quality": 7,
+              "grounding": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "Supported by third paragraph: 'If the world is to meet its net-zero ambitions, we must think hard about how we can deliver sustainable computing...' Implied but not explicitly stated that it 'will help'. Slight inference required."
+          },
+          {
+            "id": 10,
+            "predicted": "D",
+            "confidence": 1.0,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 8,
+              "grounding": 10,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "A, B, C all mentioned in second paragraph. D is not mentioned anywhere, making it a clear NOT question."
+          }
+        ],
+        "fatal_issues": [],
+        "improvements": [
+          "Question 9 requires slight inference",
+          "consider rewording to make the connection more explicit. 2. Option A in Question 6 ('more important research topics') is somewhat vague",
+          "could be made more specific. 3. Add one slightly more challenging inference question to increase difficulty range. 4. Ensure all answer choices are parallel in structure and length for consistency."
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/DouBao_ReadingComprehension.json#2",
+      "source_file": "data/readintask/DouBao_ReadingComprehension.json",
+      "index_in_file": 2,
+      "title": "Online Piracy and Hollywood",
+      "score": 80.8,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 405,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": {
+          "11": "B",
+          "12": "B",
+          "13": "B",
+          "14": "B",
+          "15": "B"
+        },
+        "confidence": {
+          "11": 0.95,
+          "12": 1.0,
+          "13": 1.0,
+          "14": 1.0,
+          "15": 1.0
+        },
+        "answer_mismatch_ids": [],
+        "overall_scores": {
+          "option_setting": 8,
+          "question_quality": 7,
+          "grounding": 9,
+          "difficulty": 6,
+          "language": 9
+        },
+        "overall_score": 78.0,
+        "per_question": [
+          {
+            "id": 11,
+            "predicted": "B",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 7,
+              "grounding": 9,
+              "difficulty": 5,
+              "clarity": 9
+            },
+            "notes": "Main problem is clearly about illegal streaming's impact, but passage also discusses Hollywood's streaming struggles; option B is best but slightly narrow."
+          },
+          {
+            "id": 12,
+            "predicted": "B",
+            "confidence": 1.0,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 8,
+              "grounding": 10,
+              "difficulty": 4,
+              "clarity": 10
+            },
+            "notes": "Direct fact retrieval; all options are numbers mentioned in passage, testing careful reading."
+          },
+          {
+            "id": 13,
+            "predicted": "B",
+            "confidence": 1.0,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 10,
+              "difficulty": 5,
+              "clarity": 10
+            },
+            "notes": "Clear quote attribution; options A, C, D are unsupported extremes."
+          },
+          {
+            "id": 14,
+            "predicted": "B",
+            "confidence": 1.0,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 8,
+              "grounding": 10,
+              "difficulty": 5,
+              "clarity": 10
+            },
+            "notes": "Specific detail about ACE formation; other options are fabrications."
+          },
+          {
+            "id": 15,
+            "predicted": "B",
+            "confidence": 1.0,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 7,
+              "grounding": 10,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "Requires distinguishing cumulative future loss ($113B) from other cited figures; slightly tricky due to multiple numbers."
+          }
+        ],
+        "fatal_issues": [],
+        "improvements": [
+          "Question 11 could be refined to better capture the dual focus (Hollywood's streaming struggles AND piracy impact). 2. Increase difficulty by adding inference questions (e.g., about the relationship between legitimate streaming rise and piracy). 3. Option A in Q12 ($1B) is not mentioned, weakening distractors",
+          "use only passage-based numbers."
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/DouBao_ReadingComprehension.json#3",
+      "source_file": "data/readintask/DouBao_ReadingComprehension.json",
+      "index_in_file": 3,
+      "title": "Digital Preservation Challenges",
+      "score": 85.6,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 544,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": {
+          "16": "B",
+          "17": "C",
+          "18": "A",
+          "19": "B",
+          "20": "A"
+        },
+        "confidence": {
+          "16": 0.95,
+          "17": 0.98,
+          "18": 0.9,
+          "19": 0.85,
+          "20": 0.95
+        },
+        "answer_mismatch_ids": [],
+        "overall_scores": {
+          "option_setting": 8,
+          "question_quality": 9,
+          "grounding": 9,
+          "difficulty": 8,
+          "language": 9
+        },
+        "overall_score": 86.0,
+        "per_question": [
+          {
+            "id": 16,
+            "predicted": "B",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 9,
+              "grounding": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Question directly addresses the passage's contrast between tangible artifacts' longevity and digital information's fragility. Options are plausible but B is clearly supported by the passage's emphasis on tangible objects surviving 'decades, even centuries later' and digital information requiring 'constant migration'."
+          },
+          {
+            "id": 17,
+            "predicted": "C",
+            "confidence": 0.98,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 9,
+              "grounding": 10,
+              "difficulty": 6,
+              "clarity": 10
+            },
+            "notes": "Explicitly grounded in the passage: 'librarians digitize the tangible so that researchers the world over can quickly search and access their holdings.' Options are distinct and C is unambiguous."
+          },
+          {
+            "id": 18,
+            "predicted": "A",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "question_quality": 8,
+              "grounding": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "The passage discusses how users' perception of universal access leads them to believe 'libraries are less vital for researchers today.' This is the problem mentioned in the context of universality. Option B is a related challenge but not the specific problem of universality mentioned here. Option C is a result of digitization, not specifically the problem of universality. Option D is not directly linked to universality in the passage."
+          },
+          {
+            "id": 19,
+            "predicted": "B",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "question_quality": 8,
+              "grounding": 8,
+              "difficulty": 9,
+              "clarity": 8
+            },
+            "notes": "The passage identifies multiple challenges: obsolescence (format becomes obsolete), volume, and lack of curation. The question asks for the 'biggest' challenge. The passage strongly emphasizes obsolescence ('the object is useless') and the need for 'constant migration' as a key nightmare. However, the passage also highlights 'sheer volume' as a 'horror.' This makes the 'biggest' somewhat interpretive, though B is well-supported. Option D is also a major challenge mentioned."
+          },
+          {
+            "id": 20,
+            "predicted": "A",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 10,
+              "grounding": 10,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "Excellent main idea question. The author's central concern is the potential for a break in the historical record due to digital obsolescence and lack of preservation, as stated: 'a historical record that abruptly stops when digital replaces analog.' All options touch on issues in the passage, but A captures the overarching fear."
+          }
+        ],
+        "fatal_issues": [],
+        "improvements": [
+          "For Q19, consider rephrasing 'biggest challenge' to 'a major challenge' or specifying the challenge related to format longevity, as the passage presents volume and obsolescence as parallel, significant issues. 2. In Q18, option B ('It requires constant migration of digital assets.') is a true statement from the passage and a consequence of digital preservation, but it is not framed as the 'problem' of universality itself. The question stem could be slightly tightened to more clearly link to the specific paragraph about user perceptions. 3. The passage is excellent and the questions are generally strong, testing comprehension, inference, and main idea effectively."
+        ]
+      }
+    }
+  ]
+}

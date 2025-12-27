@@ -1,0 +1,117 @@
+{
+  "generated_at": "20251227_211338",
+  "source_settings": {
+    "target": "考研英语",
+    "language": "English",
+    "llm_enabled": true,
+    "model_provider": "openai",
+    "judge_model_version": "deepseek-chat"
+  },
+  "counts": {
+    "cloze": 1,
+    "reading": 4,
+    "total": 5
+  },
+  "overall": {
+    "cloze_avg_score": 85.6,
+    "reading_avg_score": 83.5,
+    "cloze_avg_aspect_scores": {
+      "coherence": 9.0,
+      "difficulty": 8.0,
+      "language": 9.0,
+      "option_setting": 8.0,
+      "question_quality": 9.0
+    },
+    "reading_avg_aspect_scores": {
+      "difficulty": 7.0,
+      "grounding": 9.0,
+      "language": 9.0,
+      "option_setting": 8.0,
+      "question_quality": 8.25
+    },
+    "cloze_avg_ai_accuracy": 1.0,
+    "reading_avg_ai_accuracy": 1.0
+  },
+  "per_passage": [
+    {
+      "type": "cloze",
+      "source": "data/clozetest/DouBao_ClozeTest.json",
+      "name": "id=1",
+      "score": 85.6,
+      "aspect_scores": {
+        "option_setting": 8.0,
+        "question_quality": 9.0,
+        "difficulty": 8.0,
+        "language": 9.0,
+        "coherence": 9.0
+      },
+      "ai_accuracy": 1.0,
+      "ai_correct": 20,
+      "ai_total": 20
+    },
+    {
+      "type": "reading",
+      "source": "data/readintask/DouBao_ReadingComprehension.json",
+      "name": "Shakespeare and Children's Development",
+      "score": 84.4,
+      "aspect_scores": {
+        "option_setting": 8.0,
+        "question_quality": 9.0,
+        "grounding": 9.0,
+        "difficulty": 7.0,
+        "language": 9.0
+      },
+      "ai_accuracy": 1.0,
+      "ai_correct": 5,
+      "ai_total": 5
+    },
+    {
+      "type": "reading",
+      "source": "data/readintask/DouBao_ReadingComprehension.json",
+      "name": "Sustainable Computing in Science",
+      "score": 83.19999999999999,
+      "aspect_scores": {
+        "option_setting": 8.0,
+        "question_quality": 8.0,
+        "grounding": 9.0,
+        "difficulty": 7.0,
+        "language": 9.0
+      },
+      "ai_accuracy": 1.0,
+      "ai_correct": 5,
+      "ai_total": 5
+    },
+    {
+      "type": "reading",
+      "source": "data/readintask/DouBao_ReadingComprehension.json",
+      "name": "Online Piracy and Hollywood",
+      "score": 80.8,
+      "aspect_scores": {
+        "option_setting": 8.0,
+        "question_quality": 7.0,
+        "grounding": 9.0,
+        "difficulty": 6.0,
+        "language": 9.0
+      },
+      "ai_accuracy": 1.0,
+      "ai_correct": 5,
+      "ai_total": 5
+    },
+    {
+      "type": "reading",
+      "source": "data/readintask/DouBao_ReadingComprehension.json",
+      "name": "Digital Preservation Challenges",
+      "score": 85.6,
+      "aspect_scores": {
+        "option_setting": 8.0,
+        "question_quality": 9.0,
+        "grounding": 9.0,
+        "difficulty": 8.0,
+        "language": 9.0
+      },
+      "ai_accuracy": 1.0,
+      "ai_correct": 5,
+      "ai_total": 5
+    }
+  ]
+}

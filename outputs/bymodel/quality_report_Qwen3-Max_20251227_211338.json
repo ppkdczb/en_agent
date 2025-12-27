@@ -1,0 +1,866 @@
+{
+  "generated_at": "20251227_211338",
+  "model": "Qwen3-Max",
+  "settings": {
+    "target": "考研英语",
+    "language": "English",
+    "llm_enabled": true,
+    "model_provider": "openai",
+    "judge_model_version": "deepseek-chat"
+  },
+  "totals": {
+    "cloze": {
+      "count": 1,
+      "fatal": 0,
+      "warning": 0,
+      "info": 0,
+      "avg_score": 73.6
+    },
+    "reading": {
+      "count": 4,
+      "fatal": 0,
+      "warning": 1,
+      "info": 0,
+      "avg_score": 81.5
+    }
+  },
+  "items": [
+    {
+      "type": "cloze",
+      "path": "data/clozetest/Qwen3-Max_ClozeTest.json#0",
+      "source_file": "data/clozetest/Qwen3-Max_ClozeTest.json",
+      "index_in_file": 0,
+      "id": 1,
+      "score": 73.6,
+      "rule_issues": [],
+      "rule_stats": {
+        "placeholders_count": 20,
+        "options_count": 20,
+        "answers_count": 20,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": [
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "C",
+          "A",
+          "D",
+          "D",
+          "A",
+          "A",
+          "B",
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "A"
+        ],
+        "confidence": [
+          0.95,
+          0.9,
+          0.95,
+          0.85,
+          0.8,
+          0.9,
+          0.85,
+          0.8,
+          0.85,
+          0.9,
+          0.9,
+          0.9,
+          0.85,
+          0.8,
+          0.85,
+          0.8,
+          0.9,
+          0.85,
+          0.9,
+          0.85
+        ],
+        "answer_mismatch_indices": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15,
+          17,
+          18,
+          19
+        ],
+        "overall_scores": {
+          "option_setting": 6,
+          "question_quality": 5,
+          "difficulty": 7,
+          "language": 8,
+          "coherence": 7
+        },
+        "overall_score": 66.0,
+        "per_blank": [
+          {
+            "index": 0,
+            "predicted": "A",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 9,
+              "difficulty": 5,
+              "clarity": 9
+            },
+            "notes": "Clear context: settlement origin. 'Arose' fits best."
+          },
+          {
+            "index": 1,
+            "predicted": "A",
+            "confidence": 0.9,
+            "matches_provided": false,
+            "scores": {
+              "option_quality": 7,
+              "blank_quality": 8,
+              "difficulty": 6,
+              "clarity": 8
+            },
+            "notes": "'Prone to earthquakes' is idiomatic. 'Immune' (provided) contradicts context of sinking."
+          },
+          {
+            "index": 2,
+            "predicted": "A",
+            "confidence": 0.95,
+            "matches_provided": false,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 9,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "'Submerged' fits sinking city. 'Preserved' (provided) is plausible but less direct."
+          },
+          {
+            "index": 3,
+            "predicted": "A",
+            "confidence": 0.85,
+            "matches_provided": false,
+            "scores": {
+              "option_quality": 7,
+              "blank_quality": 8,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "'Eroded a natural barrier' fits climate change impact. 'Constructed' (provided) is opposite."
+          },
+          {
+            "index": 4,
+            "predicted": "A",
+            "confidence": 0.8,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "blank_quality": 7,
+              "difficulty": 6,
+              "clarity": 7
+            },
+            "notes": "'Tremendous advances' is appropriate."
+          },
+          {
+            "index": 5,
+            "predicted": "C",
+            "confidence": 0.9,
+            "matches_provided": false,
+            "scores": {
+              "option_quality": 7,
+              "blank_quality": 8,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "'Initiated the excavation' fits timeline. 'Abandoned' (provided) contradicts later work."
+          },
+          {
+            "index": 6,
+            "predicted": "A",
+            "confidence": 0.85,
+            "matches_provided": false,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 6,
+              "clarity": 8
+            },
+            "notes": "'Employed robotics' is correct."
+          },
+          {
+            "index": 7,
+            "predicted": "D",
+            "confidence": 0.8,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 6,
+              "blank_quality": 7,
+              "difficulty": 7,
+              "clarity": 7
+            },
+            "notes": "'Spreading' suggests roads connecting buildings. 'Occupying' (provided) is less idiomatic for roads."
+          },
+          {
+            "index": 8,
+            "predicted": "D",
+            "confidence": 0.85,
+            "matches_provided": false,
+            "scores": {
+              "option_quality": 7,
+              "blank_quality": 8,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "'Connected' fits trade center context. 'Crossed' (provided) is less logical for roads connecting buildings."
+          },
+          {
+            "index": 9,
+            "predicted": "A",
+            "confidence": 0.9,
+            "matches_provided": false,
+            "scores": {
+              "option_quality": 5,
+              "blank_quality": 6,
+              "difficulty": 8,
+              "clarity": 6
+            },
+            "notes": "'Rectangular buildings' mentioned earlier. 'Circular' (provided) contradicts text."
+          },
+          {
+            "index": 10,
+            "predicted": "A",
+            "confidence": 0.9,
+            "matches_provided": false,
+            "scores": {
+              "option_quality": 6,
+              "blank_quality": 7,
+              "difficulty": 7,
+              "clarity": 7
+            },
+            "notes": "'Loom weights' directly referenced. 'Textile tools' (provided) is broader but acceptable; mismatch with passage."
+          },
+          {
+            "index": 11,
+            "predicted": "B",
+            "confidence": 0.9,
+            "matches_provided": false,
+            "scores": {
+              "option_quality": 7,
+              "blank_quality": 8,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "'Indicating' is standard for evidence. 'Proving' (provided) is too strong archaeologically."
+          },
+          {
+            "index": 12,
+            "predicted": "A",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "blank_quality": 8,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "'Thriving' matches 'important trading center'. 'Declining' (provided) contradicts context."
+          },
+          {
+            "index": 13,
+            "predicted": "A",
+            "confidence": 0.8,
+            "matches_provided": false,
+            "scores": {
+              "option_quality": 6,
+              "blank_quality": 7,
+              "difficulty": 7,
+              "clarity": 7
+            },
+            "notes": "'Since' fits causal link. 'Before' (provided) illogical for helping understanding after discovery."
+          },
+          {
+            "index": 14,
+            "predicted": "A",
+            "confidence": 0.85,
+            "matches_provided": false,
+            "scores": {
+              "option_quality": 7,
+              "blank_quality": 8,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "'Cooperation' fits with Ministry of Culture. 'Competition' (provided) is opposite."
+          },
+          {
+            "index": 15,
+            "predicted": "A",
+            "confidence": 0.8,
+            "matches_provided": false,
+            "scores": {
+              "option_quality": 6,
+              "blank_quality": 7,
+              "difficulty": 7,
+              "clarity": 7
+            },
+            "notes": "'With' fits 'in cooperation with'. 'For' (provided) is less idiomatic."
+          },
+          {
+            "index": 16,
+            "predicted": "A",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 9,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "'Bring to light' is perfect for revealing submerged town. 'Cover up' (provided) is opposite."
+          },
+          {
+            "index": 17,
+            "predicted": "A",
+            "confidence": 0.85,
+            "matches_provided": false,
+            "scores": {
+              "option_quality": 7,
+              "blank_quality": 8,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "'Robust textile industry' fits thriving trade. 'Fragile' (provided) contradicts evidence."
+          },
+          {
+            "index": 18,
+            "predicted": "A",
+            "confidence": 0.9,
+            "matches_provided": false,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 9,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "'Revealed new insights' is correct. 'Concealed' (provided) is opposite."
+          },
+          {
+            "index": 19,
+            "predicted": "A",
+            "confidence": 0.85,
+            "matches_provided": false,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 9,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "'Demonstrated the importance' is logical. 'Questioned' (provided) undermines preservation message."
+          }
+        ],
+        "fatal_issues": [
+          "Provided answers contain multiple contradictions to passage logic (e.g., blank 1 'immune' vs. earthquake-prone, blank 16 'cover up' vs. reveal). Many provided answers are antonyms of contextually correct words, making them invalid."
+        ],
+        "improvements": [
+          "Revise provided answers to align with passage context; currently many are opposite in meaning. Ensure options for each blank are distinct and plausible; some sets (e.g., blank 10 shape options) are overly specific without clear passage support. Improve coherence of answer key to reflect logical story flow."
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/Qwen3-Max_ReadingComprehension.json#0",
+      "source_file": "data/readintask/Qwen3-Max_ReadingComprehension.json",
+      "index_in_file": 0,
+      "title": "Shakespeare and Children's Development",
+      "score": 83.19999999999999,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 424,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": {
+          "1": "B",
+          "2": "C",
+          "3": "B",
+          "4": "A",
+          "5": "C"
+        },
+        "confidence": {
+          "1": 0.95,
+          "2": 0.9,
+          "3": 0.85,
+          "4": 0.9,
+          "5": 0.95
+        },
+        "answer_mismatch_ids": [],
+        "overall_scores": {
+          "option_setting": 8,
+          "question_quality": 8,
+          "grounding": 9,
+          "difficulty": 7,
+          "language": 9
+        },
+        "overall_score": 82.0,
+        "per_question": [
+          {
+            "id": 1,
+            "predicted": "B",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 9,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "The phrase 'landed a scholarly punch' is a metaphor clearly explained in context as 'groundbreaking research.' Distractors are plausible but less accurate."
+          },
+          {
+            "id": 2,
+            "predicted": "C",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 9,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "Directly supported by passage: target children 'put themselves in the shoes of a literary character and express that character's emotion.' Other options are unsupported or contradictory."
+          },
+          {
+            "id": 3,
+            "predicted": "B",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "question_quality": 7,
+              "grounding": 8,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "The passage mentions 'using their whole bodies to bring words to life,' which aligns with option B. However, the term 'rehearsal room process' is not explicitly defined; inference is required."
+          },
+          {
+            "id": 4,
+            "predicted": "A",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 9,
+              "grounding": 9,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "Excellent question that tests critical reading. The passage directly raises the question 'But could the results be replicated with any old dramatist?' making option A the most relevant challenge."
+          },
+          {
+            "id": 5,
+            "predicted": "C",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 10,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Strongly supported by the passage's conclusion about 'the importance of embedding arts in education' and the documented benefits to vocabulary, writing complexity, and emotional literacy."
+          }
+        ],
+        "fatal_issues": [],
+        "improvements": [
+          "Question 3 could be slightly strengthened by making the link between 'rehearsal room process' and physical movement more explicit in the passage wording used.",
+          "Consider adding one slightly more challenging inference question to increase the difficulty spread.",
+          "Ensure all options in Question 1 are clearly distinct; 'A physical attack by scholars' is somewhat far-fetched and could be refined."
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/Qwen3-Max_ReadingComprehension.json#1",
+      "source_file": "data/readintask/Qwen3-Max_ReadingComprehension.json",
+      "index_in_file": 1,
+      "title": "Scientific Energy Use and Carbon Emissions",
+      "score": 83.19999999999999,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 228,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": {
+          "6": "B",
+          "7": "B",
+          "8": "C",
+          "9": "B",
+          "10": "C"
+        },
+        "confidence": {
+          "6": 0.95,
+          "7": 0.98,
+          "8": 0.9,
+          "9": 0.92,
+          "10": 0.85
+        },
+        "answer_mismatch_ids": [],
+        "overall_scores": {
+          "option_setting": 8,
+          "question_quality": 8,
+          "grounding": 9,
+          "difficulty": 7,
+          "language": 9
+        },
+        "overall_score": 82.0,
+        "per_question": [
+          {
+            "id": 6,
+            "predicted": "B",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 9,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "Directly supported by passage: scientists want to 'decrease carbon emissions' and 'cut back on our energy-intensive modelling' due to 'crisis' (environmental impact)."
+          },
+          {
+            "id": 7,
+            "predicted": "B",
+            "confidence": 0.98,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 9,
+              "grounding": 10,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Explicitly stated: LUMI is 'astonishingly carbon-negative.' Other options not supported."
+          },
+          {
+            "id": 8,
+            "predicted": "C",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 8,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'Mushrooming' implies rapid, uncontrolled growth, consistent with context about 'science’s unrelenting appetite for information.'"
+          },
+          {
+            "id": 9,
+            "predicted": "B",
+            "confidence": 0.92,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 9,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "Author acknowledges need for sustainable energy use but also highlights ongoing scientific innovation (e.g., LUMI), supporting a balanced stance."
+          },
+          {
+            "id": 10,
+            "predicted": "C",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "question_quality": 7,
+              "grounding": 8,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "Statistic (1% of world's electricity) implies data centers are significant energy consumers, so reducing their impact could yield substantial savings. Requires slight inference."
+          }
+        ],
+        "fatal_issues": [],
+        "improvements": [
+          "For Q10, the link between '1% electricity consumption' and 'significant energy savings are possible' requires inference",
+          "consider rewording to strengthen grounding. 2. Option D in Q9 ('All data centers should be shut down immediately') is extreme and not supported, but acceptable as a distractor. 3. Consider adding one inference-based question to increase difficulty slightly."
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/Qwen3-Max_ReadingComprehension.json#2",
+      "source_file": "data/readintask/Qwen3-Max_ReadingComprehension.json",
+      "index_in_file": 2,
+      "title": "Streaming Piracy and Industry Impact",
+      "score": 77.6,
+      "rule_issues": [
+        {
+          "severity": "warning",
+          "code": "READING_MANY_LONG_TOKENS",
+          "message": "Many unusually long tokens detected; possible missing spaces/OCR issues.",
+          "location": "content"
+        }
+      ],
+      "rule_stats": {
+        "word_count": 185,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 1,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": {
+          "11": "D",
+          "12": "C",
+          "13": "A",
+          "14": "B",
+          "15": "C"
+        },
+        "confidence": {
+          "11": 0.95,
+          "12": 1.0,
+          "13": 0.7,
+          "14": 0.9,
+          "15": 0.85
+        },
+        "answer_mismatch_ids": [],
+        "overall_scores": {
+          "option_setting": 8,
+          "question_quality": 7,
+          "grounding": 8,
+          "difficulty": 7,
+          "language": 9
+        },
+        "overall_score": 78.0,
+        "per_question": [
+          {
+            "id": 11,
+            "predicted": "D",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Well-grounded. Passage explicitly states illegal sites have profit margins approaching 90%, while legal services lose billions."
+          },
+          {
+            "id": 12,
+            "predicted": "C",
+            "confidence": 1.0,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 8,
+              "grounding": 10,
+              "difficulty": 5,
+              "clarity": 10
+            },
+            "notes": "Direct reference. 'Unintended winners: pirates' is explicitly stated."
+          },
+          {
+            "id": 13,
+            "predicted": "A",
+            "confidence": 0.7,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 6,
+              "question_quality": 6,
+              "grounding": 6,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "Inference required. Passage mentions MPA's earlier failure to build consensus between Hollywood and Silicon Valley, and ACE's global enforcement taskforce, implying cooperation challenges. However, 'primary challenge' is not explicitly ranked."
+          },
+          {
+            "id": 14,
+            "predicted": "B",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 8,
+              "grounding": 9,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "Well-grounded. Passage states the law 'made large-scale streaming of copyright material a serious crime'."
+          },
+          {
+            "id": 15,
+            "predicted": "C",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 7,
+              "grounding": 8,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "Requires careful reading. Hawley says 'may see piracy begin to plateau by 2027' and 'no consensus... as to when it may begin to decline'. Option C captures the 'stabilize before declining' nuance."
+          }
+        ],
+        "fatal_issues": [],
+        "improvements": [
+          "For Q13, the passage does not explicitly state the 'primary' challenge. Consider rewording the prompt (e.g., 'What is suggested as a significant challenge...?') or ensure answer options are more directly supported. 2. The passage contains dense financial figures",
+          "consider adding a question that tests comprehension of a specific statistic (e.g., profit margin or revenue loss). 3. Ensure all answer choices for inference-based questions have clear, albeit indirect, support in the text to avoid ambiguity."
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/Qwen3-Max_ReadingComprehension.json#3",
+      "source_file": "data/readintask/Qwen3-Max_ReadingComprehension.json",
+      "index_in_file": 3,
+      "title": "Digital Information Preservation Challenges",
+      "score": 82.0,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 544,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": {
+          "16": "B",
+          "17": "C",
+          "18": "C",
+          "19": "A",
+          "20": "B"
+        },
+        "confidence": {
+          "16": 0.95,
+          "17": 0.9,
+          "18": 0.85,
+          "19": 0.8,
+          "20": 0.9
+        },
+        "answer_mismatch_ids": [],
+        "overall_scores": {
+          "option_setting": 8,
+          "question_quality": 7,
+          "grounding": 9,
+          "difficulty": 7,
+          "language": 9
+        },
+        "overall_score": 80.0,
+        "per_question": [
+          {
+            "id": 16,
+            "predicted": "B",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 9,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "Question clearly addresses the passage's emphasis on digital formats requiring constant updates/migration to avoid obsolescence. Options are distinct and plausible."
+          },
+          {
+            "id": 17,
+            "predicted": "C",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 9,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "Directly based on the passage's example of ZIP disks illustrating technological obsolescence. Options are relevant and distractors are reasonable."
+          },
+          {
+            "id": 18,
+            "predicted": "C",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "question_quality": 7,
+              "grounding": 8,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "Passage strongly implies librarians/archivists are crucial curators for born-digital information. Option C captures this, though the passage's tone is more about a potential role than an established one."
+          },
+          {
+            "id": 19,
+            "predicted": "A",
+            "confidence": 0.8,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 6,
+              "question_quality": 6,
+              "grounding": 8,
+              "difficulty": 8,
+              "clarity": 7
+            },
+            "notes": "The 'paradox' is somewhat interpretive. The passage links universal digital access to an 'embarrassment of riches' and 'needle-and-haystack problems,' which aligns with information overload. Other options touch on related themes but are less directly paradoxical."
+          },
+          {
+            "id": 20,
+            "predicted": "B",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 8,
+              "grounding": 10,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Explicitly mentioned in the final paragraph. Excellent grounding and clear question."
+          }
+        ],
+        "fatal_issues": [],
+        "improvements": [
+          "For Q19, the wording 'paradox' could be slightly refined. The passage describes a consequence (overload) more than a strict logical paradox. Consider rephrasing to 'What problem arises from universal digital access according to the text?'",
+          "Option D for Q16 ('Analog information is easier to authenticate') is not directly discussed in the passage (authentication is mentioned only for digital threats). While it might be inferred, it's not explicitly highlighted as a 'fundamental difference' in the passage, making it a weak distractor. Consider replacing it with an option more grounded in the text.",
+          "The passage is rich and slightly complex. Consider adding one more inference-based question to better differentiate high-level comprehension."
+        ]
+      }
+    }
+  ]
+}

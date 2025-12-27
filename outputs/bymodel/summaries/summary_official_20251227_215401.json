@@ -1,0 +1,117 @@
+{
+  "generated_at": "20251227_215401",
+  "source_settings": {
+    "target": "考研英语",
+    "language": "English",
+    "llm_enabled": true,
+    "model_provider": "openai",
+    "judge_model_version": "deepseek-chat"
+  },
+  "counts": {
+    "cloze": 1,
+    "reading": 4,
+    "total": 5
+  },
+  "overall": {
+    "cloze_avg_score": 85.6,
+    "reading_avg_score": 73.39999999999999,
+    "cloze_avg_aspect_scores": {
+      "coherence": 9.0,
+      "difficulty": 8.0,
+      "language": 9.0,
+      "option_setting": 8.0,
+      "question_quality": 9.0
+    },
+    "reading_avg_aspect_scores": {
+      "difficulty": 6.75,
+      "grounding": 6.5,
+      "language": 7.25,
+      "option_setting": 6.75,
+      "question_quality": 6.25
+    },
+    "cloze_avg_ai_accuracy": 1.0,
+    "reading_avg_ai_accuracy": 0.95
+  },
+  "per_passage": [
+    {
+      "type": "cloze",
+      "source": "data/clozetest/1/official__ClozeTest.json",
+      "name": "id=1",
+      "score": 85.6,
+      "aspect_scores": {
+        "option_setting": 8.0,
+        "question_quality": 9.0,
+        "difficulty": 8.0,
+        "language": 9.0,
+        "coherence": 9.0
+      },
+      "ai_accuracy": 1.0,
+      "ai_correct": 20,
+      "ai_total": 20
+    },
+    {
+      "type": "reading",
+      "source": "data/readintask/1/official__ReadingComprehension.json",
+      "name": "Text 1",
+      "score": 80.8,
+      "aspect_scores": {
+        "option_setting": 7.0,
+        "question_quality": 8.0,
+        "grounding": 9.0,
+        "difficulty": 7.0,
+        "language": 8.0
+      },
+      "ai_accuracy": 1.0,
+      "ai_correct": 5,
+      "ai_total": 5
+    },
+    {
+      "type": "reading",
+      "source": "data/readintask/1/official__ReadingComprehension.json",
+      "name": "Text 2",
+      "score": 77.19999999999999,
+      "aspect_scores": {
+        "option_setting": 7.0,
+        "question_quality": 6.0,
+        "grounding": 8.0,
+        "difficulty": 7.0,
+        "language": 8.0
+      },
+      "ai_accuracy": 1.0,
+      "ai_correct": 5,
+      "ai_total": 5
+    },
+    {
+      "type": "reading",
+      "source": "data/readintask/1/official__ReadingComprehension.json",
+      "name": "Text 3",
+      "score": 73.6,
+      "aspect_scores": {
+        "option_setting": 7.0,
+        "question_quality": 6.0,
+        "grounding": 5.0,
+        "difficulty": 7.0,
+        "language": 8.0
+      },
+      "ai_accuracy": 1.0,
+      "ai_correct": 5,
+      "ai_total": 5
+    },
+    {
+      "type": "reading",
+      "source": "data/readintask/1/official__ReadingComprehension.json",
+      "name": "Text 4",
+      "score": 62.0,
+      "aspect_scores": {
+        "option_setting": 6.0,
+        "question_quality": 5.0,
+        "grounding": 4.0,
+        "difficulty": 6.0,
+        "language": 5.0
+      },
+      "ai_accuracy": 0.8,
+      "ai_correct": 4,
+      "ai_total": 5
+    }
+  ]
+}

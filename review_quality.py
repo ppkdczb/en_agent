@@ -142,8 +142,8 @@ def review_reading_files(files: List[Path], llm: Optional[LLMService]) -> Tuple[
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Review AI-generated cloze + reading quality (考研英语).")
-    parser.add_argument("--cloze-dir", default="data/clozetest", help="Directory of ClozeTest json files.")
-    parser.add_argument("--reading-dir", default="data/readintask", help="Directory of ReadingTask json files.")
+    parser.add_argument("--cloze-dir", default="data/clozetest/gpt5", help="Directory of ClozeTest json files.")
+    parser.add_argument("--reading-dir", default="data/readintask/gpt5", help="Directory of ReadingTask json files.")
     parser.add_argument("--out", default=None, help="Output report path (json). Default: outputs/quality_report_<ts>.json")
     parser.add_argument("--llm", action="store_true", help="Enable LLM judging (requires API config).")
     args = parser.parse_args()

@@ -1,0 +1,266 @@
+[
+  {
+    "title": "Shakespeare and Children's Development",
+    "content": "The grammar school boy from Stratford-upon-Avon has landed a scholarly punch after groundbreaking research showed that Shakespeare does benefit children’s literacy and emotional development. But only if you act him out.\n\nA study found that a “rehearsal room” approach to teaching Shakespeare broadened children’s vocabulary and the complexity of their writing as well as their emotional literacy. “The research shows that the way actors work makes a big difference to the way children use language and also how they think about themselves,” Jacqui O’Hanlon of the Royal Shakespeare Company (RSC), which commissioned the study, said.\n\nThe randomised control trial involved hundreds of Year 5 pupils—aged nine and ten—at 45 state primary schools that had not been “previously exposed to RSC pedagogy.” They were split into target and control groups and asked to write, for example, a message in a bottle as Ferdinand after the shipwreck in The Tempest.\n\nThe target group was given a 30-minute drama-based activity to accompany the passage. The peer-reviewed results showed that the target group of pupils drew on a wider vocabulary, used words “classed as more sophisticated or rarer”, and wrote at greater length. They also “appear to be more comfortable writing in role... while [control] pupils imagine how they themselves would react to being shipwrecked, [target] children put themselves in the shoes of a literary character and express that character’s emotion”.\n\nThe Time to Act study also found that while control pupils relied on “desert island clichés” such as palm trees, target pupils were “more expansive giving a broader picture of the sky, the sea and the atmospheric conditions”.\n\nO’Hanlon said she had been most surprised by the “emotional literacy that was evident in the [target] children’s writing” and that they were “more resilient in their writing, more hopeful”. She added: “The emotional understanding was very evident and it is probably related to the [rehearsal room process] where you are used to trying to imagine your way through. They were comfortable in describing different emotional states and part of what you do in drama is put yourself in different shoes”.\n\nThe study showed the importance of embedding arts in education, she said. “But could the results be replicated with any old dramatist?” O’Hanlon said more research would be needed but suggested that Shakespeare’s use of 20,000 words, compared with the everyday 2,000 words, gave a “massive expansion of language into children’s lives”, which was combined with children “using their whole bodies to bring words to life”.",
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "What is the main finding of the study mentioned in the passage?",
+        "options": {
+          "A": "Shakespeare's plays are too difficult for young children to understand.",
+          "B": "Role-playing Shakespeare helps children develop their vocabulary and emotional literacy.",
+          "C": "Traditional teaching methods are more effective than drama-based activities.",
+          "D": "Children perform better in exams after studying Shakespeare."
+        },
+        "answer": "B",
+        "explanation": "解析：原文提到研究发现\"a 'rehearsal room' approach to teaching Shakespeare broadened children's vocabulary and the complexity of their writing as well as their emotional literacy\"，选项B是原文的同义改写，而ACD均与原文不符。"
+      },
+      {
+        "id": 2,
+        "prompt": "According to the passage, what did the target group of pupils do in the study?",
+        "options": {
+          "A": "They wrote about their own reactions to being shipwrecked.",
+          "B": "They put themselves in the shoes of literary characters and expressed their emotions.",
+          "C": "They read Shakespeare's plays silently without any interaction.",
+          "D": "They drew pictures of the scenes from Shakespeare's plays."
+        },
+        "answer": "B",
+        "explanation": "解析：原文明确指出\"target children put themselves in the shoes of a literary character and express that character's emotion\"，选项B是原文的直接表述，而ACD均为干扰项。"
+      },
+      {
+        "id": 3,
+        "prompt": "The phrase 'put themselves in the shoes of' most probably means in the context of the passage?",
+        "options": {
+          "A": "Wear shoes of literary characters.",
+          "B": "Imagine what it would be like to be someone else.",
+          "C": "Walk in the footsteps of literary characters.",
+          "D": "Step into the shoes of famous actors."
+        },
+        "answer": "B",
+        "explanation": "解析：在戏剧语境中，\"put oneself in the shoes of someone\"是一个常用表达，意为\"想象自己处于某人的位置\"，选项B是其正确释义，而ACD均为字面意思的干扰。"
+      },
+      {
+        "id": 4,
+        "prompt": "What is the author's attitude towards the integration of arts in education?",
+        "options": {
+          "A": "Critical",
+          "B": "Supportive",
+          "C": "Neutral",
+          "D": "Indifferent"
+        },
+        "answer": "B",
+        "explanation": "解析：文章强调了艺术教育的重要性，提到\"The study showed the importance of embedding arts in education\"，表明作者支持将艺术融入教育，而ACD均与作者态度不符。"
+      },
+      {
+        "id": 5,
+        "prompt": "Which of the following best describes the significance of Shakespeare's language in the study?",
+        "options": {
+          "A": "It is too complex for children to learn.",
+          "B": "It provides a massive expansion of language into children's lives.",
+          "C": "It is not as effective as other dramatists' works.",
+          "D": "It has no impact on children's emotional development."
+        },
+        "answer": "B",
+        "explanation": "解析：原文提到\"Shakespeare's use of 20,000 words, compared with the everyday 2,000 words, gave a 'massive expansion of language into children's lives'\"，选项B是原文的同义改写，而ACD均与原文不符。"
+      }
+    ]
+  },
+  {
+    "title": "Sustainable Computing in Science",
+    "content": "I was shocked to learn recently that some scientists want to scale back their research in an effort to decrease carbon emissions. The crisis is here, they said, and we need to cut back on our energy-intensive modelling. At the very least, we need to make our energy use far more sustainable.\n\nIt is unarguable that our laboratories, scientific instruments, rockets and satellites—the tools we scientists need to measure the planet’s pulse—demand significant amounts of energy both in their construction and operation. And it is equally true that science’s unrelenting appetite for information has caused a mushrooming of energy-intensive data centres around the world. According to the International Energy Agency, these buildings now consume about 1 percent of the world’s electricity.\n\nIf the world is to meet its net-zero ambitions, we must think hard about how we can deliver sustainable computing and deliver more LUMIs. Every day, scientists, technologists and engineers are discovering new ways to exploit renewable energy sources and develop techniques not just to use power more intelligently but to power our intelligence. A great example of this is Europe’s largest supercomputer, LUMI in Finland, which is astonishingly carbon-negative. Established in an old paper mill, it is powered by a nearby river and its remote heat warms the people who live in the surrounding town of Kajaani.",
+    "questions": [
+      {
+        "id": 6,
+        "prompt": "Why do some scientists want to scale back their research according to the passage?",
+        "options": {
+          "A": "They want to focus on more important research topics.",
+          "B": "They want to reduce carbon emissions from energy-intensive activities.",
+          "C": "They have lost funding for their research projects.",
+          "D": "They want to switch to less demanding research methods."
+        },
+        "answer": "B",
+        "explanation": "解析：原文提到\"some scientists want to scale back their research in an effort to decrease carbon emissions\"，选项B是原文的直接表述，而ACD均为干扰项。"
+      },
+      {
+        "id": 7,
+        "prompt": "What is the main issue with scientific research mentioned in the passage?",
+        "options": {
+          "A": "It is not accurate enough to address climate change.",
+          "B": "It consumes significant amounts of energy in both construction and operation.",
+          "C": "It is not accessible to enough people around the world.",
+          "D": "It focuses too much on theoretical research."
+        },
+        "answer": "B",
+        "explanation": "解析：原文指出\"our laboratories, scientific instruments, rockets and satellites—the tools we scientists need to measure the planet's pulse—demand significant amounts of energy both in their construction and operation\"，选项B是原文的同义改写，而ACD均与原文不符。"
+      },
+      {
+        "id": 8,
+        "prompt": "What is LUMI in Finland?",
+        "options": {
+          "A": "A new type of energy source.",
+          "B": "A large-scale data center.",
+          "C": "A carbon-negative supercomputer.",
+          "D": "A research institute focused on sustainable energy."
+        },
+        "answer": "C",
+        "explanation": "解析：原文明确提到\"Europe's largest supercomputer, LUMI in Finland, which is astonishingly carbon-negative\"，选项C是原文的直接表述，而ACD均为干扰项。"
+      },
+      {
+        "id": 9,
+        "prompt": "What is the implication of the rise of sustainable computing?",
+        "options": {
+          "A": "It will make scientific research more expensive.",
+          "B": "It will help the world meet its net-zero ambitions.",
+          "C": "It will reduce the need for renewable energy sources.",
+          "D": "It will make data centers more energy-efficient but less effective."
+        },
+        "answer": "B",
+        "explanation": "解析：原文提到\"If the world is to meet its net-zero ambitions, we must think hard about how we can deliver sustainable computing and deliver more LUMIs\"，选项B是原文的同义改写，而ACD均与原文不符。"
+      },
+      {
+        "id": 10,
+        "prompt": "Which of the following is NOT mentioned as an example of energy-intensive scientific activities?",
+        "options": {
+          "A": "Laboratory experiments.",
+          "B": "Data centers.",
+          "C": "Satellite launches.",
+          "D": "Book publishing."
+        },
+        "answer": "D",
+        "explanation": "解析：原文提到了实验室实验、数据中心和卫星发射作为能源密集型活动，但未提及图书出版，选项D是正确答案，而ABC均为原文提到的内容。"
+      }
+    ]
+  },
+  {
+    "title": "Online Piracy and Hollywood",
+    "content": "Ever since taking on Netflix Inc at its own game, old Hollywood has struggled to turn a profit in streaming, with the likes of Disney+, Peacock and Paramount losing billions of dollars each year, sparking concerns that the services will never be as profitable as cable once was. But the age of streaming has been a boon for some unintended winners: pirates that use software to rip a film or television show in seconds from legitimate online video platforms and host the titles on their own, illegitimate services, which rake in about $2 billion annually from ads and subscriptions. With no video production costs, illegal streaming sites have achieved profit margins approaching 90%, according to the Motion Picture Association (MPA), a trade group representing Hollywood studios that’s working to crack down on the thousands of illegal platforms that have cropped up in recent years.\n\nInitially the rise of legitimate online businesses such as Netflix actually helped curb digital piracy, which had largely been based on file uploads. But now piracy involving illegal streaming services as well as file-sharing costs the US economy about $30 billion in lost revenue a year and some 250,000 jobs, estimates the US Chamber of Commerce’s Global Innovation Policy Center. The global impact is about $71 billion annually.\n\n“The people who are stealing our movies and our television shows and operating piracy sites are not mom and pop operations,” says Charles Rivkin, chief executive officer of the MPA. “This is organized crime.” Rivkin joined the MPA in 2017 after the organization failed five years earlier to build consensus between Hollywood and Silicon Valley to win passage of legislation in Congress aimed at stopping online piracy. In 2017 the association formed the Alliance for Creativity and Entertainment (ACE), an enforcement taskforce of about 100 detectives circling the globe to help local authorities arrest streaming pirates.\n\nACE says it’s helped shrink the number of illegal streaming services in North America to 126, from more than 1,400 in 2018, aided in part by the MPA’s support for a 2020 federal law that made large-scale streaming of copyright material a serious crime.\n\nConsulting firm Parks Associates predicts that legitimate US streaming services’ cumulative loss from piracy since 2022 will reach $113 billion in the next two years. “While there is some optimism that emerging countermeasures and best practices may see piracy begin to plateau by 2027, there is no consensus among stakeholders as to when it may begin to decline,” says analyst Steve Hawley.",
+    "questions": [
+      {
+        "id": 11,
+        "prompt": "What is the main problem discussed in the passage?",
+        "options": {
+          "A": "The decline of cable television services.",
+          "B": "The rise of illegal streaming services and their impact on Hollywood.",
+          "C": "The high cost of producing movies and television shows.",
+          "D": "The increasing popularity of legitimate streaming services."
+        },
+        "answer": "B",
+        "explanation": "解析：文章主要讨论了非法流媒体服务的兴起及其对好莱坞的影响，包括利润损失、就业影响等，选项B是文章的主旨，而ACD均为局部信息。"
+      },
+      {
+        "id": 12,
+        "prompt": "How much do illegal streaming sites make annually from ads and subscriptions according to the passage?",
+        "options": {
+          "A": "$1 billion",
+          "B": "$2 billion",
+          "C": "$30 billion",
+          "D": "$71 billion"
+        },
+        "answer": "B",
+        "explanation": "解析：原文明确提到\"pirates that use software to rip a film or television show... host the titles on their own, illegitimate services, which rake in about $2 billion annually from ads and subscriptions\"，选项B是原文的直接表述，而ACD均为干扰项。"
+      },
+      {
+        "id": 13,
+        "prompt": "What is the attitude of Charles Rivkin towards online piracy?",
+        "options": {
+          "A": "He considers it a minor problem.",
+          "B": "He views it as organized crime.",
+          "C": "He supports online piracy as a form of protest.",
+          "D": "He believes it helps promote movies."
+        },
+        "answer": "B",
+        "explanation": "解析：原文引用Charles Rivkin的话\"The people who are stealing our movies and our television shows and operating piracy sites are not mom and pop operations. This is organized crime\"，选项B是原文的直接表述，而ACD均与原文不符。"
+      },
+      {
+        "id": 14,
+        "prompt": "What has the MPA done to combat online piracy according to the passage?",
+        "options": {
+          "A": "They have created a new streaming service.",
+          "B": "They have formed the Alliance for Creativity and Entertainment (ACE).",
+          "C": "They have increased the price of their movies.",
+          "D": "They have stopped producing new movies."
+        },
+        "answer": "B",
+        "explanation": "解析：原文提到\"In 2017 the association formed the Alliance for Creativity and Entertainment (ACE), an enforcement taskforce of about 100 detectives circling the globe to help local authorities arrest streaming pirates\"，选项B是原文的直接表述，而ACD均为干扰项。"
+      },
+      {
+        "id": 15,
+        "prompt": "What is the prediction for legitimate US streaming services' cumulative loss from piracy in the next two years?",
+        "options": {
+          "A": "$10 billion",
+          "B": "$113 billion",
+          "C": "$71 billion",
+          "D": "$30 billion"
+        },
+        "answer": "B",
+        "explanation": "解析：原文提到\"Consulting firm Parks Associates predicts that legitimate US streaming services' cumulative loss from piracy since 2022 will reach $113 billion in the next two years\"，选项B是原文的直接表述，而ACD均为干扰项。"
+      }
+    ]
+  },
+  {
+    "title": "Digital Preservation Challenges",
+    "content": "Visit any antiques store and you’ll encounter artifacts from the past: photographs, letters, a brochure detailing the Sinclair dinosaur exhibit from the 1964-65 World’s Fair, the ephemera of history. Yet these objects aren’t truly ephemeral, because they’re still here, decades, even centuries later. Why? Because they’re tangible.\n\nHave you pondered the life cycle of intangible formats, digital information, given that those who produce these artifacts seldom make provision for their long-term preservation? For millennia, we’ve known what we’ve known due to artifacts that have survived, often despite their original creators’ neglect. The thing itself is the medium that delivers the information. At the time of creation, no attempts were made at intentional preservation, yet analog materials have a chance of surviving and serving as the historical record that biographers, historians, and novelists rely on.\n\nLibraries and archives have traditionally shouldered the responsibility of organization, preservation, and access to information. One of S. R. Ranganathan’s foundational Laws of Library Science is \"Save the time of the reader.\" Thus, librarians digitize the tangible so that researchers the world over can quickly search and access their holdings. The result is an embarrassment of historical riches, which brings its own needle-and-haystack problems.\n\nLibrarians’ innate altruism can act against us when users point to universality of access by holding up a cell phone and saying, \"it’s all in here,\" or noting \"I never have to leave my laptop\" as evidence that libraries are less vital for researchers today. Yet how was that universality of access made possible and, perhaps more importantly, how is it maintained? Who curates what is preserved? When it comes to born-digital information, the terrifying answer can be: if not librarians and archivists, then no one.\n\nDigital information requires a great deal more care than analog. Even when a digital object is preserved, it may only be the carrier that’s saved, not the information itself. As technology advances and a format becomes obsolete, the object is useless. Have you ever stared helplessly at a ZIP disk, thinking: how do I get the files off this? Without constant migration of digital assets, a nightmare about the foreseeable future is what keeps historians up at night: a historical record that abruptly stops when digital replaces analog.\n\nThis phenomenon is frightening because it’s pervasive, from the photos on your phone to the official U.S. federal government publications integral to documenting our republic and informing its electorate. There’s also the horror of sheer volume; we are drowning in a sea of unorganized digital information. Digital objects increase exponentially in a way tangible formats do not. In the 1990s, a family might have had a few hours of home movies documenting three generations. My millennial sister has thousands of hours of video from her two-year-old’s still brief time on this planet with no organizational metadata (i.e., it’s unsearchable). So when it comes to preservation, the situation is akin to bailing that digital sea with a teacup.\n\nFrom a \"historical record\" standpoint, this doesn’t even touch on the issue of authentication, which is increasingly important in an era of deep fakes, manipulation, and after-the-fact revision of primary sources.",
+    "questions": [
+      {
+        "id": 16,
+        "prompt": "What is the main difference between tangible artifacts and digital information according to the passage?",
+        "options": {
+          "A": "Tangible artifacts are more valuable than digital information.",
+          "B": "Tangible artifacts are more likely to survive for a long time than digital information.",
+          "C": "Digital information is easier to access than tangible artifacts.",
+          "D": "Digital information is more expensive to preserve than tangible artifacts."
+        },
+        "answer": "B",
+        "explanation": "解析：原文提到\"these objects aren't truly ephemeral, because they're still here, decades, even centuries later. Why? Because they're tangible\"，而数字信息\"seldom make provision for their long-term preservation\"，选项B是原文的同义改写，而ACD均与原文不符。"
+      },
+      {
+        "id": 17,
+        "prompt": "What is the purpose of libraries digitizing tangible artifacts according to the passage?",
+        "options": {
+          "A": "To make them more valuable.",
+          "B": "To ensure their long-term preservation.",
+          "C": "To make them more accessible to researchers.",
+          "D": "To reduce the need for physical storage."
+        },
+        "answer": "C",
+        "explanation": "解析：原文提到\"One of S. R. Ranganathan's foundational Laws of Library Science is 'Save the time of the reader.' Thus, librarians digitize the tangible so that researchers the world over can quickly search and access their holdings\"，选项C是原文的直接表述，而ABD均为干扰项。"
+      },
+      {
+        "id": 18,
+        "prompt": "Why is the universality of access to digital information a problem according to the passage?",
+        "options": {
+          "A": "It makes libraries less important for researchers.",
+          "B": "It requires constant migration of digital assets.",
+          "C": "It leads to an embarrassment of historical riches.",
+          "D": "It causes digital information to become obsolete quickly."
+        },
+        "answer": "A",
+        "explanation": "解析：原文提到\"librarians' innate altruism can act against us when users point to universality of access by holding up a cell phone and saying, 'it's all in here,' or noting 'I never have to leave my laptop' as evidence that libraries are less vital for researchers today\"，选项A是原文的同义改写，而BCD均与原文不符。"
+      },
+      {
+        "id": 19,
+        "prompt": "What is the biggest challenge for preserving digital information according to the passage?",
+        "options": {
+          "A": "The lack of funding for preservation efforts.",
+          "B": "The rapid obsolescence of digital formats.",
+          "C": "The lack of skilled personnel to preserve digital information.",
+          "D": "The large volume of digital information."
+        },
+        "answer": "B",
+        "explanation": "解析：原文提到\"Digital information requires a great deal more care than analog. Even when a digital object is preserved, it may only be the carrier that's saved, not the information itself. As technology advances and a format becomes obsolete, the object is useless\"，选项B是原文的同义改写，而ACD均与原文不符。"
+      },
+      {
+        "id": 20,
+        "prompt": "What is the author's main concern regarding digital information preservation?",
+        "options": {
+          "A": "The loss of historical records due to digital obsolescence.",
+          "B": "The high cost of digital preservation efforts.",
+          "C": "The lack of interest in preserving digital information.",
+          "D": "The difficulty of accessing digital information."
+        },
+        "answer": "A",
+        "explanation": "解析：文章主要担心的是\"a historical record that abruptly stops when digital replaces analog\"，选项A是原文的同义改写，而BCD均与原文不符。"
+      }
+    ]
+  }
+]

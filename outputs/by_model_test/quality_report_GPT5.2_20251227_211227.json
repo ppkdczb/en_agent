@@ -1,0 +1,115 @@
+{
+  "generated_at": "20251227_211227",
+  "model": "GPT5.2",
+  "settings": {
+    "target": "考研英语",
+    "language": "English",
+    "llm_enabled": false,
+    "model_provider": null,
+    "judge_model_version": null
+  },
+  "totals": {
+    "cloze": {
+      "count": 1,
+      "fatal": 0,
+      "warning": 0,
+      "info": 0,
+      "avg_score": 85.0
+    },
+    "reading": {
+      "count": 4,
+      "fatal": 0,
+      "warning": 0,
+      "info": 0,
+      "avg_score": 85.0
+    }
+  },
+  "items": [
+    {
+      "type": "cloze",
+      "path": "data/clozetest/GPT5.2_ClozeTest.json#0",
+      "source_file": "data/clozetest/GPT5.2_ClozeTest.json",
+      "index_in_file": 0,
+      "id": 1,
+      "score": 85.0,
+      "rule_issues": [],
+      "rule_stats": {
+        "placeholders_count": 20,
+        "options_count": 20,
+        "answers_count": 20,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": null
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/GPT5.2_ReadingComprehension.json#0",
+      "source_file": "data/readintask/GPT5.2_ReadingComprehension.json",
+      "index_in_file": 0,
+      "title": "Acting Shakespeare: A “Rehearsal Room” Approach in Primary Schools",
+      "score": 85.0,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 424,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": null
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/GPT5.2_ReadingComprehension.json#1",
+      "source_file": "data/readintask/GPT5.2_ReadingComprehension.json",
+      "index_in_file": 1,
+      "title": "Science and Net-Zero: Cutting Research or Building Sustainable Computing?",
+      "score": 85.0,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 228,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": null
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/GPT5.2_ReadingComprehension.json#2",
+      "source_file": "data/readintask/GPT5.2_ReadingComprehension.json",
+      "index_in_file": 2,
+      "title": "Streaming’s Unintended Winners: The High-Margin Business of Online Piracy",
+      "score": 85.0,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 405,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": null
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/GPT5.2_ReadingComprehension.json#3",
+      "source_file": "data/readintask/GPT5.2_ReadingComprehension.json",
+      "index_in_file": 3,
+      "title": "When the Medium Fails: Preserving Born-Digital History in an Age of Obsolescence",
+      "score": 85.0,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 544,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": null
+    }
+  ]
+}

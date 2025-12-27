@@ -1,0 +1,843 @@
+{
+  "generated_at": "20251227_211338",
+  "model": "Gemini3",
+  "settings": {
+    "target": "考研英语",
+    "language": "English",
+    "llm_enabled": true,
+    "model_provider": "openai",
+    "judge_model_version": "deepseek-chat"
+  },
+  "totals": {
+    "cloze": {
+      "count": 1,
+      "fatal": 0,
+      "warning": 0,
+      "info": 0,
+      "avg_score": 85.6
+    },
+    "reading": {
+      "count": 4,
+      "fatal": 0,
+      "warning": 0,
+      "info": 0,
+      "avg_score": 85.3
+    }
+  },
+  "items": [
+    {
+      "type": "cloze",
+      "path": "data/clozetest/Gemini3_ClozeTest.json#0",
+      "source_file": "data/clozetest/Gemini3_ClozeTest.json",
+      "index_in_file": 0,
+      "id": 1,
+      "score": 85.6,
+      "rule_issues": [],
+      "rule_stats": {
+        "placeholders_count": 20,
+        "options_count": 20,
+        "answers_count": 20,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": [
+          "B",
+          "A",
+          "D",
+          "B",
+          "C",
+          "B",
+          "D",
+          "C",
+          "A",
+          "C",
+          "B",
+          "A",
+          "C",
+          "B",
+          "A",
+          "C",
+          "B",
+          "A",
+          "B",
+          "A"
+        ],
+        "confidence": [
+          0.9,
+          0.95,
+          0.85,
+          0.9,
+          0.95,
+          0.9,
+          0.8,
+          0.85,
+          0.7,
+          0.9,
+          0.85,
+          0.95,
+          0.9,
+          0.85,
+          0.75,
+          0.9,
+          0.85,
+          0.9,
+          0.8,
+          0.9
+        ],
+        "answer_mismatch_indices": [
+          8,
+          14
+        ],
+        "overall_scores": {
+          "option_setting": 8,
+          "question_quality": 9,
+          "difficulty": 8,
+          "language": 9,
+          "coherence": 9
+        },
+        "overall_score": 86.0,
+        "per_blank": [
+          {
+            "index": 0,
+            "predicted": "B",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'Emerged' fits well for a settlement's origin. 'Originated' is also plausible but slightly less natural in this context."
+          },
+          {
+            "index": 1,
+            "predicted": "A",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 6,
+              "clarity": 10
+            },
+            "notes": "'Trading center' is the standard collocation. 'Commercial' is possible but less idiomatic here."
+          },
+          {
+            "index": 2,
+            "predicted": "D",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "'Prone to' is a common phrase for natural disasters. 'Subject to' and 'vulnerable to' are also strong contenders, making this a good vocabulary test."
+          },
+          {
+            "index": 3,
+            "predicted": "B",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'Gradually sink' contrasts with the preceding 'earthquakes and tsunamis' which might cause abrupt sinking, creating a nuanced meaning."
+          },
+          {
+            "index": 4,
+            "predicted": "C",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 10,
+              "difficulty": 7,
+              "clarity": 10
+            },
+            "notes": "'Submerged' is the precise term for land going underwater. Other options are less accurate for a city."
+          },
+          {
+            "index": 5,
+            "predicted": "B",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "'Remains' is the standard archaeological term for physical evidence. 'Debris' implies wreckage, 'relics' implies artifacts, 'residues' is too chemical."
+          },
+          {
+            "index": 6,
+            "predicted": "D",
+            "confidence": 0.8,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "blank_quality": 8,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "'Covered by a layer of sand' is acceptable. 'Buried' is a very strong alternative, making this a close call."
+          },
+          {
+            "index": 7,
+            "predicted": "C",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "'Eroded' is best for a natural barrier being worn away. 'Corroded' is for metals, 'worn/weathered' are more general."
+          },
+          {
+            "index": 8,
+            "predicted": "A",
+            "confidence": 0.7,
+            "matches_provided": false,
+            "scores": {
+              "option_quality": 6,
+              "blank_quality": 7,
+              "difficulty": 9,
+              "clarity": 6
+            },
+            "notes": "Provided answer 'C' (analyze) is possible, but 'A' (monitor) is a better fit for 'gathering data to track changes over time'. This is a point of ambiguity. 'Assess' is also plausible."
+          },
+          {
+            "index": 9,
+            "predicted": "C",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'Spotted' is idiomatic for visually discovering something. 'Identified' and 'detected' are also good."
+          },
+          {
+            "index": 10,
+            "predicted": "B",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "'Examine the location' is appropriate for a preliminary check. 'Investigate' and 'explore' are also strong, testing nuance."
+          },
+          {
+            "index": 11,
+            "predicted": "A",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 10,
+              "difficulty": 7,
+              "clarity": 10
+            },
+            "notes": "'Despite' perfectly sets up the contrast between exciting finds and subsequent neglect."
+          },
+          {
+            "index": 12,
+            "predicted": "C",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "'Lie undisturbed' is an excellent collocation here. 'Neglected' is a thematic synonym but less precise for the physical state."
+          },
+          {
+            "index": 13,
+            "predicted": "B",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "'Resumed' fits the context of returning to work after a pause. 'Proceeded' would work if no prior work was implied."
+          },
+          {
+            "index": 14,
+            "predicted": "A",
+            "confidence": 0.75,
+            "matches_provided": false,
+            "scores": {
+              "option_quality": 7,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "Provided answer 'D' (cooperation) is acceptable, but 'A' (collaboration) is a more formal and precise term for joint work between institutions. 'In collaboration with' is a standard phrase."
+          },
+          {
+            "index": 15,
+            "predicted": "C",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'Made huge advances' is the correct collocation. 'Strides' and 'headway' also collocate with 'make' but are less common in this exact phrasing."
+          },
+          {
+            "index": 16,
+            "predicted": "B",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'Employed' is a neutral, formal choice for using tools. 'Utilized' and 'applied' are very close synonyms."
+          },
+          {
+            "index": 17,
+            "predicted": "A",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "'Bring to light' is the idiomatic phrase meaning to reveal or discover."
+          },
+          {
+            "index": 18,
+            "predicted": "B",
+            "confidence": 0.8,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "'Covering about two and a half acres' is standard. 'Spanning' (often for time/distance) and 'Occupying' are plausible, testing prepositional use."
+          },
+          {
+            "index": 19,
+            "predicted": "A",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'Revealed' is perfect for archaeological finds providing new information. 'Unveiled' is also good but slightly more ceremonial."
+          }
+        ],
+        "fatal_issues": [],
+        "improvements": [
+          "Blank 8: The verb choice ('monitor' vs 'analyze' vs 'assess') is ambiguous based on the clause 'gathering data to... changes'. Consider rewording for a single best fit (e.g., 'track' or 'measure'). 2. Blank 14: 'In collaboration with' and 'in cooperation with' are both correct. To avoid debate, one could be removed or the phrase rephrased to strongly favor one (e.g., 'in a collaborative project with'). 3. Blank 6: 'Buried' is a very strong competitor to 'covered'. The context 'by a thick layer of sand' slightly favors 'buried'. Consider if 'covered' is indeed the intended best answer."
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/Gemini3_ReadingComprehension.json#0",
+      "source_file": "data/readintask/Gemini3_ReadingComprehension.json",
+      "index_in_file": 0,
+      "title": "Shakespeare and Children's Development",
+      "score": 84.4,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 424,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": {
+          "1": "B",
+          "2": "C",
+          "3": "A",
+          "4": "C",
+          "5": "C"
+        },
+        "confidence": {
+          "1": 0.95,
+          "2": 0.9,
+          "3": 0.98,
+          "4": 0.85,
+          "5": 0.95
+        },
+        "answer_mismatch_ids": [],
+        "overall_scores": {
+          "option_setting": 8,
+          "question_quality": 9,
+          "grounding": 9,
+          "difficulty": 7,
+          "language": 9
+        },
+        "overall_score": 84.0,
+        "per_question": [
+          {
+            "id": 1,
+            "predicted": "B",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 9,
+              "grounding": 9,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "Question directly tests the key condition from the passage: 'only if you act him out' and the 'rehearsal room' approach. Options are distinct and plausible distractors."
+          },
+          {
+            "id": 2,
+            "predicted": "C",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 9,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "Well-grounded in the passage's description of the target group using 'words classed as more sophisticated or rarer'. Option A is a direct opposite (describes control group). Option B is also a control group trait. Option D is not supported."
+          },
+          {
+            "id": 3,
+            "predicted": "A",
+            "confidence": 0.98,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 9,
+              "grounding": 10,
+              "difficulty": 5,
+              "clarity": 9
+            },
+            "notes": "Excellent vocabulary-in-context question. The phrase is explicitly linked to expressing a character's emotion in the passage. Distractors are clearly wrong but plausible for low-level readers."
+          },
+          {
+            "id": 4,
+            "predicted": "C",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "question_quality": 8,
+              "grounding": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "Requires inference from O'Hanlon's comment about children 'using their whole bodies to bring words to life' combined with the discussion of vocabulary expansion. Option A is contradicted ('more research would be needed'). Option B is too strong and not directly stated. Option D is an extreme claim not made."
+          },
+          {
+            "id": 5,
+            "predicted": "C",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 9,
+              "grounding": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Accurately captures the text's main focus: reporting the research study and its findings. Option A is incorrect (no criticism). Option B is secondary (the RSC commissioned it, but the purpose is reporting). Option D is a minor detail."
+          }
+        ],
+        "fatal_issues": [],
+        "improvements": [
+          "For Q2, consider rephrasing 'The utilization of advanced and infrequent terminology' to more closely mirror the passage's 'words classed as more sophisticated or rarer' for absolute clarity. 2. In Q4, the inference to option C is sound but could be strengthened by ensuring the link between 'physical involvement' and 'linguistic enrichment' is explicitly paralleled in the passage wording. 3. The passage is slightly long for a standard exam excerpt",
+          "consider trimming the final paragraph's speculative question for conciseness without losing key findings."
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/Gemini3_ReadingComprehension.json#1",
+      "source_file": "data/readintask/Gemini3_ReadingComprehension.json",
+      "index_in_file": 1,
+      "title": "Sustainable Science and Computing",
+      "score": 86.8,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 228,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": {
+          "6": "B",
+          "7": "A",
+          "8": "B",
+          "9": "C",
+          "10": "C"
+        },
+        "confidence": {
+          "6": 1.0,
+          "7": 0.95,
+          "8": 1.0,
+          "9": 1.0,
+          "10": 0.9
+        },
+        "answer_mismatch_ids": [],
+        "overall_scores": {
+          "option_setting": 9,
+          "question_quality": 9,
+          "grounding": 10,
+          "difficulty": 7,
+          "language": 9
+        },
+        "overall_score": 88.0,
+        "per_question": [
+          {
+            "id": 6,
+            "predicted": "B",
+            "confidence": 1.0,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 10,
+              "question_quality": 10,
+              "grounding": 10,
+              "difficulty": 6,
+              "clarity": 10
+            },
+            "notes": "Directly grounded in 'I was shocked' (first sentence). All distractors are plausible but clearly inferior."
+          },
+          {
+            "id": 7,
+            "predicted": "A",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 9,
+              "grounding": 10,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Metaphor clearly refers to environmental monitoring in context. Option B is a literal but unsupported interpretation; C and D are irrelevant."
+          },
+          {
+            "id": 8,
+            "predicted": "B",
+            "confidence": 1.0,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 9,
+              "grounding": 10,
+              "difficulty": 7,
+              "clarity": 10
+            },
+            "notes": "Explicitly supported by 'science’s unrelenting appetite for information has caused a mushrooming of energy-intensive data centres'. Other options are not mentioned."
+          },
+          {
+            "id": 9,
+            "predicted": "C",
+            "confidence": 1.0,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 10,
+              "question_quality": 10,
+              "grounding": 10,
+              "difficulty": 6,
+              "clarity": 10
+            },
+            "notes": "Directly stated: 'powered by a nearby river and its remote heat warms the people'. Distractors are factually incorrect based on passage."
+          },
+          {
+            "id": 10,
+            "predicted": "C",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 10,
+              "difficulty": 9,
+              "clarity": 9
+            },
+            "notes": "Requires inference from overall tone: acknowledges problems but highlights solutions (LUMI, new ways). 'Cautiously optimistic' best captures this. 'Pessimistic' and 'dismissive' are contradicted; 'prohibitive' is too strong."
+          }
+        ],
+        "fatal_issues": [],
+        "improvements": [
+          "Slightly increase difficulty for Q6 and Q9 by making distractors more tempting. 2. For Q10, consider adding a distractor like 'ambivalently critical' to challenge inference skills. 3. Ensure all questions maintain the current high standard of being fully passage-based."
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/Gemini3_ReadingComprehension.json#2",
+      "source_file": "data/readintask/Gemini3_ReadingComprehension.json",
+      "index_in_file": 2,
+      "title": "The Economic Impact of Digital Piracy",
+      "score": 84.4,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 405,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": {
+          "11": "B",
+          "12": "B",
+          "13": "C",
+          "14": "C",
+          "15": "C"
+        },
+        "confidence": {
+          "11": 1.0,
+          "12": 0.95,
+          "13": 1.0,
+          "14": 1.0,
+          "15": 1.0
+        },
+        "answer_mismatch_ids": [],
+        "overall_scores": {
+          "option_setting": 8,
+          "question_quality": 9,
+          "grounding": 9,
+          "difficulty": 7,
+          "language": 9
+        },
+        "overall_score": 84.0,
+        "per_question": [
+          {
+            "id": 11,
+            "predicted": "B",
+            "confidence": 1.0,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 9,
+              "grounding": 10,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "Directly supported by passage: 'With no video production costs, illegal streaming sites have achieved profit margins approaching 90%...' Option A is plausible but not the main reason stated. Option C is contradicted (they likely charge less). Option D is an inference not directly stated as the cause of margins."
+          },
+          {
+            "id": 12,
+            "predicted": "B",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 9,
+              "grounding": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Well-grounded. Passage states: 'Initially the rise of legitimate online businesses such as Netflix actually helped curb digital piracy... But now piracy... costs the US economy about $30 billion...' This captures the shift. Option A is too strong ('mutual destruction'). Option C is opposite of initial effect. Option D is contradicted (losses are increasing)."
+          },
+          {
+            "id": 13,
+            "predicted": "C",
+            "confidence": 1.0,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 9,
+              "grounding": 10,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Excellent inference question. The phrase contrasts with 'mom and pop' (small, informal) and is immediately followed by 'This is organized crime,' implying scale and sophistication. Options A and D are opposite. Option B ('legal') is incorrect."
+          },
+          {
+            "id": 14,
+            "predicted": "C",
+            "confidence": 1.0,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 9,
+              "grounding": 10,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Directly supported: '...aided in part by the MPA’s support for a 2020 federal law that made large-scale streaming of copyright material a serious crime.' Option A refers to an earlier failed effort. Options B and D are not mentioned."
+          },
+          {
+            "id": 15,
+            "predicted": "C",
+            "confidence": 1.0,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 9,
+              "grounding": 10,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "Accurately reflects the analyst's quote: '...there is no consensus among stakeholders as to when it may begin to decline.' Option A is too optimistic and specific. Option B is too negative. Option D is contradicted ('no consensus')."
+          }
+        ],
+        "fatal_issues": [],
+        "improvements": [
+          "For Q11, option A ('advanced ripping software') could be slightly misleading",
+          "the passage mentions software to 'rip' but doesn't link it directly to high margins. Consider rewording to more clearly distinguish distractors. 2. The passage is dense with figures",
+          "consider adding one slightly more inferential question (e.g., about the role of ACE or the broader economic argument) to increase difficulty. 3. Ensure all answer choices are grammatically parallel (currently good)."
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/Gemini3_ReadingComprehension.json#3",
+      "source_file": "data/readintask/Gemini3_ReadingComprehension.json",
+      "index_in_file": 3,
+      "title": "The Challenge of Digital Preservation",
+      "score": 85.6,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 544,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": {
+          "16": "B",
+          "17": "C",
+          "18": "C",
+          "19": "B",
+          "20": "C"
+        },
+        "confidence": {
+          "16": 0.95,
+          "17": 0.9,
+          "18": 0.95,
+          "19": 0.85,
+          "20": 0.9
+        },
+        "answer_mismatch_ids": [],
+        "overall_scores": {
+          "option_setting": 8,
+          "question_quality": 9,
+          "grounding": 9,
+          "difficulty": 8,
+          "language": 9
+        },
+        "overall_score": 86.0,
+        "per_question": [
+          {
+            "id": 16,
+            "predicted": "B",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 9,
+              "grounding": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "The question correctly targets the author's contrast between tangible artifacts' survival and digital fragility. Option B directly reflects the passage's emphasis on physical durability. Other options are unsupported or misrepresentative."
+          },
+          {
+            "id": 17,
+            "predicted": "C",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 9,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "The question accurately references Paragraph 3's discussion of digitization leading to an 'embarrassment of historical riches' and 'needle-and-haystack problems.' Option C captures this. Option A is contradicted; B is too positive; D is not mentioned."
+          },
+          {
+            "id": 18,
+            "predicted": "C",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 9,
+              "grounding": 10,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "The question targets the core argument: born-digital information risks loss without curation. The passage explicitly states 'if not librarians and archivists, then no one' and discusses format obsolescence. Option C is precise. Other options are tangential or unmentioned."
+          },
+          {
+            "id": 19,
+            "predicted": "B",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 9,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "The example illustrates the 'horror of sheer volume' and 'drowning in a sea of unorganized digital information.' Option B ('unmanageable quantity') is correct. Option A is a related but separate issue; C and D are not the focus here."
+          },
+          {
+            "id": 20,
+            "predicted": "C",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 10,
+              "grounding": 9,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "The passage's central theme is the vulnerability of digital preservation and its threat to the historical record. Option C captures this concisely. Option A is too narrow; B is descriptive but misses the argument; D focuses on a secondary point (authentication)."
+          }
+        ],
+        "fatal_issues": [],
+        "improvements": [
+          "For Q19, consider clarifying 'unmanageable quantity' to explicitly link to the passage's 'sheer volume' and lack of metadata. 2. Option D in Q17 ('decrease in funding') is weakly distracting as it introduces an unmentioned economic factor",
+          "ensure all distractors are plausible but textually invalid. 3. The passage is dense",
+          "ensure question prompts are phrased to guide test-takers to specific paragraphs without ambiguity."
+        ]
+      }
+    }
+  ]
+}

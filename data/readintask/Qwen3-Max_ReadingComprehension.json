@@ -1,0 +1,266 @@
+[
+{
+"title": "Shakespeare and Children's Development",
+"content": "The grammar school boy from Stratford-upon-Avon has landed a scholarly punch after groundbreaking research showed that Shakespeare does benefit children’s literacy and emotional development. But only if you act him out. A study found that a “rehearsal room” approach to teaching Shakespeare broadened children’s vocabulary and the complexity of their writing as well as their emotional literacy. “The research shows that the way actors work makes a big difference to the way children use language and also how they think about themselves,” Jacqui O’Hanlon of the Royal Shakespeare Company (RSC), which commissioned the study, said. The randomised control trial involved hundreds of Year 5 pupils—aged nine and ten—at 45 state primary schools that had not been “previously exposed to RSC pedagogy.” They were split into target and control groups and asked to write, for example, a message in a bottle as Ferdinand after the shipwreck in The Tempest. The target group was given a 30-minute drama-based activity to accompany the passage. The peer-reviewed results showed that the target group of pupils drew on a wider vocabulary, used words “classed as more sophisticated or rarer”, and wrote at greater length. They also “appear to be more comfortable writing in role... while [control] pupils imagine how they themselves would react to being shipwrecked, [target] children put themselves in the shoes of a literary character and express that character’s emotion”. The Time to Act study also found that while control pupils relied on “desert island clichés” such as palm trees, target pupils were “more expansive giving a broader picture of the sky, the sea and the atmospheric conditions”. O’Hanlon said she had been most surprised by the “emotional literacy that was evident in the [target] children’s writing” and that they were “more resilient in their writing, more hopeful”. She added: “The emotional understanding was very evident and it is probably related to the [rehearsal room process] where you are used to trying to imagine your way through. They were comfortable in describing different emotional states and part of what you do in drama is put yourself in different shoes”. The study showed the importance of embedding arts in education, she said. “But could the results be replicated with any old dramatist?” O’Hanlon said more research would be needed but suggested that Shakespeare’s use of 20,000 words, compared with the everyday 2,000 words, gave a “massive expansion of language into children’s lives”, which was combined with children “using their whole bodies to bring words to life”.",
+"questions": [
+{
+"id": 1,
+"prompt": "What does the term 'landed a scholarly punch' primarily convey in the first paragraph?",
+"options": {
+"A": "A physical attack by scholars",
+"B": "A groundbreaking academic achievement",
+"C": "A controversial academic debate",
+"D": "A traditional educational method"
+},
+"answer": "B",
+"explanation": "The phrase 'landed a scholarly punch' uses boxing terminology metaphorically to indicate a significant academic impact. The context shows the study had a major influence on educational theories about Shakespeare's role in child development, making B the correct choice."
+},
+{
+"id": 2,
+"prompt": "According to the study, what distinguishes the target group's writing style from the control group?",
+"options": {
+"A": "Greater use of technical jargon",
+"B": "More frequent grammatical errors",
+"C": "Deeper emotional expression through role-playing",
+"D": "Shorter but more concise paragraphs"
+},
+"answer": "C",
+"explanation": "The text explicitly states that target group students 'put themselves in the shoes of a literary character' and 'express that character’s emotion', indicating C. Control groups focused on their own reactions, not fictional perspectives."
+},
+{
+"id": 3,
+"prompt": "What does the 'rehearsal room process' imply about learning methods?",
+"options": {
+"A": "Emphasis on rote memorization",
+"B": "Use of physical movement to internalize concepts",
+"C": "Strict adherence to textbook definitions",
+"D": "Isolation from peer interactions"
+},
+"answer": "B",
+"explanation": "The study mentions children 'using their whole bodies to bring words to life', linking physical engagement to learning. This aligns with B, while other options contradict the described active learning approach."
+},
+{
+"id": 4,
+"prompt": "Which finding would most challenge the study's conclusions about Shakespeare's uniqueness?",
+"options": {
+"A": "Similar benefits observed with other playwrights",
+"B": "Increased test scores in math subjects",
+"C": "Higher parental involvement in homework",
+"D": "Greater attention spans during lectures"
+},
+"answer": "A",
+"explanation": "The author acknowledges 'could the results be replicated with any old dramatist?' as an open question. If other playwrights produced similar outcomes (A), it would weaken Shakespeare's special role in the study."
+},
+{
+"id": 5,
+"prompt": "What does the study suggest about the relationship between art and education?",
+"options": {
+"A": "Arts should be replaced by STEM subjects",
+"B": "Theater reduces academic performance",
+"C": "Creative activities enhance cognitive development",
+"D": "Only classical literature is beneficial"
+},
+"answer": "C",
+"explanation": "The conclusion emphasizes 'importance of embedding arts in education', directly supporting C. Other options either contradict the text or are overly narrow interpretations."
+}
+]
+},
+{
+"title": "Scientific Energy Use and Carbon Emissions",
+"content": "I was shocked to learn recently that some scientists want to scale back their research in an effort to decrease carbon emissions. The crisis is here, they said, and we need to cut back on our energy-intensive modelling. At the very least, we need to make our energy use far more sustainable. It is unarguable that our laboratories, scientific instruments, rockets and satellites—the tools we scientists need to measure the planet’s pulse—demand significant amounts of energy both in their construction and operation. And it is equally true that science’s unrelenting appetite for information has caused a mushrooming of energy-intensive data centres around the world. According to the International Energy Agency, these buildings now consume about 1 percent of the world’s electricity. If the world is to meet its net-zero ambitions, we must think hard about how we can deliver sustainable computing and deliver more LUMIs. Every day, scientists, technologists and engineers are discovering new ways to exploit renewable energy sources and develop techniques not just to use power more intelligently but to power our intelligence. A great example of this is Europe’s largest supercomputer, LUMI in Finland, which is astonishingly carbon-negative. Established in an old paper mill, it is powered by a nearby river and its remote heat warms the people who live in the surrounding town of Kajaani.",
+"questions": [
+{
+"id": 6,
+"prompt": "What is the primary reason scientists are reconsidering their energy usage?",
+"options": {
+"A": "To increase research funding",
+"B": "To reduce environmental impact",
+"C": "To improve data accuracy",
+"D": "To enhance public relations"
+},
+"answer": "B",
+"explanation": "The text repeatedly mentions carbon emissions and net-zero goals as motivations. B directly addresses the environmental imperative stated in 'decrease carbon emissions' and 'sustainable computing'."
+},
+{
+"id": 7,
+"prompt": "How does the example of LUMI in Finland demonstrate innovation?",
+"options": {
+"A": "By using fossil fuels efficiently",
+"B": "Through carbon-negative operations",
+"C": "By increasing data processing speed",
+"D": "Through international collaboration"
+},
+"answer": "B",
+"explanation": "The passage describes LUMI as 'astonishingly carbon-negative' and explains its renewable energy sources. This directly supports B, while other options lack textual evidence."
+},
+{
+"id": 8,
+"prompt": "What does the term 'mushrooming' in 'mushrooming of energy-intensive data centres' suggest about data centres?",
+"options": {
+"A": "They are decreasing rapidly",
+"B": "They require less energy over time",
+"C": "They are growing uncontrollably",
+"D": "They are being replaced by cloud storage"
+},
+"answer": "C",
+"explanation": "'Mushrooming' is a metaphor for rapid, unchecked growth. The context of energy consumption (1% global electricity) reinforces C as the correct interpretation of uncontrolled expansion."
+},
+{
+"id": 9,
+"prompt": "Which statement best summarizes the author's stance on scientific research and energy use?",
+"options": {
+"A": "Research should be suspended until emissions drop",
+"B": "Energy efficiency must be balanced with scientific progress",
+"C": "Only renewable energy projects are worthwhile",
+"D": "All data centers should be shut down immediately"
+},
+"answer": "B",
+"explanation": "The author advocates for 'sustainable computing' while acknowledging the necessity of scientific tools. B captures this balance between progress and sustainability, unlike the extreme positions in other options."
+},
+{
+"id": 10,
+"prompt": "What implication does the 1% electricity consumption statistic have for global energy policy?",
+"options": {
+"A": "Data centers are minor contributors to emissions",
+"B": "Renewable energy adoption is unnecessary",
+"C": "Significant energy savings are possible",
+"D": "Current energy use is optimal"
+},
+"answer": "C",
+"explanation": "The statistic highlights data centers' substantial energy use (1% globally), suggesting that even small reductions could yield meaningful savings. C reflects this potential for improvement, while A misrepresents the significance."
+}
+]
+},
+{
+"title": "Streaming Piracy and Industry Impact",
+"content": "Ever since taking on Netflix Inc at its own game, old Hollywood has struggled to turn a profit in streaming, with the likes of Disney+, Peacock and Paramount losing billions of dollars each year, sparking concerns that the services will never be as profitable as cable once was. But the age of streaming has been a boon for some unintended winners: pirates that use software to rip a film or television show in seconds from legitimate online video platforms and host the titles on their own, illegitimate services, which rake in about 2billionannuallyfromadsandsubscriptions.Withnovideoproductioncosts,illegalstreamingsiteshaveachievedprofitmarginsapproaching9030 billion in lost revenue a year and some 250,000 jobs, estimates the US Chamber of Commerce’s Global Innovation Policy Center. The global impact is about 71billionannually.“Thepeoplewhoarestealingourmoviesandourtelevisionshowsandoperatingpiracysitesarenotmomandpopoperations,”saysCharlesRivkin,chiefexecutiveofficeroftheMPA.“Thisisorganizedcrime.”RivkinjoinedtheMPAin2017aftertheorganizationfailedfiveyearsearliertobuildconsensusbetweenHollywoodandSiliconValleytowinpassageoflegislationinCongressaimedatstoppingonlinepiracy.In2017theassociationformedtheAllianceforCreativityandEntertainment(ACE),anenforcementtaskforceofabout100detectivescirclingtheglobetohelplocalauthoritiesarreststreamingpirates.ACEsaysit’shelpedshrinkthenumberofillegalstreamingservicesinNorthAmericato126,frommorethan1,400in2018,aidedinpartbytheMPA’ssupportfora2020federallawthatmadelarge−scalestreamingofcopyrightmaterialaseriouscrime.ConsultingfirmParksAssociatespredictsthatlegitimateUSstreamingservices’cumulativelossfrompiracysince2022willreach113 billion in the next two years. “While there is some optimism that emerging countermeasures and best practices may see piracy begin to plateau by 2027, there is no consensus among stakeholders as to when it may begin to decline,” says analyst Steve Hawley.",
+"questions": [
+{
+"id": 11,
+"prompt": "What paradox does the text reveal about the streaming industry?",
+"options": {
+"A": "Legal services generate more profit than piracy",
+"B": "Piracy thrives despite high production costs",
+"C": "Hollywood profits more from piracy than legal streams",
+"D": "Illegal platforms have higher profit margins than legal ones"
+},
+"answer": "D",
+"explanation": "The text explicitly states illegal sites achieve 'profit margins approaching 90%' versus legal services' losses. D directly reflects this economic paradox presented in the passage."
+},
+{
+"id": 12,
+"prompt": "What does the term 'unintended winners' refer to in the opening paragraph?",
+"options": {
+"A": "Legitimate streaming services",
+"B": "Movie studios",
+"C": "Piracy operators",
+"D": "Government regulators"
+},
+"answer": "C",
+"explanation": "'Unintended winners' is contrasted with Hollywood's struggles, describing pirates who benefit from the streaming era. C is the only option that matches this context of unexpected beneficiaries."
+},
+{
+"id": 13,
+"prompt": "According to the text, what is the primary challenge in combating streaming piracy?",
+"options": {
+"A": "Lack of international cooperation",
+"B": "Technological complexity of detection",
+"C": "High cost of legal streaming services",
+"D": "Perception of piracy as victimless crime"
+},
+"answer": "A",
+"explanation": "The text mentions ACE's global enforcement efforts and the need for international legislation, highlighting A as the key challenge. Other options are mentioned but not central to the stated difficulties."
+},
+{
+"id": 14,
+"prompt": "What does the 2020 federal law mentioned in the text aim to achieve?",
+"options": {
+"A": "Subsidize legal streaming services",
+"B": "Criminalize large-scale piracy operations",
+"C": "Lower subscription costs for consumers",
+"D": "Encourage content creation in Hollywood"
+},
+"answer": "B",
+"explanation": "The law is described as making 'large-scale streaming of copyright material a serious crime', directly supporting B. Other options misrepresent the law's purpose."
+},
+{
+"id": 15,
+"prompt": "What does Steve Hawley's statement suggest about future piracy trends?",
+"options": {
+"A": "Piracy will disappear by 2027",
+"B": "Current measures are insufficient",
+"C": "Piracy will stabilize before declining",
+"D": "Profit margins will continue to rise"
+},
+"answer": "C",
+"explanation": "The quote states 'optimism that... piracy begin to plateau by 2027' but 'no consensus as to when it may begin to decline', making C the accurate summary of cautious optimism without guaranteed decline."
+}
+]
+},
+{
+"title": "Digital Information Preservation Challenges",
+"content": "Visit any antiques store and you’ll encounter artifacts from the past: photographs, letters, a brochure detailing the Sinclair dinosaur exhibit from the 1964-65 World’s Fair, the ephemera of history. Yet these objects aren’t truly ephemeral, because they’re still here, decades, even centuries later. Why? Because they’re tangible.Have you pondered the life cycle of intangible formats, digital information, given that those who produce these artifacts seldom make provision for their long-term preservation? For millennia, we’ve known what we’ve known due to artifacts that have survived, often despite their original creators’ neglect. The thing itself is the medium that delivers the information. At the time of creation, no attempts were made at intentional preservation, yet analog materials have a chance of surviving and serving as the historical record that biographers, historians, and novelists rely on.Libraries and archives have traditionally shouldered the responsibility of organization, preservation, and access to information. One of S. R. Ranganathan’s foundational Laws of Library Science is “Save the time of the reader.” Thus, librarians digitize the tangible so that researchers the world over can quickly search and access their holdings. The result is an embarrassment of historical riches, which brings its own needle-and-haystack problems.Librarians’ innate altruism can act against us when users point to universality of access by holding up a cell phone and saying, “it’s all in here,” or noting “I never have to leave my laptop” as evidence that libraries are less vital for researchers today. Yet how was that universality of access made possible and, perhaps more importantly, how is it maintained? Who curates what is preserved? When it comes to born-digital information, the terrifying answer can be: if not librarians and archivists, then no one.Digital information requires a great deal more care than analog. Even when a digital object is preserved, it may only be the carrier that’s saved, not the information itself. As technology advances and a format becomes obsolete, the object is useless. Have you ever stared helplessly at a ZIP disk, thinking: how do I get the files off this? Without constant migration of digital assets, a nightmare about the foreseeable future is what keeps historians up at night: a historical record that abruptly stops when digital replaces analog.This phenomenon is frightening because it’s pervasive, from the photos on your phone to the official U.S. federal government publications integral to documenting our republic and informing its electorate. There’s also the horror of sheer volume; we are drowning in a sea of unorganized digital information. Digital objects increase exponentially in a way tangible formats do not. In the 1990s, a family might have had a few hours of home movies documenting three generations. My millennial sister has thousands of hours of video from her two-year-old’s still brief time on this planet with no organizational metadata (i.e., it’s unsearchable). So when it comes to preservation, the situation is akin to bailing that digital sea with a teacup.From a “historical record” standpoint, this doesn’t even touch on the issue of authentication, which is increasingly important in an era of deep fakes, manipulation, and after-the-fact revision of primary sources.",
+"questions": [
+{
+"id": 16,
+"prompt": "What fundamental difference does the text highlight between analog and digital preservation?",
+"options": {
+"A": "Analog media requires more storage space",
+"B": "Digital formats need constant technological updates",
+"C": "Physical objects are less durable than digital files",
+"D": "Analog information is easier to authenticate"
+},
+"answer": "B",
+"explanation": "The text emphasizes that digital objects become obsolete as technology changes, requiring 'constant migration'. B directly addresses this core challenge not faced by analog formats."
+},
+{
+"id": 17,
+"prompt": "What does the ZIP disk example illustrate about digital preservation?",
+"options": {
+"A": "The durability of physical storage media",
+"B": "The accessibility of old file formats",
+"C": "The obsolescence of digital technologies",
+"D": "The cost-effectiveness of cloud storage"
+},
+"answer": "C",
+"explanation": "The ZIP disk example demonstrates how quickly digital formats become unusable as technology evolves. C captures the text's concern about technological obsolescence causing information loss."
+},
+{
+"id": 18,
+"prompt": "According to the text, what role do librarians play in digital preservation?",
+"options": {
+"A": "They create new digital content",
+"B": "They prioritize commercial interests",
+"C": "They act as primary curators of historical records",
+"D": "They replace traditional archives with digital copies"
+},
+"answer": "C",
+"explanation": "The text states that for born-digital information, 'if not librarians and archivists, then no one' will preserve it. This directly supports C as the central role described."
+},
+{
+"id": 19,
+"prompt": "What paradox does the text present regarding digital access?",
+"options": {
+"A": "Easy access leads to information overload",
+"B": "Universality of access reduces preservation needs",
+"C": "Digital convenience undermines library relevance",
+"D": "Accessibility increases authentication challenges"
+},
+"answer": "A",
+"explanation": "The text contrasts the 'embarrassment of historical riches' with the 'needle-and-haystack problem', highlighting A as the paradox between abundance and discoverability."
+},
+{
+"id": 20,
+"prompt": "What emerging threat to historical records does the text specifically mention?",
+"options": {
+"A": "Physical degradation of documents",
+"B": "Deep fakes and manipulated sources",
+"C": "Over-reliance on print media",
+"D": "Inadequate funding for libraries"
+},
+"answer": "B",
+"explanation": "The final paragraph explicitly warns about 'deep fakes, manipulation, and after-the-fact revision of primary sources', making B the directly supported threat."
+}
+]
+}
+]

@@ -1,0 +1,266 @@
+[
+{
+"title": "Acting Shakespeare: A “Rehearsal Room” Approach in Primary Schools",
+"content": "The grammar school boy from Stratford-upon-Avon has landed a scholarly punch after groundbreaking research showed that Shakespeare does benefit children’s literacy and emotional development. But only if you act him out.\n\nA study found that a “rehearsal room” approach to teaching Shakespeare broadened children’s vocabulary and the complexity of their writing as well as their emotional literacy. “The research shows that the way actors work makes a big difference to the way children use language and also how they think about themselves,” Jacqui O’Hanlon of the Royal Shakespeare Company (RSC), which commissioned the study, said.\n\nThe randomised control trial involved hundreds of Year 5 pupils—aged nine and ten—at 45 state primary schools that had not been “previously exposed to RSC pedagogy.” They were split into target and control groups and asked to write, for example, a message in a bottle as Ferdinand after the shipwreck in The Tempest.\n\nThe target group was given a 30-minute drama-based activity to accompany the passage. The peer-reviewed results showed that the target group of pupils drew on a wider vocabulary, used words “classed as more sophisticated or rarer”, and wrote at greater length. They also “appear to be more comfortable writing in role... while [control] pupils imagine how they themselves would react to being shipwrecked, [target] children put themselves in the shoes of a literary character and express that character’s emotion”.\n\nThe Time to Act study also found that while control pupils relied on “desert island clichés” such as palm trees, target pupils were “more expansive giving a broader picture of the sky, the sea and the atmospheric conditions”.\n\nO’Hanlon said she had been most surprised by the “emotional literacy that was evident in the [target] children’s writing” and that they were “more resilient in their writing, more hopeful”. She added: “The emotional understanding was very evident and it is probably related to the [rehearsal room process] where you are used to trying to imagine your way through. They were comfortable in describing different emotional states and part of what you do in drama is put yourself in different shoes”.\n\nThe study showed the importance of embedding arts in education, she said. “But could the results be replicated with any old dramatist?” O’Hanlon said more research would be needed but suggested that Shakespeare’s use of 20,000 words, compared with the everyday 2,000 words, gave a “massive expansion of language into children’s lives”, which was combined with children “using their whole bodies to bring words to life”.",
+"questions": [
+{
+"id": 1,
+"prompt": "Which statement best captures the central claim of the passage?",
+"options": {
+"A": "Shakespeare can enhance children’s language and emotional insight when taught through embodied, drama-based practice.",
+"B": "Shakespeare’s texts are too difficult for primary pupils unless simplified into everyday vocabulary.",
+"C": "Randomised trials show that reading Shakespeare silently is the most efficient way to build literacy in Year 5.",
+"D": "The main value of Shakespeare in schools lies in improving pupils’ test scores rather than their writing."
+},
+"answer": "A",
+"explanation": "解析：全文围绕“rehearsal room/表演式”教学带来词汇、写作复杂度与情感识读的提升展开，首段明确强调“但只有在把他演出来时才有效”。B把问题归因于难度并引入“简化”，原文未说；C与文中对比结论相反；D将价值限定为分数提升，原文重点是语言与情感发展。"
+},
+{
+"id": 2,
+"prompt": "What key difference between the target group and the control group is emphasized in the study’s writing task?",
+"options": {
+"A": "Target pupils wrote shorter pieces but used more descriptive nouns than the control pupils.",
+"B": "Target pupils adopted a character’s perspective, whereas control pupils largely responded as themselves.",
+"C": "Target pupils relied more on familiar “desert island” images than the control pupils did.",
+"D": "Target pupils were taught by professional actors while control pupils received no instruction at all."
+},
+"answer": "B",
+"explanation": "解析：原文指出控制组会想“如果是我被海难会怎样”，而目标组“站在文学角色的立场表达其情绪”，这是视角与代入方式的核心差异。A与“写得更长”相反；C把两组特点倒置；D属于常识性想象，文中仅说目标组有30分钟戏剧活动，并未说由演员授课且“无教学”。"
+},
+{
+"id": 3,
+"prompt": "In Paragraph 6, the word “resilient” most nearly means that the children’s writing was ____.",
+"options": {
+"A": "physically vigorous, as if produced with great bodily strength",
+"B": "mechanically accurate, showing fewer spelling and grammar mistakes",
+"C": "able to sustain a constructive, hopeful stance despite a challenging scenario",
+"D": "socially compliant, carefully avoiding any intense emotional expressions"
+},
+"answer": "C",
+"explanation": "解析：语境中“more resilient… more hopeful”并列出现，强调在遭遇情境（海难）下仍能写出更有希望、更能“扛住/走下去”的情感表达。A是字面“强壮”；B把词义偷换成“准确”；D与“能描述不同情绪状态”相冲突。"
+},
+{
+"id": 4,
+"prompt": "What can be most reasonably inferred about why the “rehearsal room process” strengthens emotional literacy?",
+"options": {
+"A": "It encourages pupils to memorize a fixed set of emotional labels and reuse them repeatedly.",
+"B": "It replaces writing with performance, so pupils avoid the difficulty of putting emotions into words.",
+"C": "It reduces imaginative effort by supplying ready-made descriptions of feelings for pupils to copy.",
+"D": "It trains pupils to inhabit alternative viewpoints, making nuanced emotional expression easier to generate."
+},
+"answer": "D",
+"explanation": "解析：原文多次强调“put yourself in different shoes/想象你如何走过”，目标组“写在角色中更自在”，由此可推断：表演式排练强化了视角转换与共情生成，从而更容易产出细腻情绪表达。A/B/C都与“想象”“代入”相反，且把过程描述为背诵、逃避或抄写，均无依据。"
+},
+{
+"id": 5,
+"prompt": "According to the passage, how did the target pupils’ descriptions differ from those of the control pupils in the “desert island” writing?",
+"options": {
+"A": "They moved beyond stock imagery and painted a wider scene, including sky, sea, and atmosphere.",
+"B": "They focused more narrowly on palm trees and other conventional island symbols to stay on topic.",
+"C": "They avoided environmental details altogether and wrote only about the shipwreck’s technical causes.",
+"D": "They wrote less vividly but compensated by inserting more direct quotations from the play."
+},
+"answer": "A",
+"explanation": "解析：原文明确对比：控制组依赖“desert island clichés（如棕榈树）”，目标组则“更为铺陈，呈现天空、海洋与气候氛围”。B与原文相反；C/D均为无中生有的细节拼接，且D违背“更复杂、更长”的总体结论。"
+}
+]
+},
+{
+"title": "Science and Net-Zero: Cutting Research or Building Sustainable Computing?",
+"content": "I was shocked to learn recently that some scientists want to scale back their research in an effort to decrease carbon emissions. The crisis is here, they said, and we need to cut back on our energy-intensive modelling. At the very least, we need to make our energy use far more sustainable.\n\nIt is unarguable that our laboratories, scientific instruments, rockets and satellites—the tools we scientists need to measure the planet’s pulse—demand significant amounts of energy both in their construction and operation. And it is equally true that science’s unrelenting appetite for information has caused a mushrooming of energy-intensive data centres around the world. According to the International Energy Agency, these buildings now consume about 1 percent of the world’s electricity.\n\nIf the world is to meet its net-zero ambitions, we must think hard about how we can deliver sustainable computing and deliver more LUMIs. Every day, scientists, technologists and engineers are discovering new ways to exploit renewable energy sources and develop techniques not just to use power more intelligently but to power our intelligence. A great example of this is Europe’s largest supercomputer, LUMI in Finland, which is astonishingly carbon-negative. Established in an old paper mill, it is powered by a nearby river and its remote heat warms the people who live in the surrounding town of Kajaani.",
+"questions": [
+{
+"id": 6,
+"prompt": "Which position does the author most strongly imply in response to calls for scaling back scientific research?",
+"options": {
+"A": "Researchers should largely abandon energy-intensive tools because the climate crisis makes them unethical.",
+"B": "Rather than retreating from research, scientists should prioritise making computation and infrastructure markedly cleaner.",
+"C": "Scientific work should be paused until global electricity grids are fully powered by renewables.",
+"D": "Only space-related research should be reduced, since rockets and satellites are uniquely wasteful."
+},
+"answer": "B",
+"explanation": "解析：作者开头用“shocked”表态，对“缩减研究”持反感或质疑；后文转向解决路径：发展可持续计算、建设更多像LUMI一样的系统。A/C/D都走向“停止/大幅削减”的极端立场，且D将范围不合理地限定到航天。"
+},
+{
+"id": 7,
+"prompt": "Which detail is used to quantify the scale of science-related digital infrastructure’s energy footprint?",
+"options": {
+"A": "Rockets and satellites consume the majority of global electricity during launch windows.",
+"B": "Laboratories are responsible for nearly half of the world’s power use due to instrumentation.",
+"C": "Data centres are said to use roughly one hundredth of the world’s electricity supply.",
+"D": "Energy-intensive modelling is estimated to double global emissions within a decade."
+},
+"answer": "C",
+"explanation": "解析：第二段引用国际能源署（IEA）数据，指出数据中心“consume about 1 percent of the world’s electricity”，即约百分之一。A/B/D都是夸张化或无来源的数字改写。"
+},
+{
+"id": 8,
+"prompt": "In the phrase “measure the planet’s pulse,” the word “pulse” most nearly refers to the planet’s ____.",
+"options": {
+"A": "seasonal weather patterns observed at the Earth’s surface",
+"B": "geological vibrations produced by earthquakes and volcanic activity",
+"C": "political mood shifts reflected in public climate debates",
+"D": "overall vital signs, indicating the state and changes of Earth’s systems"
+},
+"answer": "D",
+"explanation": "解析：这里“pulse”是隐喻，用于指代地球系统的“生命体征/运行状态”，与实验室、仪器、卫星等用于观测地球状态的工具相呼应。A/B/C都把“pulse”拉回字面或偏题解释，与语境不符。"
+},
+{
+"id": 9,
+"prompt": "What can be inferred about why LUMI is described as “astonishingly carbon-negative”?",
+"options": {
+"A": "It combines renewable power with heat reuse, turning byproducts into community benefits.",
+"B": "It offsets emissions by purchasing carbon credits from international markets.",
+"C": "It performs fewer calculations than other supercomputers, so it simply consumes less electricity.",
+"D": "It is used only at night, when electricity is always generated from clean sources."
+},
+"answer": "A",
+"explanation": "解析：第三段给出因果链：由河流供电（可再生能源），并将远端余热用于为Kajaani居民供暖，说明其通过清洁供能与余热回收实现更低甚至“负”碳足迹。B/D原文未提；C把“负碳”误读为“算得少”。"
+},
+{
+"id": 10,
+"prompt": "Why does the author mention that LUMI was established in an old paper mill?",
+"options": {
+"A": "To show that paper manufacturing facilities are inherently suited to modelling climate data",
+"B": "To illustrate how repurposed industrial sites can anchor low-carbon computing ecosystems",
+"C": "To argue that supercomputers should be located only in rural towns with small populations",
+"D": "To suggest that historical buildings are better protected from cyberattacks than modern facilities"
+},
+"answer": "B",
+"explanation": "解析：提到“old paper mill”与“nearby river”“heat warms the town”共同构成案例叙事：利用既有工业基础与本地能源/供热体系，打造可持续计算的闭环。A/C/D均把细节推向不合理的单一结论或无关领域。"
+}
+]
+},
+{
+"title": "Streaming’s Unintended Winners: The High-Margin Business of Online Piracy",
+"content": "Ever since taking on Netflix Inc at its own game, old Hollywood has struggled to turn a profit in streaming, with the likes of Disney+, Peacock and Paramount losing billions of dollars each year, sparking concerns that the services will never be as profitable as cable once was. But the age of streaming has been a boon for some unintended winners: pirates that use software to rip a film or television show in seconds from legitimate online video platforms and host the titles on their own, illegitimate services, which rake in about $2 billion annually from ads and subscriptions. With no video production costs, illegal streaming sites have achieved profit margins approaching 90%, according to the Motion Picture Association (MPA), a trade group representing Hollywood studios that’s working to crack down on the thousands of illegal platforms that have cropped up in recent years.\n\nInitially the rise of legitimate online businesses such as Netflix actually helped curb digital piracy, which had largely been based on file uploads. But now piracy involving illegal streaming services as well as file-sharing costs the US economy about $30 billion in lost revenue a year and some 250,000 jobs, estimates the US Chamber of Commerce’s Global Innovation Policy Center. The global impact is about $71 billion annually.\n\n“The people who are stealing our movies and our television shows and operating piracy sites are not mom and pop operations,” says Charles Rivkin, chief executive officer of the MPA. “This is organized crime.” Rivkin joined the MPA in 2017 after the organization failed five years earlier to build consensus between Hollywood and Silicon Valley to win passage of legislation in Congress aimed at stopping online piracy. In 2017 the association formed the Alliance for Creativity and Entertainment (ACE), an enforcement taskforce of about 100 detectives circling the globe to help local authorities arrest streaming pirates.\n\nACE says it’s helped shrink the number of illegal streaming services in North America to 126, from more than 1,400 in 2018, aided in part by the MPA’s support for a 2020 federal law that made large-scale streaming of copyright material a serious crime.\n\nConsulting firm Parks Associates predicts that legitimate US streaming services’ cumulative loss from piracy since 2022 will reach $113 billion in the next two years. “While there is some optimism that emerging countermeasures and best practices may see piracy begin to plateau by 2027, there is no consensus among stakeholders as to when it may begin to decline,” says analyst Steve Hawley.",
+"questions": [
+{
+"id": 11,
+"prompt": "What is the passage mainly concerned with?",
+"options": {
+"A": "Why cable television will inevitably outperform streaming as a business model",
+"B": "How Hollywood studios can raise subscription prices without losing audiences",
+"C": "How piracy has prospered alongside streaming and become a highly profitable, organized enterprise",
+"D": "Why advertising is the only sustainable revenue source for online video platforms"
+},
+"answer": "C",
+"explanation": "解析：文章主线是“流媒体时代的意外赢家是盗版”，强调其高利润（接近90%）、年收入、以及与有组织犯罪和执法行动相关的叙事。A/B/D都只是局部或偏离主题：盈利难题是背景，核心在盗版生态的兴起与治理。"
+},
+{
+"id": 12,
+"prompt": "Which outcome is presented as evidence that enforcement efforts have had measurable impact in North America?",
+"options": {
+"A": "Piracy-related job losses in the US have fallen to near zero since 2020.",
+"B": "Streaming services have returned to cable-level profitability after forming ACE.",
+"C": "Illegal file-upload piracy has been completely eliminated by legitimate platforms.",
+"D": "The count of illegal streaming services dropped to 126 from well over 1,400 within a few years."
+},
+"answer": "D",
+"explanation": "解析：第四段明确给出数量对比：北美非法流媒体服务“to 126, from more than 1,400 in 2018”。A/B/C都是夸大或“完全化”表述，原文没有支持。"
+},
+{
+"id": 13,
+"prompt": "In Paragraph 1, the phrase “rake in” most nearly means ____.",
+"options": {
+"A": "bring in large amounts of money quickly and consistently",
+"B": "pay out revenue reluctantly after heavy financial losses",
+"C": "redistribute income fairly across multiple content producers",
+"D": "record earnings in a way that is difficult for regulators to trace"
+},
+"answer": "A",
+"explanation": "解析：“rake in about $2 billion annually”语境下是“赚进/捞到大量收入”。B与“收入”方向相反；C/D引入“公平分配”“监管追踪”属无依据扩展。"
+},
+{
+"id": 14,
+"prompt": "What can be inferred about the shift in piracy patterns described in the passage?",
+"options": {
+"A": "Piracy has moved away from streaming because file-sharing is now faster than ripping video platforms.",
+"B": "As streaming expanded, piracy adapted from upload-based copying to service-like illegal streaming operations.",
+"C": "Piracy declined permanently once Netflix became widely available, making enforcement largely unnecessary.",
+"D": "Piracy is now driven mainly by individual hobbyists rather than coordinated groups."
+},
+"answer": "B",
+"explanation": "解析：第二段指出早期合法业务兴起曾抑制“基于文件上传”的盗版，但如今“illegal streaming services as well as file-sharing”造成巨大损失；第一段又强调“rip… in seconds… host… illegitimate services”。据此可推断：盗版形态从上传式转向更像“服务化”的非法流媒体运营。A/C/D与“rip in seconds”“organized crime”相矛盾。"
+},
+{
+"id": 15,
+"prompt": "Which description best matches the tone of the final paragraph regarding future piracy trends?",
+"options": {
+"A": "Celebratory, because piracy will soon disappear as a natural consequence of market forces",
+"B": "Dismissive, because forecasts are portrayed as unreliable and not worth considering",
+"C": "Cautiously qualified, noting possible stabilisation but emphasising uncertainty about real decline",
+"D": "Indifferent, because the author treats piracy losses as negligible compared with other issues"
+},
+"answer": "C",
+"explanation": "解析：末段一方面提到“some optimism… plateau by 2027”，另一方面强调“no consensus… when it may begin to decline”，典型的谨慎乐观但不确定的语气。A过度乐观且“soon disappear”不符；B/D均不符合作者对损失规模与治理行动的严肃态度。"
+}
+]
+},
+{
+"title": "When the Medium Fails: Preserving Born-Digital History in an Age of Obsolescence",
+"content": "Visit any antiques store and you’ll encounter artifacts from the past: photographs, letters, a brochure detailing the Sinclair dinosaur exhibit from the 1964-65 World’s Fair, the ephemera of history. Yet these objects aren’t truly ephemeral, because they’re still here, decades, even centuries later. Why? Because they’re tangible.\n\nHave you pondered the life cycle of intangible formats, digital information, given that those who produce these artifacts seldom make provision for their long-term preservation? For millennia, we’ve known what we’ve known due to artifacts that have survived, often despite their original creators’ neglect. The thing itself is the medium that delivers the information. At the time of creation, no attempts were made at intentional preservation, yet analog materials have a chance of surviving and serving as the historical record that biographers, historians, and novelists rely on.\n\nLibraries and archives have traditionally shouldered the responsibility of organization, preservation, and access to information. One of S. R. Ranganathan’s foundational Laws of Library Science is \"Save the time of the reader.\" Thus, librarians digitize the tangible so that researchers the world over can quickly search and access their holdings. The result is an embarrassment of historical riches, which brings its own needle-and-haystack problems.\n\nLibrarians’ innate altruism can act against us when users point to universality of access by holding up a cell phone and saying, \"it’s all in here,\" or noting \"I never have to leave my laptop\" as evidence that libraries are less vital for researchers today. Yet how was that universality of access made possible and, perhaps more importantly, how is it maintained? Who curates what is preserved? When it comes to born-digital information, the terrifying answer can be: if not librarians and archivists, then no one.\n\nDigital information requires a great deal more care than analog. Even when a digital object is preserved, it may only be the carrier that’s saved, not the information itself. As technology advances and a format becomes obsolete, the object is useless. Have you ever stared helplessly at a ZIP disk, thinking: how do I get the files off this? Without constant migration of digital assets, a nightmare about the foreseeable future is what keeps historians up at night: a historical record that abruptly stops when digital replaces analog.\n\nThis phenomenon is frightening because it’s pervasive, from the photos on your phone to the official U.S. federal government publications integral to documenting our republic and informing its electorate. There’s also the horror of sheer volume; we are drowning in a sea of unorganized digital information. Digital objects increase exponentially in a way tangible formats do not. In the 1990s, a family might have had a few hours of home movies documenting three generations. My millennial sister has thousands of hours of video from her two-year-old’s still brief time on this planet with no organizational metadata (i.e., it’s unsearchable). So when it comes to preservation, the situation is akin to bailing that digital sea with a teacup.\n\nFrom a \"historical record\" standpoint, this doesn’t even touch on the issue of authentication, which is increasingly important in an era of deep fakes, manipulation, and after-the-fact revision of primary sources.",
+"questions": [
+{
+"id": 16,
+"prompt": "Which of the following best states the author’s main argument?",
+"options": {
+"A": "Digitisation has made libraries largely unnecessary because most historical sources can now be searched online.",
+"B": "Analog artifacts endure mainly because their creators planned carefully for their preservation.",
+"C": "The chief problem with digital history is that it produces too few records to study meaningfully.",
+"D": "Born-digital information is fragile without continuous curation, making librarians essential to the survival of the historical record."
+},
+"answer": "D",
+"explanation": "解析：文章反复强调“有形物为何能留存”与“数字信息为何更脆弱”，并将关键责任落到图书馆员/档案员的组织、保存与迁移上，甚至指出“如果不是他们，那就没人”。A与作者批判“误以为图书馆不重要”的观点相反；B违背“往往并非有意保存”；C与“数字量爆炸”相反。"
+},
+{
+"id": 17,
+"prompt": "What can be inferred from the author’s discussion of people claiming “it’s all in here” on a phone?",
+"options": {
+"A": "Easy access can mask the invisible labour of selection and maintenance that makes digital collections usable.",
+"B": "Mobile devices are more reliable long-term archives than libraries because they are always personally owned.",
+"C": "Researchers now prefer informal sources, so professional curation is no longer relevant to scholarship.",
+"D": "Libraries digitise materials mainly to reduce their own storage costs rather than to help readers."
+},
+"answer": "A",
+"explanation": "解析：作者指出“普遍可访问性”常被当作图书馆不再重要的证据，但随即追问“如何实现并维持”“谁来策展保存什么”，并给出令人不安的答案：没有馆员/档案员可能就没人维护。这暗示：便捷访问掩盖了背后的组织、选择与持续维护成本。B/C/D都是将作者质疑反向解读或动机臆测。"
+},
+{
+"id": 18,
+"prompt": "In Paragraph 5, the word “carrier” most nearly refers to ____.",
+"options": {
+"A": "the person who transports archival materials between institutions",
+"B": "the physical or file format container that holds data, not necessarily the readable information itself",
+"C": "a publishing company responsible for distributing government documents",
+"D": "a stable internet connection required to download digitised records"
+},
+"answer": "B",
+"explanation": "解析：句子对比“only be the carrier that’s saved, not the information itself”，并紧接“format becomes obsolete… object is useless”，说明carrier指“承载数据的介质/格式容器”，可能被保存但信息因不可读而失效。A/C/D都是常见字面义或关联词拼接，无法解释“格式过时就无用”。"
+},
+{
+"id": 19,
+"prompt": "What point does the ZIP disk example primarily serve to illustrate?",
+"options": {
+"A": "Digital files are safer when stored on rare, proprietary devices that outsiders cannot access easily.",
+"B": "Analog materials decay faster than digital ones because they are exposed to the physical environment.",
+"C": "Without ongoing migration, technological obsolescence can render preserved digital media effectively unreadable.",
+"D": "Most historians prefer physical artifacts because they contain more emotional value than digital records."
+},
+"answer": "C",
+"explanation": "解析：ZIP disk例子紧扣“format becomes obsolete, the object is useless”，强调即便“保存了对象/介质”，也可能因读取技术消失而无法取出信息，因此需要“constant migration”。A把问题说成“安全性”；B与作者“数字更需要照料”相反；D把论证偷换成情感偏好。"
+},
+{
+"id": 20,
+"prompt": "Which word best describes the author’s attitude toward the future of the historical record in a digital age?",
+"options": {
+"A": "Detached",
+"B": "Reassured",
+"C": "Amused",
+"D": "Alarmed"
+},
+"answer": "D",
+"explanation": "解析：作者使用“terrifying answer”“nightmare”“frightening”“horror”等强烈措辞，并担忧“历史记录会在数字取代模拟时突然中断”，语气明显是警惕乃至惊惧。A/B/C都与这种持续的危机表达不匹配。"
+}
+]
+}
+]

@@ -1,0 +1,28 @@
+{
+"id": 1,
+"title": "Pavlopetri: The Submerged City", 
+"content": "Located in the southern Peloponnesian peninsula, Pavlopetri (the modern name of the site) <question_0> as a Neolithic settlement around 3500 B.C. and became an important <question_1> center for Mycenaean Greece (1650-1180 B.C.). This area of the Aegean Sea is <question_2> to earthquakes and tsunamis, which caused the city to <question_3> sink. The slow sea level rise in Mediterranean <question_4> this city around 3000 years ago. For millennia, the city's <question_5> lay unseen below some 13 feet of water. They were <question_6> by a thick layer of sand off the island of Laconia. In recent decades, shifting currents and climate change have <question_7> a natural barrier that protected Pavlopetri. In 1967 a scientific survey of the Peloponnesian coast was gathering data to <question_8> changes in sea levels when British oceanographer Nicholas Flemming first <question_9> the sunken structures. A year later, he returned with a few students to <question_10> the location and map the site. <question_11> the exciting initial finds, the site would lie <question_12> for decades before archaeologists would return. In 2009 archaeologists Chrysanthi Gallou and Jon Henderson <question_13> the excavation of Pavlopetri in <question_14> with the Greek Ministry of Culture. Since the 1960s, underwater archaeology techniques and tools had made huge <question_15>. The team <question_16> robotics, sonar mapping, and state-of-the-art graphics to survey the site. From 2009 to 2013 they were able to bring the underwater town to <question_17>. <question_18> about two and a half acres, Pavlopetri's three main roads crossed some 50 rectangular buildings, all of which had open courtyards. Excavations <question_19> a large number of Minoan-style loom weights, suggesting Pavlopetri was a thriving trade center with a robust textile industry.",
+"options": [ 
+{ "A": "originated", "B": "emerged", "C": "commenced", "D": "appeared" }, 
+{ "A": "trading", "B": "commercial", "C": "merchant", "D": "business" }, 
+{ "A": "subject", "B": "vulnerable", "C": "liable", "D": "prone" }, 
+{ "A": "abruptly", "B": "gradually", "C": "eventually", "D": "consequently" }, 
+{ "A": "drowned", "B": "immersed", "C": "submerged", "D": "engulfed" }, 
+{ "A": "debris", "B": "remains", "C": "residues", "D": "relics" }, 
+{ "A": "buried", "B": "coated", "C": "blanketed", "D": "covered" }, 
+{ "A": "corroded", "B": "worn", "C": "eroded", "D": "weathered" }, 
+{ "A": "monitor", "B": "assess", "C": "analyze", "D": "interpret" }, 
+{ "A": "identified", "B": "perceived", "C": "spotted", "D": "detected" }, 
+{ "A": "inspect", "B": "examine", "C": "investigate", "D": "explore" }, 
+{ "A": "Despite", "B": "Albeit", "C": "While", "D": "Notwithstanding" }, 
+{ "A": "neglected", "B": "intact", "C": "undisturbed", "D": "isolated" }, 
+{ "A": "proceeded", "B": "resumed", "C": "restored", "D": "renewed" }, 
+{ "A": "collaboration", "B": "junction", "C": "connection", "D": "cooperation" }, 
+{ "A": "strides", "B": "processions", "C": "advances", "D": "headway" }, 
+{ "A": "exploited", "B": "employed", "C": "utilized", "D": "applied" },
+{ "A": "light", "B": "sight", "C": "view", "D": "reality" }, 
+{ "A": "Spanning", "B": "Covering", "C": "Encompassing", "D": "Occupying" }, 
+{ "A": "revealed", "B": "displayed", "C": "exposed", "D": "unveiled" }
+], 
+"answers": [ "B", "A", "D", "B", "C", "B", "D", "C", "C", "C", "B", "A", "C", "B", "D", "C", "B", "A", "B", "A" ] 
+}

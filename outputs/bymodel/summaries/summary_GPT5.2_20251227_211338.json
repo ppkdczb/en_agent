@@ -1,0 +1,117 @@
+{
+  "generated_at": "20251227_211338",
+  "source_settings": {
+    "target": "考研英语",
+    "language": "English",
+    "llm_enabled": true,
+    "model_provider": "openai",
+    "judge_model_version": "deepseek-chat"
+  },
+  "counts": {
+    "cloze": 1,
+    "reading": 4,
+    "total": 5
+  },
+  "overall": {
+    "cloze_avg_score": 82.0,
+    "reading_avg_score": 85.6,
+    "cloze_avg_aspect_scores": {
+      "coherence": 8.0,
+      "difficulty": 8.0,
+      "language": 9.0,
+      "option_setting": 8.0,
+      "question_quality": 7.0
+    },
+    "reading_avg_aspect_scores": {
+      "difficulty": 7.5,
+      "grounding": 9.25,
+      "language": 9.0,
+      "option_setting": 8.5,
+      "question_quality": 8.75
+    },
+    "cloze_avg_ai_accuracy": 1.0,
+    "reading_avg_ai_accuracy": 1.0
+  },
+  "per_passage": [
+    {
+      "type": "cloze",
+      "source": "data/clozetest/GPT5.2_ClozeTest.json",
+      "name": "id=1",
+      "score": 82.0,
+      "aspect_scores": {
+        "option_setting": 8.0,
+        "question_quality": 7.0,
+        "difficulty": 8.0,
+        "language": 9.0,
+        "coherence": 8.0
+      },
+      "ai_accuracy": 1.0,
+      "ai_correct": 20,
+      "ai_total": 20
+    },
+    {
+      "type": "reading",
+      "source": "data/readintask/GPT5.2_ReadingComprehension.json",
+      "name": "Acting Shakespeare: A “Rehearsal Room” Approach in Primary Schools",
+      "score": 84.4,
+      "aspect_scores": {
+        "option_setting": 9.0,
+        "question_quality": 8.0,
+        "grounding": 9.0,
+        "difficulty": 7.0,
+        "language": 9.0
+      },
+      "ai_accuracy": 1.0,
+      "ai_correct": 5,
+      "ai_total": 5
+    },
+    {
+      "type": "reading",
+      "source": "data/readintask/GPT5.2_ReadingComprehension.json",
+      "name": "Science and Net-Zero: Cutting Research or Building Sustainable Computing?",
+      "score": 84.4,
+      "aspect_scores": {
+        "option_setting": 8.0,
+        "question_quality": 9.0,
+        "grounding": 9.0,
+        "difficulty": 7.0,
+        "language": 9.0
+      },
+      "ai_accuracy": 1.0,
+      "ai_correct": 5,
+      "ai_total": 5
+    },
+    {
+      "type": "reading",
+      "source": "data/readintask/GPT5.2_ReadingComprehension.json",
+      "name": "Streaming’s Unintended Winners: The High-Margin Business of Online Piracy",
+      "score": 88.0,
+      "aspect_scores": {
+        "option_setting": 9.0,
+        "question_quality": 9.0,
+        "grounding": 10.0,
+        "difficulty": 8.0,
+        "language": 9.0
+      },
+      "ai_accuracy": 1.0,
+      "ai_correct": 5,
+      "ai_total": 5
+    },
+    {
+      "type": "reading",
+      "source": "data/readintask/GPT5.2_ReadingComprehension.json",
+      "name": "When the Medium Fails: Preserving Born-Digital History in an Age of Obsolescence",
+      "score": 85.6,
+      "aspect_scores": {
+        "option_setting": 8.0,
+        "question_quality": 9.0,
+        "grounding": 9.0,
+        "difficulty": 8.0,
+        "language": 9.0
+      },
+      "ai_accuracy": 1.0,
+      "ai_correct": 5,
+      "ai_total": 5
+    }
+  ]
+}

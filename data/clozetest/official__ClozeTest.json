@@ -1,0 +1,27 @@
+{
+"id": 1,
+"content": "Located in the southern Peloponnesian peninsula, Pavlopetri (the modern name of the site) emerged as a Neolithic settlement around 3500 B.C. and became an important trading center for Mycenaean Greece (1650-1180 B.C.). This area of the Aegean Sea is <question_0> to earthquakes and tsunamis, which caused the city to <question_1> sink. The slow sea level rise in Mediterranean <question_2> this city around 3000 years ago.\n\nFor millennia, the city's <question_3> lay unseen below some 13 feet of water. They were covered by a thick layer of sand <question_4> the island of Laconia. In recent decades, shifting <question_5> and climate change have eroded a natural barrier that <question_6> Pavlopetri. In 1967 a scientific survey of the Peloponnesian coast was <question_7> data to analyze changes in sea levels <question_8> British oceanographer Nicholas Flemming first spotted the sunken <question_9>. A year later, he returned with a few students to <question_10> the location and map the site. <question_11> the exciting initial finds, the site would lie <question_12> for decades before archaeologists would return.\n\nIn 2009 archaeologists Chrysanthi Gallou and Jon Henderson <question_13> the excavation of Pavlopetri in cooperation with the Greek Ministry of Culture. Since the 1960s, underwater archaeology <question_14> and tools had made huge advances. The team <question_15> robotics, sonar mapping, and state-of-the-art graphics to survey the site. From 2009 to 2013 they were able to bring the underwater town to <question_16>. Covering about two and a half acres, Pavlopetri's three main roads <question_17> some 50 rectangular buildings, all of which had open courtyards. Excavations revealed a large number of Minoan-style loom weights, <question_18> Pavlopetri was a thriving trade center with a <question_19> textile industry.",
+"options": [
+{ "A": "relevant", "B": "prone", "C": "available", "D": "alien" },
+{ "A": "accidentally", "B": "frequently", "C": "gradually", "D": "temporarily" },
+{ "A": "disguised", "B": "submerged", "C": "relocated", "D": "isolated" },
+{ "A": "legends", "B": "programs", "C": "remains", "D": "surroundings" },
+{ "A": "across", "B": "off", "C": "under", "D": "via" },
+{ "A": "currents", "B": "rivers", "C": "seasons", "D": "winds" },
+{ "A": "elevated", "B": "separated", "C": "comprised", "D": "protected" },
+{ "A": "gathering", "B": "restoring", "C": "updating", "D": "supplying" },
+{ "A": "when", "B": "until", "C": "after", "D": "once" },
+{ "A": "belongings", "B": "resources", "C": "products", "D": "structures" },
+{ "A": "preserve", "B": "select", "C": "display", "D": "examine" },
+{ "A": "Despite", "B": "Unlike", "C": "Besides", "D": "Among" },
+{ "A": "unchallenged", "B": "unknown", "C": "unorganized", "D": "undisturbed" },
+{ "A": "suspended", "B": "transferred", "C": "resumed", "D": "canceled" },
+{ "A": "policies", "B": "theories", "C": "documents", "D": "techniques" },
+{ "A": "ordered", "B": "provided", "C": "employed", "D": "adjusted" },
+{ "A": "effect", "B": "light", "C": "reality", "D": "mind" },
+{ "A": "crossed", "B": "connected", "C": "blocked", "D": "altered" },
+{ "A": "expecting", "B": "suggesting", "C": "predicting", "D": "recalling" },
+{ "A": "robust", "B": "diverse", "C": "marginal", "D": "dependent" }
+],
+"answers": ["B", "C", "B", "C", "B", "A", "D", "A", "A", "D", "D", "A", "D", "C", "D", "C", "B", "B", "B", "A"]
+}

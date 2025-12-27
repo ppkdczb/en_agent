@@ -1,0 +1,27 @@
+{
+"id": 1,
+"content": "Located in the southern Peloponnesian peninsula, Pavlopetri (the modern name of the site) <question_0> as a Neolithic settlement around 3500 B.C. and became an important trading center for Mycenaean Greece (1650-1180 B.C.). This area of the Aegean Sea is <question_1> to earthquakes and tsunamis, which caused the city to gradually sink. The slow sea level rise in Mediterranean submerged this city <question_2> 3000 years ago. For millennia, the city's remains lay unseen <question_3> some 13 feet of water. They were covered by a thick layer of sand off the island of Laconia. In recent decades, <question_4> currents and climate change have eroded a natural barrier that protected Pavlopetri. In 1967 a scientific survey of the Peloponnesian coast was gathering data to <question_5> changes in sea levels when British oceanographer Nicholas Flemming first spotted the sunken structures. A year later, he <question_6> with a few students to examine the location and map the site. <question_7> the exciting initial finds, the site would lie undisturbed for decades before archaeologists would return. In 2009 archaeologists Chrysanthi Gallou and Jon Henderson resumed the excavation of Pavlopetri <question_8> with the Greek Ministry of Culture. Since the 1960s, underwater archaeology techniques and tools had made huge <question_9>. The team employed robotics, sonar mapping, and <question_10> graphics to survey the site. From 2009 to 2013 they were able to bring the underwater town to light. <question_11> about two and a half acres, Pavlopetri's three main roads crossed some 50 rectangular buildings, all of which had open courtyards. Excavations <question_12> a large number of Minoan-style loom weights, suggesting Pavlopetri was a thriving trade center with a <question_13> textile industry. This discovery <question_14> our understanding of trade networks. It <question_15> that Pavlopetri was a <question_16> hub connecting different cultures. However, the city's <question_17> underwater has also made it uniquely <question_18> to erosion. <question_19>, ongoing conservation efforts are crucial to preserve this invaluable site for future study.",
+"options": [
+{"A": "appeared", "B": "arose", "C": "emerged", "D": "originated"},
+{"A": "vulnerable", "B": "susceptible", "C": "prone", "D": "liable"},
+{"A": "approximately", "B": "nearly", "C": "around", "D": "almost"},
+{"A": "below", "B": "beneath", "C": "under", "D": "underneath"},
+{"A": "shifting", "B": "changing", "C": "drifting", "D": "varying"},
+{"A": "investigate", "B": "analyze", "C": "determine", "D": "evaluate"},
+{"A": "came", "B": "went", "C": "returned", "D": "revisited"},
+{"A": "Despite", "B": "Although", "C": "Whereas", "D": "Nevertheless"},
+{"A": "on cooperation", "B": "in cooperation", "C": "with cooperation", "D": "for cooperation"},
+{"A": "advances", "B": "progresses", "C": "developments", "D": "breakthroughs"},
+{"A": "state-of-the-art", "B": "advanced", "C": "sophisticated", "D": "cutting-edge"},
+{"A": "Covering", "B": "Enclosing", "C": "Occupying", "D": "Spanning"},
+{"A": "revealed", "B": "displayed", "C": "exhibited", "D": "presented"},
+{"A": "robust", "B": "strong", "C": "healthy", "D": "vigorous"},
+{"A": "extends", "B": "enhances", "C": "amplifies", "D": "expands"},
+{"A": "indicates", "B": "implies", "C": "suggests", "D": "shows"},
+{"A": "critical", "B": "pivotal", "C": "central", "D": "key"},
+{"A": "location", "B": "situation", "C": "position", "D": "placement"},
+{"A": "vulnerable", "B": "fragile", "C": "sensitive", "D": "exposed"},
+{"A": "Therefore", "B": "Thus", "C": "Consequently", "D": "Hence"}
+],
+"answers": ["D", "C", "C", "B", "A", "B", "C", "A", "B", "A", "A", "A", "A", "A", "D", "C", "D", "A", "D", "C"]
+}

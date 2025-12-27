@@ -1,0 +1,846 @@
+{
+  "generated_at": "20251227_211338",
+  "model": "DeepseekV3.2",
+  "settings": {
+    "target": "考研英语",
+    "language": "English",
+    "llm_enabled": true,
+    "model_provider": "openai",
+    "judge_model_version": "deepseek-chat"
+  },
+  "totals": {
+    "cloze": {
+      "count": 1,
+      "fatal": 0,
+      "warning": 0,
+      "info": 0,
+      "avg_score": 83.19999999999999
+    },
+    "reading": {
+      "count": 4,
+      "fatal": 0,
+      "warning": 0,
+      "info": 0,
+      "avg_score": 85.6
+    }
+  },
+  "items": [
+    {
+      "type": "cloze",
+      "path": "data/clozetest/DeepseekV3.2_ClozeTest.json#0",
+      "source_file": "data/clozetest/DeepseekV3.2_ClozeTest.json",
+      "index_in_file": 0,
+      "id": 1,
+      "score": 83.19999999999999,
+      "rule_issues": [],
+      "rule_stats": {
+        "placeholders_count": 20,
+        "options_count": 20,
+        "answers_count": 20,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": [
+          "D",
+          "C",
+          "C",
+          "B",
+          "A",
+          "C",
+          "C",
+          "A",
+          "B",
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "D",
+          "C",
+          "D",
+          "A",
+          "D",
+          "C"
+        ],
+        "confidence": [
+          0.9,
+          0.8,
+          0.95,
+          0.9,
+          0.7,
+          0.6,
+          0.85,
+          0.9,
+          0.95,
+          0.9,
+          0.85,
+          0.9,
+          0.95,
+          0.8,
+          0.75,
+          0.9,
+          0.8,
+          0.9,
+          0.8,
+          0.9
+        ],
+        "answer_mismatch_indices": [
+          5
+        ],
+        "overall_scores": {
+          "option_setting": 8,
+          "question_quality": 7,
+          "difficulty": 8,
+          "language": 9,
+          "coherence": 9
+        },
+        "overall_score": 82.0,
+        "per_blank": [
+          {
+            "index": 0,
+            "predicted": "D",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'Originated' fits well for a settlement's beginning. 'Emerged' is also plausible but less precise historically."
+          },
+          {
+            "index": 1,
+            "predicted": "C",
+            "confidence": 0.8,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "'Prone to' is a common collocation for natural disasters. 'Susceptible' and 'vulnerable' are also strong candidates, making this a good test of nuance."
+          },
+          {
+            "index": 2,
+            "predicted": "C",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 5,
+              "blank_quality": 9,
+              "difficulty": 4,
+              "clarity": 9
+            },
+            "notes": "Options are near-synonyms for approximation. 'Around' is the most natural and common choice here. Distinction is minimal."
+          },
+          {
+            "index": 3,
+            "predicted": "B",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'Beneath' is formal and precise for being covered by water. 'Under' is acceptable but less formal. Good distinction."
+          },
+          {
+            "index": 4,
+            "predicted": "A",
+            "confidence": 0.7,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 6,
+              "blank_quality": 7,
+              "difficulty": 8,
+              "clarity": 7
+            },
+            "notes": "'Shifting currents' is a standard phrase. 'Changing' is possible but less idiomatic for ocean currents. Slight ambiguity."
+          },
+          {
+            "index": 5,
+            "predicted": "C",
+            "confidence": 0.6,
+            "matches_provided": false,
+            "scores": {
+              "option_quality": 6,
+              "blank_quality": 6,
+              "difficulty": 9,
+              "clarity": 6
+            },
+            "notes": "Provided answer 'B' (analyze) is possible, but 'C' (determine) fits the context of gathering data to 'find out' or 'establish' changes better. 'Investigate' (A) is also strong. This is a point of legitimate debate, reducing clarity."
+          },
+          {
+            "index": 6,
+            "predicted": "C",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'Returned' logically follows from 'first spotted' in the previous sentence. 'Revisited' (D) is also logical but less common in simple past narrative."
+          },
+          {
+            "index": 7,
+            "predicted": "A",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "'Despite' is correct to introduce a noun phrase ('the exciting initial finds'). 'Although' would require a clause. Excellent test of grammar."
+          },
+          {
+            "index": 8,
+            "predicted": "B",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 10,
+              "blank_quality": 10,
+              "difficulty": 8,
+              "clarity": 10
+            },
+            "notes": "'In cooperation with' is the fixed prepositional phrase. A clear and useful test of collocation."
+          },
+          {
+            "index": 9,
+            "predicted": "A",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'Made huge advances' is a standard collocation. 'Progress' is uncountable, so 'progresses' (B) is incorrect. Good distractor."
+          },
+          {
+            "index": 10,
+            "predicted": "A",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "'State-of-the-art graphics' is a common phrase. All options are plausible, testing knowledge of the most idiomatic compound adjective."
+          },
+          {
+            "index": 11,
+            "predicted": "A",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'Covering an area of...' is the standard expression for describing the size of a site. Other options are less fitting."
+          },
+          {
+            "index": 12,
+            "predicted": "A",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "'Revealed' is the best fit for discoveries made through excavation. Others imply a more active showing."
+          },
+          {
+            "index": 13,
+            "predicted": "A",
+            "confidence": 0.8,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "'Robust industry' is a common collocation in economic/archaeological contexts. 'Strong' is also acceptable, making this a good test of nuance."
+          },
+          {
+            "index": 14,
+            "predicted": "D",
+            "confidence": 0.75,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "blank_quality": 7,
+              "difficulty": 9,
+              "clarity": 7
+            },
+            "notes": "'Expands our understanding' is the most idiomatic. 'Enhances' (B) is also very common. This is a high-difficulty, nuanced choice."
+          },
+          {
+            "index": 15,
+            "predicted": "C",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'Suggests' is appropriate for evidence-based inference. 'Indicates' and 'shows' are stronger; 'implies' is more indirect. Good distinction."
+          },
+          {
+            "index": 16,
+            "predicted": "D",
+            "confidence": 0.8,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "'Key hub' is a common and fitting phrase. 'Central' and 'pivotal' are also excellent choices, testing near-synonyms in context."
+          },
+          {
+            "index": 17,
+            "predicted": "A",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'Location' is the general, correct term. 'Situation' is more about circumstances, 'position' is more specific. Clear."
+          },
+          {
+            "index": 18,
+            "predicted": "D",
+            "confidence": 0.8,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "'Exposed to erosion' is a precise collocation. 'Vulnerable to' is also very common. Good test of adjective-preposition pairing."
+          },
+          {
+            "index": 19,
+            "predicted": "C",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "'Consequently' is a formal adverb showing result. All options (Therefore, Thus, Hence) are synonyms, but 'Consequently' is often used in academic writing for direct cause-effect."
+          }
+        ],
+        "fatal_issues": [
+          "Blank 5 (index 5) has significant ambiguity. 'Analyze changes' (provided answer B) and 'determine changes' (predicted answer C) are both semantically valid in the context of a scientific survey. 'Investigate changes' (A) is also plausible. This lack of a single clearly best answer is a major flaw for a high-stakes test item."
+        ],
+        "improvements": [
+          "Revise blank 5: Provide clearer context to necessitate one specific verb. For example, change the clause to '...was gathering data to [blank] the precise rate of sea level changes...' This would make 'determine' the unambiguous best fit.",
+          "Consider simplifying the options for blank 2 (approximately/nearly/around/almost). The distinction is very subtle and may test translation more than actual English proficiency.",
+          "For blank 14 (expands/enhances/amplifies), while a good test, the provided answer 'D' (expands) could be reinforced by a slight wording change, e.g., '...broadens and [blank]s our understanding...' to more strongly pair with 'expands'."
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/DeepseekV3.2_ReadingComprehension.json#0",
+      "source_file": "data/readintask/DeepseekV3.2_ReadingComprehension.json",
+      "index_in_file": 0,
+      "title": "Shakespeare's Boost to Children's Literacy",
+      "score": 84.4,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 424,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": {
+          "1": "C",
+          "2": "C",
+          "3": "B",
+          "4": "B",
+          "5": "B"
+        },
+        "confidence": {
+          "1": 0.95,
+          "2": 0.9,
+          "3": 0.95,
+          "4": 0.85,
+          "5": 0.9
+        },
+        "answer_mismatch_ids": [],
+        "overall_scores": {
+          "option_setting": 8,
+          "question_quality": 9,
+          "grounding": 9,
+          "difficulty": 7,
+          "language": 9
+        },
+        "overall_score": 84.0,
+        "per_question": [
+          {
+            "id": 1,
+            "predicted": "C",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 9,
+              "grounding": 9,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "Directly supported by passage: 'randomised control trial... split into target and control groups.' Distractors are plausible but contradicted."
+          },
+          {
+            "id": 2,
+            "predicted": "C",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 8,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Inference question well-grounded: passage states control pupils 'imagine how they themselves would react.' Option C captures this precisely."
+          },
+          {
+            "id": 3,
+            "predicted": "B",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 9,
+              "grounding": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Directly supported by O'Hanlon's quote: 'part of what you do in drama is put yourself in different shoes' and 'using their whole bodies to bring words to life.'"
+          },
+          {
+            "id": 4,
+            "predicted": "B",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "question_quality": 8,
+              "grounding": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "Context clue: 'giving a broader picture of the sky, the sea and the atmospheric conditions' supports 'covering a wide scope.' Other options are less fitting."
+          },
+          {
+            "id": 5,
+            "predicted": "B",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 9,
+              "grounding": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Main purpose is clearly to report research findings on the 'rehearsal room' approach. Passage does not advocate extreme measures (C) or focus on criticism (A)."
+          }
+        ],
+        "fatal_issues": [],
+        "improvements": [
+          "For Q4, consider adding a more challenging distractor related to 'expansive' in emotional contexts. 2. Option D in Q1 could be slightly more plausible by mentioning 'vocabulary size' as one measured outcome (though passage mentions broader measures). 3. Overall difficulty is moderate",
+          "could increase by adding one inference question requiring synthesis of multiple details."
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/DeepseekV3.2_ReadingComprehension.json#1",
+      "source_file": "data/readintask/DeepseekV3.2_ReadingComprehension.json",
+      "index_in_file": 1,
+      "title": "The Carbon Footprint of Science",
+      "score": 88.0,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 228,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": {
+          "6": "C",
+          "7": "B",
+          "8": "B",
+          "9": "B",
+          "10": "B"
+        },
+        "confidence": {
+          "6": 0.95,
+          "7": 1.0,
+          "8": 0.98,
+          "9": 0.97,
+          "10": 0.96
+        },
+        "answer_mismatch_ids": [],
+        "overall_scores": {
+          "option_setting": 9,
+          "question_quality": 9,
+          "grounding": 10,
+          "difficulty": 8,
+          "language": 9
+        },
+        "overall_score": 90.0,
+        "per_question": [
+          {
+            "id": 6,
+            "predicted": "C",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 9,
+              "grounding": 10,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Directly grounded in 'I was shocked' (first sentence). All options are plausible but C is clearly correct."
+          },
+          {
+            "id": 7,
+            "predicted": "B",
+            "confidence": 1.0,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 10,
+              "question_quality": 10,
+              "grounding": 10,
+              "difficulty": 6,
+              "clarity": 10
+            },
+            "notes": "Perfectly matches 'unarguable that our laboratories... demand significant amounts of energy.' Other options are contradicted or unsupported."
+          },
+          {
+            "id": 8,
+            "predicted": "B",
+            "confidence": 0.98,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 9,
+              "grounding": 10,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Standard vocabulary-in-context question. 'Mushrooming' clearly means rapid growth in this context about data centers."
+          },
+          {
+            "id": 9,
+            "predicted": "B",
+            "confidence": 0.97,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 9,
+              "grounding": 10,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "Requires inference from details about LUMI: carbon-negative, powered by river, heats town. Best matches B. A is too specific (primary purpose not stated). C and D are contradicted/unsupported."
+          },
+          {
+            "id": 10,
+            "predicted": "B",
+            "confidence": 0.96,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 9,
+              "grounding": 10,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "Overall stance is optimistic: acknowledges problem but highlights solutions like LUMI and 'new ways to exploit renewable energy.'"
+          }
+        ],
+        "fatal_issues": [],
+        "improvements": [
+          "Question 6: Option D ('Complete indifference') is too extreme given the passage's tone",
+          "could be refined to be more plausible. 2. Question 9: Option A could be slightly more tempting by mentioning 'climate' (though passage doesn't specify LUMI's purpose)",
+          "ensure all distractors are fully unsupported. 3. Consider adding one slightly more challenging inference question beyond vocabulary to increase difficulty spread."
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/DeepseekV3.2_ReadingComprehension.json#2",
+      "source_file": "data/readintask/DeepseekV3.2_ReadingComprehension.json",
+      "index_in_file": 2,
+      "title": "The Unintended Winners of the Streaming Wars",
+      "score": 84.4,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 405,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": {
+          "11": "C",
+          "12": "A",
+          "13": "B",
+          "14": "C",
+          "15": "A"
+        },
+        "confidence": {
+          "11": 0.95,
+          "12": 0.9,
+          "13": 0.98,
+          "14": 0.92,
+          "15": 0.88
+        },
+        "answer_mismatch_ids": [],
+        "overall_scores": {
+          "option_setting": 9,
+          "question_quality": 8,
+          "grounding": 9,
+          "difficulty": 7,
+          "language": 9
+        },
+        "overall_score": 84.0,
+        "per_question": [
+          {
+            "id": 11,
+            "predicted": "C",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 8,
+              "grounding": 10,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "Directly supported by first paragraph contrast between streamer losses and pirate profits."
+          },
+          {
+            "id": 12,
+            "predicted": "A",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 9,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "Inference supported by MPA CEO quote about 'organized crime' and shift from file uploads to streaming services."
+          },
+          {
+            "id": 13,
+            "predicted": "B",
+            "confidence": 0.98,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 7,
+              "grounding": 10,
+              "difficulty": 5,
+              "clarity": 10
+            },
+            "notes": "Standard vocabulary question; context clearly indicates positive outcome for pirates."
+          },
+          {
+            "id": 14,
+            "predicted": "C",
+            "confidence": 0.92,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Supported by mention of 2020 federal law and ACE enforcement taskforce."
+          },
+          {
+            "id": 15,
+            "predicted": "A",
+            "confidence": 0.88,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 9,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "Tone inference from 'no consensus among stakeholders' and 'may begin to plateau' suggests uncertainty."
+          }
+        ],
+        "fatal_issues": [],
+        "improvements": [
+          "Consider adding one slightly more challenging inference question about the relationship between Hollywood and Silicon Valley mentioned in paragraph 3. 2. Option D for Q12 ('elderly consumers') is weakly plausible but clearly unsupported",
+          "could be replaced with a more plausible distractor. 3. For Q15, the distinction between 'uncertain' and 'cautiously observant' could be sharpened in the options."
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/DeepseekV3.2_ReadingComprehension.json#3",
+      "source_file": "data/readintask/DeepseekV3.2_ReadingComprehension.json",
+      "index_in_file": 3,
+      "title": "The Ephemeral Digital",
+      "score": 85.6,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 544,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": {
+          "16": "C",
+          "17": "B",
+          "18": "C",
+          "19": "C",
+          "20": "B"
+        },
+        "confidence": {
+          "16": 0.95,
+          "17": 0.9,
+          "18": 0.95,
+          "19": 0.98,
+          "20": 0.95
+        },
+        "answer_mismatch_ids": [],
+        "overall_scores": {
+          "option_setting": 8,
+          "question_quality": 9,
+          "grounding": 9,
+          "difficulty": 8,
+          "language": 9
+        },
+        "overall_score": 86.0,
+        "per_question": [
+          {
+            "id": 16,
+            "predicted": "C",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 9,
+              "grounding": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Question directly tests comprehension of the first paragraph's contrast between 'ephemeral' and 'tangible.' All distractors are plausible but not supported by the passage."
+          },
+          {
+            "id": 17,
+            "predicted": "B",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 9,
+              "grounding": 9,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "Phrase interpretation is well-grounded in context ('needle-and-haystack problems'). Option A misinterprets 'embarrassment' and 'riches.' C and D introduce concepts (financial cost, historian embarrassment) not discussed."
+          },
+          {
+            "id": 18,
+            "predicted": "C",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 9,
+              "grounding": 10,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "Answer is a near-direct quote from Paragraph 4: 'if not librarians and archivists, then no one.' Other options introduce external actors (tech companies, governments, users) not mentioned in this context."
+          },
+          {
+            "id": 19,
+            "predicted": "C",
+            "confidence": 0.98,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "question_quality": 7,
+              "grounding": 10,
+              "difficulty": 6,
+              "clarity": 10
+            },
+            "notes": "Standard vocabulary-in-context question. 'Carried' is the clear synonym for 'shouldered' (responsibility). Distractors are reasonable antonyms but too obvious for higher-level test-takers."
+          },
+          {
+            "id": 20,
+            "predicted": "B",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 10,
+              "grounding": 9,
+              "difficulty": 9,
+              "clarity": 9
+            },
+            "notes": "Excellent main-idea synthesis question. Correct option integrates key themes from the passage: scale ('sheer volume,' 'exponentially'), fragility ('requires more care,' 'constant migration'), and lack of stewardship ('if... no one'). Other options are either incorrect (A, C) or too narrow (D)."
+          }
+        ],
+        "fatal_issues": [],
+        "improvements": [
+          "For Q19, consider using a slightly less common synonym or a more nuanced vocabulary item to increase difficulty appropriate for the target exam level. 2. In Q16, option D ('Because they have all been successfully digitized') could be strengthened as a distractor by referencing the passage's discussion of digitization, though it remains clearly incorrect. 3. Ensure all answer keys in future items are perfectly unambiguous",
+          "here they are strong."
+        ]
+      }
+    }
+  ]
+}

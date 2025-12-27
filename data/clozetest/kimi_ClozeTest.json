@@ -1,0 +1,27 @@
+{
+"id": 1,
+"content": "Located in the southern Peloponnesian peninsula, Pavlopetri (the modern name of the site) <question_0> as a Neolithic settlement around 3500 B.C. and became an <question_1> trading center for Mycenaean Greece (1650-1180 B.C.). This area of the Aegean Sea is <question_2> to earthquakes and tsunamis, which caused the city to <question_3> sink. The slow sea level rise in Mediterranean <question_4> this city around 3000 years ago.\n\nFor millennia, the city's remains <question_5> below some 13 feet of water. They were covered by a thick layer of sand off the island of Laconia. In recent decades, shifting currents and climate change have <question_6> a natural barrier that protected Pavlopetri. In 1967 a scientific survey of the Peloponnesian coast was gathering data to analyze changes in sea levels when British oceanographer Nicholas Flemming first <question_7> the sunken structures. A year later, he returned with a few students to examine the location and <question_8> the site. <question_9> the exciting initial finds, the site would lie <question_10> for decades before archaeologists would <question_11>.\n\nIn 2009 archaeologists Chrysanthi Gallou and Jon Henderson <question_12> the excavation of Pavlopetri in cooperation with the Greek Ministry of Culture. Since the 1960s, underwater archaeology techniques and tools had made huge <question_13>. The team <question_14> robotics, sonar mapping, and state-of-the-art graphics to survey the site. From 2009 to 2013 they were able to <question_15> the underwater town to light. <question_16> about two and a half acres, Pavlopetri's three main roads crossed some 50 rectangular buildings, all of which had open courtyards. Excavations revealed a large number of Minoan-style loom weights, <question_17> Pavlopetri was a <question_18> trade center with a <question_19> textile industry.",
+"options": [
+{"A": "emerged", "B": "appeared", "C": "arose", "D": "developed"},
+{"A": "major", "B": "important", "C": "significant", "D": "crucial"},
+{"A": "subject", "B": "vulnerable", "C": "prone", "D": "exposed"},
+{"A": "slowly", "B": "steadily", "C": "eventually", "D": "gradually"},
+{"A": "submerged", "B": "sunk", "C": "drowned", "D": "flooded"},
+{"A": "remained hidden", "B": "lay unseen", "C": "stayed invisible", "D": "kept concealed"},
+{"A": "worn away", "B": "deteriorated", "C": "eroded", "D": "degraded"},
+{"A": "discovered", "B": "identified", "C": "detected", "D": "spotted"},
+{"A": "map", "B": "chart", "C": "sketch", "D": "outline"},
+{"A": "Although", "B": "Despite", "C": "While", "D": "Even with"},
+{"A": "untouched", "B": "unexplored", "C": "undisturbed", "D": "unexcavated"},
+{"A": "revisit", "B": "come back", "C": "resume", "D": "return"},
+{"A": "resumed", "B": "restarted", "C": "renewed", "D": "reopened"},
+{"A": "progress", "B": "advances", "C": "developments", "D": "breakthroughs"},
+{"A": "applied", "B": "utilized", "C": "employed", "D": "deployed"},
+{"A": "reveal", "B": "expose", "C": "uncover", "D": "bring"},
+{"A": "Covering", "B": "Spanning", "C": "Extending", "D": "Comprising"},
+{"A": "indicating", "B": "suggesting", "C": "implying", "D": "proving"},
+{"A": "prosperous", "B": "booming", "C": "thriving", "D": "flourishing"},
+{"A": "strong", "B": "dynamic", "C": "sophisticated", "D": "robust"}
+],
+"answers": ["A", "B", "C", "D", "A", "B", "C", "D", "A", "B", "C", "D", "A", "B", "C", "D", "A", "B", "C", "D"]
+}

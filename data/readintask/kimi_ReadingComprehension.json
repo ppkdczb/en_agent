@@ -1,0 +1,266 @@
+[
+{
+"title": "The Rehearsal Room Revolution",
+"content": "The grammar school boy from Stratford-upon-Avon has landed a scholarly punch after groundbreaking research showed that Shakespeare does benefit children’s literacy and emotional development. But only if you act him out.\n\nA study found that a “rehearsal room” approach to teaching Shakespeare broadened children’s vocabulary and the complexity of their writing as well as their emotional literacy. “The research shows that the way actors work makes a big difference to the way children use language and also how they think about themselves,” Jacqui O’Hanlon of the Royal Shakespeare Company (RSC), which commissioned the study, said.\n\nThe randomised control trial involved hundreds of Year 5 pupils—aged nine and ten—at 45 state primary schools that had not been “previously exposed to RSC pedagogy.” They were split into target and control groups and asked to write, for example, a message in a bottle as Ferdinand after the shipwreck in The Tempest.\n\nThe target group was given a 30-minute drama-based activity to accompany the passage. The peer-reviewed results showed that the target group of pupils drew on a wider vocabulary, used words “classed as more sophisticated or rarer”, and wrote at greater length. They also “appear to be more comfortable writing in role... while [control] pupils imagine how they themselves would react to being shipwrecked, [target] children put themselves in the shoes of a literary character and express that character’s emotion”.\n\nThe Time to Act study also found that while control pupils relied on “desert island clichés” such as palm trees, target pupils were “more expansive giving a broader picture of the sky, the sea and the atmospheric conditions”.\n\nO’Hanlon said she had been most surprised by the “emotional literacy that was evident in the [target] children’s writing” and that they were “more resilient in their writing, more hopeful”. She added: “The emotional understanding was very evident and it is probably related to the [rehearsal room process] where you are used to trying to imagine your way through. They were comfortable in describing different emotional states and part of what you do in drama is put yourself in different shoes”.\n\nThe study showed the importance of embedding arts in education, she said. “But could the results be replicated with any old dramatist?” O’Hanlon said more research would be needed but suggested that Shakespeare’s use of 20,000 words, compared with the everyday 2,000 words, gave a “massive expansion of language into children’s lives”, which was combined with children “using their whole bodies to bring words to life”.",
+"questions": [
+{
+"id": 1,
+"prompt": "What does the research reveal about the writing characteristics of pupils engaged in drama-based Shakespeare study?",
+"options": {
+"A": "They predominantly used phrases like  \"palm trees\" in their compositions.",
+"B": "Their compositions exhibited greater lexical sophistication and length.",
+"C": "They completed the 30-minute activities more quickly than the control group.",
+"D": "They focused exclusively on emotional expression rather than vocabulary."
+},
+"answer": "B",
+"explanation": "The passage states the target group 'drew on a wider vocabulary, used words classed as more sophisticated or rarer, and wrote at greater length.' Option B paraphrases these three points using 'lexical sophistication' and 'length,' while A misattributes control group clichés, C invents a time comparison, and D creates a false dichotomy."
+},
+{
+"id": 2,
+"prompt": "It can be inferred that the rehearsal room approach enhances emotional literacy primarily by:",
+"options": {
+"A": "Exposing children to Shakespeare's extensive 20,000-word vocabulary.",
+"B": "Requiring pupils to write messages in bottles as Ferdinand.",
+"C": "Encouraging experiential empathy through character embodiment.",
+"D": "Eliminating the need for traditional literary analysis."
+},
+"answer": "C",
+"explanation": "The text links emotional literacy to 'putting themselves in the shoes of a literary character' and being 'used to trying to imagine your way through.' Option C captures this causal mechanism through inference, whereas A describes a vocabulary benefit, B cites a single example as the general mechanism, and D makes an unsupported claim about eliminating analysis."
+},
+{
+"id": 3,
+"prompt": "In the phrase 'more resilient in their writing,' 'resilient' most nearly means:",
+"options": {
+"A": "Recovering quickly from writing difficulties.",
+"B": "Maintaining physical endurance during long exercises.",
+"C": "Adapting flexibly to different genres.",
+"D": "Demonstrating perseverance and robustness in creative expression."
+},
+"answer": "D",
+"explanation": "In context, 'resilient' describes writing that is 'more hopeful' and shows 'emotional understanding' and comfort with 'different emotional states.' This suggests creative perseverance, not recovery from failure (A), physical stamina (B), or genre flexibility (C). The contextual meaning pertains to sustained, robust creative effort."
+},
+{
+"id": 4,
+"prompt": "Which statement best captures the central argument of the passage?",
+"options": {
+"A": "Active dramatic interpretation of Shakespeare significantly boosts linguistic and emotional development in children.",
+"B": "The Royal Shakespeare Company should expand its pedagogy to all primary schools.",
+"C": "The Tempest is the most effective Shakespeare play for teaching vocabulary.",
+"D": "Traditional Shakespeare instruction is superior to drama-based methods."
+},
+"answer": "A",
+"explanation": "The entire passage builds the case that 'acting out' Shakespeare (the rehearsal room approach) benefits literacy and emotional development, as evidenced by the study. B overreaches with 'should expand,' C elevates one example to a general claim, and D contradicts the passage's central thesis."
+},
+{
+"id": 5,
+"prompt": "The author's attitude toward integrating arts into education can be best described as:",
+"options": {
+"A": "Skeptical about its practical implementation.",
+"B": "Strongly supportive of its cognitive and emotional benefits.",
+"C": "Neutral and purely reportorial.",
+"D": "Critical of its resource-intensive nature."
+},
+"answer": "B",
+"explanation": "The author presents the research findings as a 'groundbreaking' confirmation of benefits and quotes O’Hanlon on the 'importance of embedding arts in education.' This reflects strong support. A and D introduce skepticism or criticism not present, while C ignores the clearly positive framing."
+}
+]
+},
+{
+"title": "The Carbon Cost of Discovery",
+"content": "I was shocked to learn recently that some scientists want to scale back their research in an effort to decrease carbon emissions. The crisis is here, they said, and we need to cut back on our energy-intensive modelling. At the very least, we need to make our energy use far more sustainable.\n\nIt is unarguable that our laboratories, scientific instruments, rockets and satellites—the tools we scientists need to measure the planet’s pulse—demand significant amounts of energy both in their construction and operation. And it is equally true that science’s unrelenting appetite for information has caused a mushrooming of energy-intensive data centres around the world. According to the International Energy Agency, these buildings now consume about 1 percent of the world’s electricity.\n\nIf the world is to meet its net-zero ambitions, we must think hard about how we can deliver sustainable computing and deliver more LUMIs. Every day, scientists, technologists and engineers are discovering new ways to exploit renewable energy sources and develop techniques not just to use power more intelligently but to power our intelligence. A great example of this is Europe’s largest supercomputer, LUMI in Finland, which is astonishingly carbon-negative. Established in an old paper mill, it is powered by a nearby river and its remote heat warms the people who live in the surrounding town of Kajaani.",
+"questions": [
+{
+"id": 6,
+"prompt": "According to the passage, Europe's LUMI supercomputer achieves carbon negativity through:",
+"options": {
+"A": "Hydroelectric power generation and waste-heat utilization for district heating.",
+"B": "Locating in an abandoned industrial facility to reduce construction emissions.",
+"C": "Processing less data than conventional supercomputers.",
+"D": "Operating exclusively on renewable energy certificates."
+},
+"answer": "A",
+"explanation": "The text specifies LUMI is 'powered by a nearby river' (hydroelectric) and 'its remote heat warms the people...in Kajaani' (waste-heat utilization). B mentions the old paper mill but misattributes its role, C contradicts the concept of a supercomputer, and D introduces an unsupported concept of energy certificates."
+},
+{
+"id": 7,
+"prompt": "The passage implies that scientists advocating research reduction face:",
+"options": {
+"A": "Universal agreement from the scientific community.",
+"B": "A simple solution through complete reliance on renewable energy.",
+"C": "Opposition from renewable energy engineers.",
+"D": "An ethical tension between environmental duty and research necessity."
+},
+"answer": "D",
+"explanation": "The author expresses shock at scaling back research while acknowledging the essential tools needed 'to measure the planet's pulse.' This reveals an inherent conflict between two duties. A overgeneralizes agreement, B oversimplifies the solution, and C introduces unsupported conflict with engineers."
+},
+{
+"id": 8,
+"prompt": "In the context of the passage, 'mushrooming' most nearly means:",
+"options": {
+"A": "Poisonous expansion threatening sustainability.",
+"B": "Organic growth in harmony with nature.",
+"C": "Rapid proliferation across global locations.",
+"D": "Underground development hidden from public view."
+},
+"answer": "C",
+"explanation": "'Mushrooming' modifies 'energy-intensive data centres' and describes their rapid increase worldwide. The metaphor suggests explosive growth, not literal toxicity (A), ecological harmony (B), or hidden development (D). The contextual meaning is rapid, widespread expansion."
+},
+{
+"id": 9,
+"prompt": "The passage primarily discusses:",
+"options": {
+"A": "The superiority of Finnish supercomputing technology.",
+"B": "The conflict between scientific research demands and environmental sustainability.",
+"C": "The inevitability of scaling back climate research.",
+"D": "The energy consumption of individual laboratory equipment."
+},
+"answer": "B",
+"explanation": "The passage frames the core issue as balancing research energy needs with net-zero ambitions, using LUMI as one solution. A focuses too narrowly on one example, C contradicts the solution-oriented conclusion, and D addresses only a minor detail rather than the systemic conflict."
+},
+{
+"id": 10,
+"prompt": "The author's view on proposals to cut back scientific research is:",
+"options": {
+"A": "Concerned but solution-oriented, favoring sustainable innovation over reduction.",
+"B": "Fully supportive, agreeing that research must be curtailed.",
+"C": "Dismissive, believing the environmental crisis is exaggerated.",
+"D": "Indifferent, presenting facts without personal stance."
+},
+"answer": "A",
+"explanation": "The author is 'shocked' by cutback proposals but immediately pivots to sustainable solutions like LUMI, advocating for 'more LUMIs.' This reflects concern with solution-focus. B misreads 'shocked' as support, C contradicts acknowledging the crisis, and D ignores the clear evaluative language."
+}
+]
+},
+{
+"title": "Streaming's Pirate Profiteers",
+"content": "Ever since taking on Netflix Inc at its own game, old Hollywood has struggled to turn a profit in streaming, with the likes of Disney+, Peacock and Paramount losing billions of dollars each year, sparking concerns that the services will never be as profitable as cable once was. But the age of streaming has been a boon for some unintended winners: pirates that use software to rip a film or television show in seconds from legitimate online video platforms and host the titles on their own, illegitimate services, which rake in about $2 billion annually from ads and subscriptions. With no video production costs, illegal streaming sites have achieved profit margins approaching 90%, according to the Motion Picture Association (MPA), a trade group representing Hollywood studios that’s working to crack down on the thousands of illegal platforms that have cropped up in recent years.\n\nInitially the rise of legitimate online businesses such as Netflix actually helped curb digital piracy, which had largely been based on file uploads. But now piracy involving illegal streaming services as well as file-sharing costs the US economy about $30 billion in lost revenue a year and some 250,000 jobs, estimates the US Chamber of Commerce’s Global Innovation Policy Center. The global impact is about $71 billion annually.\n\n“The people who are stealing our movies and our television shows and operating piracy sites are not mom and pop operations,” says Charles Rivkin, chief executive officer of the MPA. “This is organized crime.” Rivkin joined the MPA in 2017 after the organization failed five years earlier to build consensus between Hollywood and Silicon Valley to win passage of legislation in Congress aimed at stopping online piracy. In 2017 the association formed the Alliance for Creativity and Entertainment (ACE), an enforcement taskforce of about 100 detectives circling the globe to help local authorities arrest streaming pirates.\n\nACE says it’s helped shrink the number of illegal streaming services in North America to 126, from more than 1,400 in 2018, aided in part by the MPA’s support for a 2020 federal law that made large-scale streaming of copyright material a serious crime.\n\nConsulting firm Parks Associates predicts that legitimate US streaming services’ cumulative loss from piracy since 2022 will reach $113 billion in the next two years. “While there is some optimism that emerging countermeasures and best practices may see piracy begin to plateau by 2027, there is no consensus among stakeholders as to when it may begin to decline,” says analyst Steve Hawley.",
+"questions": [
+{
+"id": 11,
+"prompt": "The Motion Picture Association's enforcement taskforce has:",
+"options": {
+"A": "Increased illegal streaming sites' profit margins to 95%.",
+"B": "Generated $2 billion in annual revenue from anti-piracy efforts.",
+"C": "Reduced North American piracy platforms by approximately 91% since 2018.",
+"D": "Eliminated all organized crime involvement in digital piracy."
+},
+"answer": "C",
+"explanation": "ACE 'helped shrink the number...to 126, from more than 1,400 in 2018,' representing a ~91% reduction. A misstates profit margin data, B confuses pirate revenue with enforcement income, and D overstates with 'eliminated all.' The correct answer paraphrases the statistical achievement."
+},
+{
+"id": 12,
+"prompt": "The passage suggests that illegal streaming services thrive because:",
+"options": {
+"A": "Hollywood studios secretly support their operations.",
+"B": "Consumers are unwilling to pay for legitimate content.",
+"C": "Anti-piracy legislation remains ineffective.",
+"D": "Their minimal overhead costs enable profit margins unattainable for legal services."
+},
+"answer": "D",
+"explanation": "The text emphasizes pirates have 'no video production costs' and 'profit margins approaching 90%,' contrasting with legitimate services 'losing billions.' This implies structural cost advantages. A invents studio complicity, B overgeneralizes consumer behavior, and C contradicts the law's described impact."
+},
+{
+"id": 13,
+"prompt": "In the phrase 'rake in about $2 billion,' 'rake in' most nearly means:",
+"options": {
+"A": "Collect slowly through incremental gains.",
+"B": "Amass substantial profits, often illicitly.",
+"C": "Distribute earnings evenly among stakeholders.",
+"D": "Gather funds for charitable purposes."
+},
+"answer": "B",
+"explanation": "'Rake in' describes pirates accumulating $2 billion from ads and subscriptions, implying easy, large-scale, and illicit gain. The common literal meaning of gathering with a rake is irrelevant here. A's 'slowly' contradicts the connotation, while C and D misinterpret the commercial and illicit context."
+},
+{
+"id": 14,
+"prompt": "Which statement best summarizes the central paradox discussed?",
+"options": {
+"A": "The streaming era has inadvertently enabled highly profitable digital piracy while legitimate services suffer losses.",
+"B": "Netflix has successfully eliminated digital piracy through competitive pricing.",
+"C": "Hollywood studios have agreed to collaborate with Silicon Valley pirates.",
+"D": "Anti-piracy enforcement has completely failed since 2017."
+},
+"answer": "A",
+"explanation": "The core paradox is that legitimate streaming's rise created tools and content that pirates exploit for 90% margins while studios lose billions. B contradicts piracy's growth, C fabricates collaboration, and D ignores ACE's documented success in reducing platforms."
+},
+{
+"id": 15,
+"prompt": "The author's attitude toward digital piracy is best characterized as:",
+"options": {
+"A": "Sympathetic to pirates' entrepreneurial success.",
+"B": "Neutral, merely reporting economic data.",
+"C": "Critical and condemnatory of its organized nature.",
+"D": "Optimistic that piracy will soon decline."
+},
+"answer": "C",
+"explanation": "Framing pirates as 'organized crime' causing billions in losses and job cuts reflects strong condemnation. A misreads profit data as sympathy, B ignores the loaded language like 'stealing,' and D's optimism is attributed to analysts, not the author's stance."
+}
+]
+},
+{
+"title": "The Digital Preservation Dilemma",
+"content": "Visit any antiques store and you’ll encounter artifacts from the past: photographs, letters, a brochure detailing the Sinclair dinosaur exhibit from the 1964-65 World’s Fair, the ephemera of history. Yet these objects aren’t truly ephemeral, because they’re still here, decades, even centuries later. Why? Because they’re tangible.\n\nHave you pondered the life cycle of intangible formats, digital information, given that those who produce these artifacts seldom make provision for their long-term preservation? For millennia, we’ve known what we’ve known due to artifacts that have survived, often despite their original creators’ neglect. The thing itself is the medium that delivers the information. At the time of creation, no attempts were made at intentional preservation, yet analog materials have a chance of surviving and serving as the historical record that biographers, historians, and novelists rely on.\n\nLibraries and archives have traditionally shouldered the responsibility of organization, preservation, and access to information. One of S. R. Ranganathan’s foundational Laws of Library Science is “Save the time of the reader.” Thus, librarians digitize the tangible so that researchers the world over can quickly search and access their holdings. The result is an embarrassment of historical riches, which brings its own needle-and-haystack problems.\n\nLibrarians’ innate altruism can act against us when users point to universality of access by holding up a cell phone and saying, “it’s all in here,” or noting “I never have to leave my laptop” as evidence that libraries are less vital for researchers today. Yet how was that universality of access made possible and, perhaps more importantly, how is it maintained? Who curates what is preserved? When it comes to born-digital information, the terrifying answer can be: if not librarians and archivists, then no one.\n\nDigital information requires a great deal more care than analog. Even when a digital object is preserved, it may only be the carrier that’s saved, not the information itself. As technology advances and a format becomes obsolete, the object is useless. Have you ever stared helplessly at a ZIP disk, thinking: how do I get the files off this? Without constant migration of digital assets, a nightmare about the foreseeable future is what keeps historians up at night: a historical record that abruptly stops when digital replaces analog.\n\nThis phenomenon is frightening because it’s pervasive, from the photos on your phone to the official U.S. federal government publications integral to documenting our republic and informing its electorate. There’s also the horror of sheer volume; we are drowning in a sea of unorganized digital information. Digital objects increase exponentially in a way tangible formats do not. In the 1990s, a family might have had a few hours of home movies documenting three generations. My millennial sister has thousands of hours of video from her two-year-old’s still brief time on this planet with no organizational metadata (i.e., it’s unsearchable). So when it comes to preservation, the situation is akin to bailing that digital sea with a teacup.\n\nFrom a “historical record” standpoint, this doesn’t even touch on the issue of authentication, which is increasingly important in an era of deep fakes, manipulation, and after-the-fact revision of primary sources.",
+"questions": [
+{
+"id": 16,
+"prompt": "The author illustrates the exponential growth of digital information by:",
+"options": {
+"A": "Citing the obsolescence of ZIP disk technology.",
+"B": "Referencing the 1964-65 World's Fair artifacts.",
+"C": "Comparing library digitization costs over decades.",
+"D": "Describing a relative's accumulation of thousands of unsearchable videos."
+},
+"answer": "D",
+"explanation": "The sister's 'thousands of hours of video...with no organizational metadata' exemplifies exponential, uncurated digital accumulation. A addresses obsolescence not volume, B contrasts analog persistence, and C invents a cost comparison not discussed."
+},
+{
+"id": 17,
+"prompt": "The ZIP disk example primarily serves to illustrate:",
+"options": {
+"A": "The superior durability of analog storage formats.",
+"B": "How technological obsolescence threatens permanent information loss.",
+"C": "The need for universal cell phone access to archives.",
+"D": "That personal archives are more valuable than institutional ones."
+},
+"answer": "B",
+"explanation": "Staring 'helplessly at a ZIP disk' demonstrates how format obsolescence renders data inaccessible without constant migration, threatening historical continuity. A misattributes analog durability to digital, C misreads the access point, and D distorts the value comparison."
+},
+{
+"id": 18,
+"prompt": "In the passage, 'ephemeral' refers to something that is:",
+"options": {
+"A": "Transitory and likely to disappear quickly.",
+"B": "Physically fragile and easily damaged.",
+"C": "Historically trivial and unworthy of preservation.",
+"D": "Deliberately destroyed by its creators."
+},
+"answer": "A",
+"explanation": "The passage contrasts 'ephemera of history' that 'aren’t truly ephemeral because they’re still here' with digital formats that actually are transient. The core meaning is transitory existence. The common meaning applies despite the irony about physical objects surviving. B confuses physical fragility with conceptual transience, C adds a value judgment not present, and D introduces intentional destruction."
+},
+{
+"id": 19,
+"prompt": "The passage is primarily concerned with:",
+"options": {
+"A": "Celebrating universal digital access to historical materials.",
+"B": "Documenting the history of library science principles.",
+"C": "Warning of a looming crisis in preserving digital heritage.",
+"D": "Arguing for increased funding for antenna storage facilities."
+},
+"answer": "C",
+"explanation": "The entire passage builds a warning about digital preservation challenges: obsolescence, volume, lack of curation, and authentication issues. A misreads the author's skepticism about universal access claims, B focuses too narrowly on one law, and D introduces an absurd, unsupported 'antenna storage' concept."
+},
+{
+"id": 20,
+"prompt": "The author's response to the 'it's all in here' attitude toward digital access is:",
+"options": {
+"A": "Enthusiastic agreement that libraries are now obsolete.",
+"B": "Purely technical, explaining storage mechanisms.",
+"C": "Skeptical, highlighting hidden curation and maintenance challenges.",
+"D": "Dismissive of users' technological capabilities."
+},
+"answer": "C",
+"explanation": "The author questions who maintains access and curates content, calling the answer 'terrifying' if not librarians. This reveals deep skepticism about effortless access claims. A contradicts the defense of libraries' role, B ignores the critical tone, and D misattributes dismissal to users rather than to the misconception itself."
+}
+]
+}
+]

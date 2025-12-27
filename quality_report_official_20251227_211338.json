@@ -1,0 +1,882 @@
+{
+  "generated_at": "20251227_211338",
+  "model": "official",
+  "settings": {
+    "target": "考研英语",
+    "language": "English",
+    "llm_enabled": true,
+    "model_provider": "openai",
+    "judge_model_version": "deepseek-chat"
+  },
+  "totals": {
+    "cloze": {
+      "count": 1,
+      "fatal": 0,
+      "warning": 0,
+      "info": 0,
+      "avg_score": 85.6
+    },
+    "reading": {
+      "count": 4,
+      "fatal": 0,
+      "warning": 2,
+      "info": 0,
+      "avg_score": 63.89999999999999
+    }
+  },
+  "items": [
+    {
+      "type": "cloze",
+      "path": "data/clozetest/official__ClozeTest.json#0",
+      "source_file": "data/clozetest/official__ClozeTest.json",
+      "index_in_file": 0,
+      "id": 1,
+      "score": 85.6,
+      "rule_issues": [],
+      "rule_stats": {
+        "placeholders_count": 20,
+        "options_count": 20,
+        "answers_count": 20,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": [
+          "B",
+          "C",
+          "B",
+          "C",
+          "B",
+          "A",
+          "D",
+          "A",
+          "A",
+          "D",
+          "D",
+          "A",
+          "D",
+          "C",
+          "D",
+          "C",
+          "B",
+          "B",
+          "B",
+          "A"
+        ],
+        "confidence": [
+          0.95,
+          0.9,
+          0.95,
+          0.9,
+          0.85,
+          0.8,
+          0.85,
+          0.9,
+          0.95,
+          0.9,
+          0.9,
+          0.85,
+          0.85,
+          0.8,
+          0.85,
+          0.9,
+          0.75,
+          0.9,
+          0.9,
+          0.85
+        ],
+        "answer_mismatch_indices": [
+          16
+        ],
+        "overall_scores": {
+          "option_setting": 8,
+          "question_quality": 9,
+          "difficulty": 8,
+          "language": 9,
+          "coherence": 9
+        },
+        "overall_score": 86.0,
+        "per_blank": [
+          {
+            "index": 0,
+            "predicted": "B",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'Prone to' is a standard collocation for susceptibility to natural disasters. Other options are contextually weak."
+          },
+          {
+            "index": 1,
+            "predicted": "C",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "'Gradually' fits the narrative of a slow sinking process. 'Accidentally' is plausible but less coherent with the cause (earthquakes/tsunamis)."
+          },
+          {
+            "index": 2,
+            "predicted": "B",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'Submerged' is the clear and correct term for a city covered by rising sea levels."
+          },
+          {
+            "index": 3,
+            "predicted": "C",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 9,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "'Remains' (physical artifacts) is the logical subject for an archaeological site lying underwater. 'Legends' is a strong distractor."
+          },
+          {
+            "index": 4,
+            "predicted": "B",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "'Off' (the coast of) is correct for a location near an island. 'Across' is a plausible but incorrect distractor."
+          },
+          {
+            "index": 5,
+            "predicted": "A",
+            "confidence": 0.8,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 7
+            },
+            "notes": "'Currents' is the best fit for underwater erosion. 'Winds' is also plausible for coastal erosion, making this a good question."
+          },
+          {
+            "index": 6,
+            "predicted": "D",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "'Protected' logically completes the idea of a barrier's function. Other options don't fit the context of erosion."
+          },
+          {
+            "index": 7,
+            "predicted": "A",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'Gathering data' is the standard phrase for a scientific survey. Other options are not semantically appropriate."
+          },
+          {
+            "index": 8,
+            "predicted": "A",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'When' correctly introduces the temporal clause about the moment of discovery. Other conjunctions distort the timeline."
+          },
+          {
+            "index": 9,
+            "predicted": "D",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 9,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "'Structures' (buildings, ruins) is the appropriate object for 'spotted' in an archaeological context. 'Belongings' is too personal/portable."
+          },
+          {
+            "index": 10,
+            "predicted": "D",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'Examine' fits the purpose of an initial archaeological visit. 'Preserve' might come later."
+          },
+          {
+            "index": 11,
+            "predicted": "A",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 9,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "'Despite' correctly sets up a contrast between exciting finds and subsequent neglect."
+          },
+          {
+            "index": 12,
+            "predicted": "D",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 9,
+              "difficulty": 9,
+              "clarity": 8
+            },
+            "notes": "'Undisturbed' is the best fit for a site lying untouched for decades. 'Unknown' is a strong distractor, but the site was already discovered."
+          },
+          {
+            "index": 13,
+            "predicted": "C",
+            "confidence": 0.8,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 7
+            },
+            "notes": "'Resumed' implies restarting work after a hiatus, which fits the narrative. 'Suspended' is the opposite and a good distractor."
+          },
+          {
+            "index": 14,
+            "predicted": "D",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "'Techniques' pairs well with 'tools' and fits the context of archaeological advances. 'Theories' is a plausible but less precise distractor."
+          },
+          {
+            "index": 15,
+            "predicted": "C",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'Employed' is the standard verb for using tools/methods in a technical context. Other options are less fitting."
+          },
+          {
+            "index": 16,
+            "predicted": "B",
+            "confidence": 0.75,
+            "matches_provided": false,
+            "scores": {
+              "option_quality": 6,
+              "blank_quality": 7,
+              "difficulty": 9,
+              "clarity": 6
+            },
+            "notes": "PREDICTED: 'to light' (bring to light) is a common idiom meaning to reveal/discover. PROVIDED: 'to reality' is less idiomatic and slightly awkward here, though not entirely invalid. This is the primary point of ambiguity/contention."
+          },
+          {
+            "index": 17,
+            "predicted": "B",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'Connected' is the logical verb for roads relating to buildings. 'Crossed' is a possible but less precise distractor."
+          },
+          {
+            "index": 18,
+            "predicted": "B",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "'Suggesting' correctly indicates that the finds imply or indicate a conclusion. Other verbs don't fit the evidentiary logic."
+          },
+          {
+            "index": 19,
+            "predicted": "A",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "'Robust' fits well with 'thriving trade center'. 'Diverse' is a plausible but slightly less specific alternative."
+          }
+        ],
+        "fatal_issues": [
+          "Blank 16 has a significant ambiguity: The provided answer 'C' (to reality) is valid but non-idiomatic. The more common and natural phrase is 'to light' (bring to light). This creates a potential validity issue where the 'best fit' is debatable, though not strictly fatal."
+        ],
+        "improvements": [
+          "For blank 16, consider changing the phrase or options. 'Bring to __' could have options: A. life, B. light, C. reality, D. mind. 'Light' (B) would be the clear best answer, improving clarity. Alternatively, rephrase the sentence to: '...were able to bring the underwater town back to __' with options like A. life, B. the surface, C. reality, D. view.'",
+          "For blank 5, while 'currents' is correct, adding 'coastal' before 'currents' in the passage would eliminate any minor ambiguity with 'winds'.",
+          "For blank 13, the context for 'resumed' vs. 'started' could be slightly clearer, though it's acceptable."
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/official__ReadingComprehension.json#0",
+      "source_file": "data/readintask/official__ReadingComprehension.json",
+      "index_in_file": 0,
+      "title": "Text 1",
+      "score": 42.8,
+      "rule_issues": [
+        {
+          "severity": "warning",
+          "code": "READING_PASSAGE_SHORT",
+          "message": "Passage may be short for 考研-style reading.",
+          "location": "content"
+        }
+      ],
+      "rule_stats": {
+        "word_count": 4,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 1,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": {
+          "1": "C",
+          "2": "A",
+          "3": "A",
+          "4": "B",
+          "5": "A"
+        },
+        "confidence": {
+          "1": 0.3,
+          "2": 0.2,
+          "3": 0.2,
+          "4": 0.2,
+          "5": 0.2
+        },
+        "answer_mismatch_ids": [],
+        "overall_scores": {
+          "option_setting": 2,
+          "question_quality": 2,
+          "grounding": 1,
+          "difficulty": 3,
+          "language": 2
+        },
+        "overall_score": 20.0,
+        "per_question": [
+          {
+            "id": 1,
+            "predicted": "C",
+            "confidence": 0.3,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 3,
+              "question_quality": 3,
+              "grounding": 1,
+              "difficulty": 3,
+              "clarity": 4
+            },
+            "notes": "Question is clear, but cannot be grounded without passage. Options seem plausible for a Shakespeare education context."
+          },
+          {
+            "id": 2,
+            "predicted": "A",
+            "confidence": 0.2,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 2,
+              "question_quality": 2,
+              "grounding": 1,
+              "difficulty": 3,
+              "clarity": 3
+            },
+            "notes": "Option A has a typo ('a the change'). Option C has unclear phrasing ('sophisticated workers' likely meant 'sophisticated words' or similar). Cannot assess grounding."
+          },
+          {
+            "id": 3,
+            "predicted": "A",
+            "confidence": 0.2,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 3,
+              "question_quality": 2,
+              "grounding": 1,
+              "difficulty": 4,
+              "clarity": 2
+            },
+            "notes": "Question prompt is grammatically awkward ('Control pupil's reliance... shows their____'). Meaning is guessable but not standard. Cannot assess grounding."
+          },
+          {
+            "id": 4,
+            "predicted": "B",
+            "confidence": 0.2,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 3,
+              "question_quality": 3,
+              "grounding": 1,
+              "difficulty": 3,
+              "clarity": 3
+            },
+            "notes": "Question is clear. Option D has a typo ('Centralizing' likely meant 'Concentrating' or 'Focusing'). Cannot assess grounding or correctness of 'O'Helen' reference."
+          },
+          {
+            "id": 5,
+            "predicted": "A",
+            "confidence": 0.2,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 3,
+              "question_quality": 3,
+              "grounding": 1,
+              "difficulty": 3,
+              "clarity": 3
+            },
+            "notes": "Option A has a typo ('a the new teaching method'). Question is standard inference type. Cannot assess grounding without the last paragraph."
+          }
+        ],
+        "fatal_issues": [
+          "The passage is missing. The system prompt states: 'OCR无法可靠还原' (OCR cannot reliably restore). Therefore, all questions and answers are completely ungrounded. No quality assessment can be made based on the passage content.",
+          "The provided material is insufficient for the requested task of reviewing reading quality, which fundamentally requires the text to evaluate question grounding, appropriateness, and difficulty."
+        ],
+        "improvements": [
+          "Provide the complete, clear English passage for Text 1. This is the primary and essential improvement.",
+          "Proofread and correct the question stems and options for typos and grammatical errors (e.g., 'a the change', 'Control pupil's', 'Centralizing on').",
+          "Ensure character names are correctly spelled (e.g., 'O'Helen' may be 'O'Helen' or a different name).",
+          "Clarify ambiguous phrasing in options (e.g., 'sophisticated workers' in Q22C)."
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/official__ReadingComprehension.json#1",
+      "source_file": "data/readintask/official__ReadingComprehension.json",
+      "index_in_file": 1,
+      "title": "Text 2",
+      "score": 77.19999999999999,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 297,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": {
+          "6": "B",
+          "7": "D",
+          "8": "C",
+          "9": "A",
+          "10": "C"
+        },
+        "confidence": {
+          "6": 0.95,
+          "7": 0.9,
+          "8": 0.8,
+          "9": 0.85,
+          "10": 0.9
+        },
+        "answer_mismatch_ids": [],
+        "overall_scores": {
+          "option_setting": 7,
+          "question_quality": 6,
+          "grounding": 8,
+          "difficulty": 7,
+          "language": 8
+        },
+        "overall_score": 72.0,
+        "per_question": [
+          {
+            "id": 6,
+            "predicted": "B",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 9,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "Well-grounded in first paragraph: 'some scientists want to scale back their research' matches 'intention to reduce their research'."
+          },
+          {
+            "id": 7,
+            "predicted": "D",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "question_quality": 7,
+              "grounding": 8,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "Supported by third paragraph: 'The carbon emissions from technological research are well spent... will safeguard the future' aligns with 'justifiable in the long run'."
+          },
+          {
+            "id": 8,
+            "predicted": "C",
+            "confidence": 0.8,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 6,
+              "question_quality": 5,
+              "grounding": 7,
+              "difficulty": 8,
+              "clarity": 6
+            },
+            "notes": "Question references 'green in paragraph 5' but passage has no explicit 'green' example. Likely refers to LUMI example. Provided answer 'C' ('reverse of scientific endeavors') is ambiguous and poorly supported. Better answer would illustrate sustainable computing solutions."
+          },
+          {
+            "id": 9,
+            "predicted": "A",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "question_quality": 7,
+              "grounding": 8,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "LUMI described as powered by river and heating town, presented as example of sustainable computing - clearly supports 'model of sustainable efforts'."
+          },
+          {
+            "id": 10,
+            "predicted": "C",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "question_quality": 7,
+              "grounding": 8,
+              "difficulty": 7,
+              "clarity": 7
+            },
+            "notes": "Author argues energy-intensive research is necessary for understanding climate change, though should be made sustainable. 'Inevitable' captures this position well."
+          }
+        ],
+        "fatal_issues": [
+          "Question 8 references 'green in paragraph 5' but passage contains no explicit mention of 'green' in that context, creating confusion about what example is being referenced.",
+          "Question 8's provided answer ('the reverse of scientific endeavors') is ambiguous and not clearly supported by passage text."
+        ],
+        "improvements": [
+          "Revise Question 8 to clearly reference the LUMI example or other specific passage content instead of vague 'green' reference.",
+          "Reformulate Question 8's options to be more directly grounded in passage content about sustainable computing examples.",
+          "Consider adding one slightly more challenging inference question to increase difficulty balance.",
+          "Ensure all question prompts use precise language matching passage terminology."
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/official__ReadingComprehension.json#2",
+      "source_file": "data/readintask/official__ReadingComprehension.json",
+      "index_in_file": 2,
+      "title": "Text 3",
+      "score": 73.6,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 205,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": {
+          "11": "D",
+          "12": "A",
+          "13": "A",
+          "14": "C",
+          "15": "D"
+        },
+        "confidence": {
+          "11": 0.95,
+          "12": 0.9,
+          "13": 0.4,
+          "14": 0.85,
+          "15": 0.95
+        },
+        "answer_mismatch_ids": [],
+        "overall_scores": {
+          "option_setting": 7,
+          "question_quality": 6,
+          "grounding": 5,
+          "difficulty": 7,
+          "language": 8
+        },
+        "overall_score": 66.0,
+        "per_question": [
+          {
+            "id": 11,
+            "predicted": "D",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 9,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "Clear, well-grounded in paragraph 1 which describes piracy as a threat to legitimate services."
+          },
+          {
+            "id": 12,
+            "predicted": "A",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "question_quality": 7,
+              "grounding": 8,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "Supported by passage: 'Initially the rise of legitimate online businesses such as Netflix actually helped curb digital piracy.'"
+          },
+          {
+            "id": 13,
+            "predicted": "A",
+            "confidence": 0.4,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 3,
+              "question_quality": 4,
+              "grounding": 2,
+              "difficulty": 8,
+              "clarity": 6
+            },
+            "notes": "Question is problematic. Paragraph 4 mentions MPA forming ACE but does NOT state MPA was denied cooperation by Silicon Valley. The correct answer is not clearly supported by the passage. This is a major grounding issue."
+          },
+          {
+            "id": 14,
+            "predicted": "C",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "question_quality": 7,
+              "grounding": 8,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "Supported: 'there is no consensus on when it may begin to decline' implies it's unlikely to diminish soon."
+          },
+          {
+            "id": 15,
+            "predicted": "D",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "The text repeatedly cites economic harm figures ($2B, $30B, $71B, $113B, job losses)."
+          }
+        ],
+        "fatal_issues": [
+          "Question 33 (id:13) is not grounded in the passage. Paragraph 4 discusses MPA forming ACE and its efforts, but provides no information about being denied cooperation by Silicon Valley. This makes the question invalid as the correct answer cannot be inferred from the text provided."
+        ],
+        "improvements": [
+          "Rewrite question 33 (id:13) to be directly answerable from paragraph 4. For example, ask about what MPA did (formed ACE) or what ACE's role is.",
+          "Ensure all distractors for question 33 are plausible but incorrect based on the passage, not fabricated.",
+          "Consider adding more nuance to question 12 options to increase difficulty while maintaining grounding.",
+          "For question 14, the phrasing 'is unlikely to diminish in the near future' could be slightly strengthened to match 'no consensus on when it may begin to decline' more precisely."
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/official__ReadingComprehension.json#3",
+      "source_file": "data/readintask/official__ReadingComprehension.json",
+      "index_in_file": 3,
+      "title": "Text 4",
+      "score": 62.0,
+      "rule_issues": [
+        {
+          "severity": "warning",
+          "code": "READING_PASSAGE_SHORT",
+          "message": "Passage may be short for 考研-style reading.",
+          "location": "content"
+        }
+      ],
+      "rule_stats": {
+        "word_count": 174,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 1,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": {
+          "16": "C",
+          "17": "D",
+          "18": "B",
+          "19": "C",
+          "20": "D"
+        },
+        "confidence": {
+          "16": 0.9,
+          "17": 0.7,
+          "18": 0.6,
+          "19": 0.8,
+          "20": 0.9
+        },
+        "answer_mismatch_ids": [
+          17
+        ],
+        "overall_scores": {
+          "option_setting": 6,
+          "question_quality": 5,
+          "grounding": 4,
+          "difficulty": 6,
+          "language": 5
+        },
+        "overall_score": 52.0,
+        "per_question": [
+          {
+            "id": 16,
+            "predicted": "C",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "question_quality": 7,
+              "grounding": 8,
+              "difficulty": 5,
+              "clarity": 7
+            },
+            "notes": "The question correctly identifies the rhetorical purpose of the opening example to introduce the preservation theme."
+          },
+          {
+            "id": 17,
+            "predicted": "D",
+            "confidence": 0.7,
+            "matches_provided": false,
+            "scores": {
+              "option_quality": 5,
+              "question_quality": 4,
+              "grounding": 3,
+              "difficulty": 7,
+              "clarity": 5
+            },
+            "notes": "The passage states tangible artifacts 'aren't truly ephemeral' and 'are still here,' implying greater durability, but doesn't explicitly compare 'serious damage.' Option B ('convey information in a more direct way') is not directly supported. The question is somewhat inferential and not perfectly grounded."
+          },
+          {
+            "id": 18,
+            "predicted": "B",
+            "confidence": 0.6,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 4,
+              "question_quality": 3,
+              "grounding": 2,
+              "difficulty": 7,
+              "clarity": 4
+            },
+            "notes": "The passage praises librarians' work but does not explicitly state it results in 'undervaluation of libraries.' This is a weak inference. The question lacks clear grounding in the text."
+          },
+          {
+            "id": 19,
+            "predicted": "C",
+            "confidence": 0.8,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "question_quality": 6,
+              "grounding": 5,
+              "difficulty": 6,
+              "clarity": 6
+            },
+            "notes": "The question references 'ZIP disk' but the passage only discusses obsolete formats generally ('As technology advances and a format becomes obsolete, the object is useless'). The example is implied but not explicitly in the provided text, slightly weakening grounding."
+          },
+          {
+            "id": 20,
+            "predicted": "D",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 9,
+              "difficulty": 6,
+              "clarity": 8
+            },
+            "notes": "This is a strong main idea question. The passage's central theme is the challenge of preserving digital historical records compared to tangible artifacts."
+          }
+        ],
+        "fatal_issues": [
+          "The passage text appears truncated or contains grammatical errors/typos (e.g., 'artifact from the past', 'photographs, letters, a brochure Sinclair dinosaur 1964-1965 Fair...', 'that abrupt stops'), which affects comprehension and question validity.",
+          "Question 18's provided answer (B) and the question itself are poorly grounded. The passage does not discuss the 'result' of librarians' work leading to 'undervaluation.'",
+          "Question 19 references a specific example ('ZIP disk') that is not present in the provided passage text, indicating a possible mismatch between the passage excerpt and the intended full passage."
+        ],
+        "improvements": [
+          "Revise the passage for grammatical correctness and clarity to ensure it is a coherent, stand-alone text.",
+          "For Question 17, rephrase or provide options more directly supported by the text's comparison of digital and tangible preservation.",
+          "For Question 18, either rewrite the question to align with a clear point in the text (e.g., librarians' role is crucial but challenging) or remove it.",
+          "Ensure all question prompts and examples (like 'ZIP disk' in Q19) are explicitly mentioned or clearly inferable from the provided passage excerpt.",
+          "Consider adding more context to the passage to fully support the intended questions without requiring external knowledge or a longer original text."
+        ]
+      }
+    }
+  ]
+}

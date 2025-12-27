@@ -1,0 +1,27 @@
+{
+"id": 1,
+"content": "Located in the southern Peloponnesian peninsula, Pavlopetri (the modern name of the site) <question_0> as a Neolithic settlement around 3500 B.C. and became an important trading center for Mycenaean Greece (1650-1180 B.C.). This area of the Aegean Sea is <question_1> to earthquakes and tsunamis, which caused the city to gradually sink. The slow sea level rise in Mediterranean <question_2> this city around 3000 years ago.\n\nFor millennia, the city's remains lay unseen below some 13 feet of water. They were covered by a thick layer of sand off the island of Laconia. In recent decades, shifting currents and climate change have <question_3> a natural barrier that protected Pavlopetri. In 1967 a scientific survey of the Peloponnesian coast was gathering data to analyze changes in sea levels when British oceanographer Nicholas Flemming first spotted the sunken structures. A year later, he returned with a few students to examine the location and map the site. Despite the exciting initial finds, the site would lie undisturbed for decades before archaeologists would return.\n\nIn 2009 archaeologists Chrysanthi Gallou and Jon Henderson <question_4> the excavation of Pavlopetri in cooperation with the Greek Ministry of Culture. Since the 1960s, underwater archaeology techniques and tools had made <question_5> advances. The team <question_6> robotics, sonar mapping, and state-of-the-art graphics to survey the site. From 2009 to 2013 they were able to <question_7> the underwater town to light. Covering about two and a half acres, Pavlopetri's three main roads <question_8> some 50 rectangular buildings, all of which had open courtyards. Excavations revealed a large number of Minoan-style loom weights, <question_9> Pavlopetri was a thriving trade center with a <question_10> textile industry. The city's layout, with its well-planned streets and buildings, <question_11> that it was a sophisticated urban center. The discovery of these structures has <question_12> new insights into the development of early Mediterranean civilizations. Archaeologists believe that Pavlopetri was not just a trading post but a <question_13> hub for cultural exchange. This <question_14> has helped scholars understand how ancient communities interacted and traded across the Mediterranean. The ongoing research <question_15> the site's significance as one of the earliest known submerged settlements. The findings have also <question_16> the importance of preserving underwater archaeological sites for future study. Pavlopetri's story <question_17> a fascinating chapter in human history, showing how ancient societies adapted to changing environments. Its preservation offers a unique window into the past, <question_18> a glimpse of daily life in a Bronze Age community. The city's remains <question_19> an invaluable resource for understanding ancient trade networks and social structures.",
+"options": [
+{"A": "arose", "B": "vanished", "C": "remained", "D": "expanded"},
+{"A": "prone", "B": "immune", "C": "exposed", "D": "likely"},
+{"A": "submerged", "B": "floated", "C": "preserved", "D": "erected"},
+{"A": "eroded", "B": "reinforced", "C": "constructed", "D": "maintained"},
+{"A": "tremendous", "B": "minimal", "C": "limited", "D": "modest"},
+{"A": "resumed", "B": "abandoned", "C": "initiated", "D": "delayed"},
+{"A": "employed", "B": "avoided", "C": "ignored", "D": "developed"},
+{"A": "covering", "B": "measuring", "C": "occupying", "D": "spreading"},
+{"A": "crossed", "B": "divided", "C": "surrounded", "D": "connected"},
+{"A": "rectangular", "B": "circular", "C": "square", "D": "triangular"},
+{"A": "loom weights", "B": "textile tools", "C": "pottery shards", "D": "metal artifacts"},
+{"A": "suggesting", "B": "indicating", "C": "proving", "D": "showing"},
+{"A": "thriving", "B": "declining", "C": "stable", "D": "dormant"},
+{"A": "since", "B": "before", "C": "after", "D": "when"},
+{"A": "cooperation", "B": "competition", "C": "conflict", "D": "negotiation"},
+{"A": "with", "B": "for", "C": "against", "D": "on"},
+{"A": "bring to light", "B": "cover up", "C": "ignore", "D": "destroy"},
+{"A": "robust", "B": "fragile", "C": "nascent", "D": "obscure"},
+{"A": "revealed", "B": "concealed", "C": "ignored", "D": "overlooked"},
+{"A": "demonstrated", "B": "questioned", "C": "denied", "D": "undermined"}
+],
+"answers": ["A", "B", "C", "D", "A", "B", "C", "D", "A", "B", "C", "D", "A", "B", "C", "D", "A", "B", "C", "D"]
+}

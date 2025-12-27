@@ -1,0 +1,837 @@
+{
+  "generated_at": "20251227_211338",
+  "model": "GPT5.2",
+  "settings": {
+    "target": "考研英语",
+    "language": "English",
+    "llm_enabled": true,
+    "model_provider": "openai",
+    "judge_model_version": "deepseek-chat"
+  },
+  "totals": {
+    "cloze": {
+      "count": 1,
+      "fatal": 0,
+      "warning": 0,
+      "info": 0,
+      "avg_score": 82.0
+    },
+    "reading": {
+      "count": 4,
+      "fatal": 0,
+      "warning": 0,
+      "info": 0,
+      "avg_score": 85.6
+    }
+  },
+  "items": [
+    {
+      "type": "cloze",
+      "path": "data/clozetest/GPT5.2_ClozeTest.json#0",
+      "source_file": "data/clozetest/GPT5.2_ClozeTest.json",
+      "index_in_file": 0,
+      "id": 1,
+      "score": 82.0,
+      "rule_issues": [],
+      "rule_stats": {
+        "placeholders_count": 20,
+        "options_count": 20,
+        "answers_count": 20,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": [
+          "B",
+          "D",
+          "A",
+          "C",
+          "A",
+          "D",
+          "B",
+          "C",
+          "A",
+          "D",
+          "B",
+          "C",
+          "A",
+          "B",
+          "D",
+          "C",
+          "A",
+          "D",
+          "B",
+          "C"
+        ],
+        "confidence": [
+          0.9,
+          0.85,
+          0.95,
+          0.9,
+          0.8,
+          0.7,
+          0.95,
+          0.9,
+          0.85,
+          0.75,
+          0.8,
+          0.85,
+          0.9,
+          0.9,
+          0.85,
+          0.8,
+          0.85,
+          0.8,
+          0.9,
+          0.85
+        ],
+        "answer_mismatch_indices": [],
+        "overall_scores": {
+          "option_setting": 8,
+          "question_quality": 7,
+          "difficulty": 8,
+          "language": 9,
+          "coherence": 8
+        },
+        "overall_score": 80.0,
+        "per_blank": [
+          {
+            "index": 0,
+            "predicted": "B",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Clear geographical context; 'southern' fits well with Peloponnesian peninsula."
+          },
+          {
+            "index": 1,
+            "predicted": "D",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "'Emerged' is best for a settlement appearing; 'sprang' is plausible but less formal."
+          },
+          {
+            "index": 2,
+            "predicted": "A",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "Excellent fit; later text confirms 'trade hub'."
+          },
+          {
+            "index": 3,
+            "predicted": "C",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'Prone to' is standard for susceptibility; other options illogical."
+          },
+          {
+            "index": 4,
+            "predicted": "A",
+            "confidence": 0.8,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "blank_quality": 7,
+              "difficulty": 8,
+              "clarity": 7
+            },
+            "notes": "'Gradually' vs. 'abruptly' is subtle; context suggests slow sinking, but 'abruptly' could fit earthquakes."
+          },
+          {
+            "index": 5,
+            "predicted": "D",
+            "confidence": 0.7,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 6,
+              "blank_quality": 6,
+              "difficulty": 9,
+              "clarity": 6
+            },
+            "notes": "'Meanwhile' is weak; 'Nevertheless' or 'Instead' could also work, creating ambiguity."
+          },
+          {
+            "index": 6,
+            "predicted": "B",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "Clear; 'submerged' directly matches 'sink' and underwater context."
+          },
+          {
+            "index": 7,
+            "predicted": "C",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "'For millennia' fits 3,000-year timeline; other options too short."
+          },
+          {
+            "index": 8,
+            "predicted": "A",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "'Unseen' fits being hidden; 'intact' is plausible but less direct."
+          },
+          {
+            "index": 9,
+            "predicted": "D",
+            "confidence": 0.75,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "blank_quality": 7,
+              "difficulty": 8,
+              "clarity": 7
+            },
+            "notes": "'Blanketed' is metaphorical; 'surrounded' or 'shielded' could also fit."
+          },
+          {
+            "index": 10,
+            "predicted": "B",
+            "confidence": 0.8,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "'Eroded' fits loss of protection; 'restored' is opposite."
+          },
+          {
+            "index": 11,
+            "predicted": "C",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "'Barrier' fits protective role; 'harbor' is distractingly plausible."
+          },
+          {
+            "index": 12,
+            "predicted": "A",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'Gathering data' is standard for surveys."
+          },
+          {
+            "index": 13,
+            "predicted": "B",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "'Spotted' is perfect for discovering structures."
+          },
+          {
+            "index": 14,
+            "predicted": "D",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "'Examine' fits archaeological follow-up; 'relocate' is weak distracter."
+          },
+          {
+            "index": 15,
+            "predicted": "C",
+            "confidence": 0.8,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 7,
+              "blank_quality": 7,
+              "difficulty": 9,
+              "clarity": 7
+            },
+            "notes": "'Despite' is correct but subtle; 'Because of' is a strong distracter."
+          },
+          {
+            "index": 16,
+            "predicted": "A",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "'Undisturbed' fits abandonment; 'unprotected' is plausible but less precise."
+          },
+          {
+            "index": 17,
+            "predicted": "D",
+            "confidence": 0.8,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 8,
+              "clarity": 8
+            },
+            "notes": "'Resumed' implies prior work; 'authorized' is also plausible."
+          },
+          {
+            "index": 18,
+            "predicted": "B",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "blank_quality": 9,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "'Advances' is clear for technological progress."
+          },
+          {
+            "index": 19,
+            "predicted": "C",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "blank_quality": 8,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "'Employed' fits use of technology; 'avoided' is illogical."
+          }
+        ],
+        "fatal_issues": [],
+        "improvements": [
+          "Blank 5: Replace 'Meanwhile' with a clearer contrast like 'However' or remove ambiguity by adjusting context. 2. Blank 9: Consider using 'covered' instead of 'blanketed' for more direct clarity. 3. Blank 15: Strengthen context to make 'Despite' less ambiguous (e.g., 'Despite the initial excitement, the site was later abandoned...'). 4. Blank 4: Provide clearer contrast between 'gradually' and 'abruptly' in the passage (e.g., specify 'not suddenly but gradually')."
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/GPT5.2_ReadingComprehension.json#0",
+      "source_file": "data/readintask/GPT5.2_ReadingComprehension.json",
+      "index_in_file": 0,
+      "title": "Acting Shakespeare: A “Rehearsal Room” Approach in Primary Schools",
+      "score": 84.4,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 424,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": {
+          "1": "A",
+          "2": "B",
+          "3": "C",
+          "4": "D",
+          "5": "A"
+        },
+        "confidence": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 0.95,
+          "4": 0.95,
+          "5": 1.0
+        },
+        "answer_mismatch_ids": [],
+        "overall_scores": {
+          "option_setting": 9,
+          "question_quality": 8,
+          "grounding": 9,
+          "difficulty": 7,
+          "language": 9
+        },
+        "overall_score": 84.0,
+        "per_question": [
+          {
+            "id": 1,
+            "predicted": "A",
+            "confidence": 1.0,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 8,
+              "grounding": 9,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "Option A accurately captures the central claim that Shakespeare benefits literacy and emotional development when taught through drama-based practice. Other options are contradicted by the passage."
+          },
+          {
+            "id": 2,
+            "predicted": "B",
+            "confidence": 1.0,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 9,
+              "grounding": 10,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Directly supported by passage: target children 'put themselves in the shoes of a literary character' while control pupils 'imagine how they themselves would react'."
+          },
+          {
+            "id": 3,
+            "predicted": "C",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 8,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Context links 'resilient' with 'more hopeful' and emotional understanding in challenging scenarios. Option C best captures this nuance."
+          },
+          {
+            "id": 4,
+            "predicted": "D",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 8,
+              "grounding": 9,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "Inference well-supported by passage: rehearsal room process involves 'trying to imagine your way through' and 'put yourself in different shoes'."
+          },
+          {
+            "id": 5,
+            "predicted": "A",
+            "confidence": 1.0,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 8,
+              "grounding": 10,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "Directly stated: target pupils were 'more expansive giving a broader picture of the sky, the sea and the atmospheric conditions' versus control's 'desert island clichés'."
+          }
+        ],
+        "fatal_issues": [],
+        "improvements": [
+          "Consider adding one slightly more challenging inference question about the study's methodology or limitations. 2. Option C in Q3 could be slightly refined to more precisely match the passage's emphasis on emotional states rather than just 'scenario'. 3. The passage mentions Shakespeare's vocabulary size (20,000 vs 2,000 words) - this could form the basis for an additional vocabulary-focused question."
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/GPT5.2_ReadingComprehension.json#1",
+      "source_file": "data/readintask/GPT5.2_ReadingComprehension.json",
+      "index_in_file": 1,
+      "title": "Science and Net-Zero: Cutting Research or Building Sustainable Computing?",
+      "score": 84.4,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 228,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": {
+          "6": "B",
+          "7": "C",
+          "8": "D",
+          "9": "A",
+          "10": "B"
+        },
+        "confidence": {
+          "6": 0.95,
+          "7": 0.98,
+          "8": 0.9,
+          "9": 0.85,
+          "10": 0.9
+        },
+        "answer_mismatch_ids": [],
+        "overall_scores": {
+          "option_setting": 8,
+          "question_quality": 9,
+          "grounding": 9,
+          "difficulty": 7,
+          "language": 9
+        },
+        "overall_score": 84.0,
+        "per_question": [
+          {
+            "id": 6,
+            "predicted": "B",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 9,
+              "grounding": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "The author's position is clearly implied in the first and third paragraphs: rather than scaling back research, focus on sustainable computing. Option B captures this precisely. Other options are either extreme (A, C) or unsupported (D)."
+          },
+          {
+            "id": 7,
+            "predicted": "C",
+            "confidence": 0.98,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 8,
+              "grounding": 10,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "Directly grounded in passage: 'data centres now consume about 1 percent of the world’s electricity.' Option C paraphrases this accurately. Other options contain fabricated statistics not found in the text."
+          },
+          {
+            "id": 8,
+            "predicted": "D",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 8,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "'Planet's pulse' is a metaphor for monitoring Earth's overall condition and changes. Option D captures the broad, systemic meaning best. Option A is too narrow (weather only). Option B is literal (geological). Option C is unrelated to scientific measurement."
+          },
+          {
+            "id": 9,
+            "predicted": "A",
+            "confidence": 0.85,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 8,
+              "difficulty": 7,
+              "clarity": 8
+            },
+            "notes": "The passage states LUMI is 'powered by a nearby river and its remote heat warms the people...' This implies renewable power and heat reuse. Option A is the only one supported. Options B, C, D introduce details not mentioned (carbon credits, fewer calculations, night-only use)."
+          },
+          {
+            "id": 10,
+            "predicted": "B",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 9,
+              "grounding": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "The detail about the old paper mill is presented alongside the renewable power source and community heating, illustrating a holistic, low-carbon approach. Option B correctly interprets this as an example of repurposing industrial sites for sustainable computing ecosystems. Other options are unsupported or misread the purpose."
+          }
+        ],
+        "fatal_issues": [],
+        "improvements": [
+          "For Q8, consider adding a slightly more challenging distractor related to 'monitoring climate systems' to increase difficulty. 2. In Q9, the phrase 'astonishingly carbon-negative' could be explored with a slightly more nuanced question about the combined factors (renewable energy + waste heat utilization) rather than inference. 3. The passage is relatively short",
+          "adding one more paragraph with a counter-argument or additional data point could provide more material for inference questions and increase overall difficulty."
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/GPT5.2_ReadingComprehension.json#2",
+      "source_file": "data/readintask/GPT5.2_ReadingComprehension.json",
+      "index_in_file": 2,
+      "title": "Streaming’s Unintended Winners: The High-Margin Business of Online Piracy",
+      "score": 88.0,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 405,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": {
+          "11": "C",
+          "12": "D",
+          "13": "A",
+          "14": "B",
+          "15": "C"
+        },
+        "confidence": {
+          "11": 0.95,
+          "12": 0.98,
+          "13": 0.99,
+          "14": 0.96,
+          "15": 0.97
+        },
+        "answer_mismatch_ids": [],
+        "overall_scores": {
+          "option_setting": 9,
+          "question_quality": 9,
+          "grounding": 10,
+          "difficulty": 8,
+          "language": 9
+        },
+        "overall_score": 90.0,
+        "per_question": [
+          {
+            "id": 11,
+            "predicted": "C",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 9,
+              "grounding": 10,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Main idea question correctly captures the passage's dual focus: streaming's struggles and piracy's profitable, organized rise. Distractors are plausible but clearly off-topic."
+          },
+          {
+            "id": 12,
+            "predicted": "D",
+            "confidence": 0.98,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 10,
+              "question_quality": 9,
+              "grounding": 10,
+              "difficulty": 7,
+              "clarity": 10
+            },
+            "notes": "Direct detail question with clear answer in paragraph 4. Distractors are unsupported or exaggerated (e.g., 'completely eliminated')."
+          },
+          {
+            "id": 13,
+            "predicted": "A",
+            "confidence": 0.99,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 8,
+              "grounding": 10,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "Vocabulary-in-context question. 'Rake in' clearly means earning large sums. Distractors introduce unrelated concepts (redistribution, regulation)."
+          },
+          {
+            "id": 14,
+            "predicted": "B",
+            "confidence": 0.96,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 9,
+              "grounding": 10,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "Inference question well-supported by paragraph 2 (shift from file uploads to streaming services). Distractors contradict the passage."
+          },
+          {
+            "id": 15,
+            "predicted": "C",
+            "confidence": 0.97,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 9,
+              "grounding": 10,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "Tone question accurately reflects the paragraph's qualified language ('some optimism,' 'no consensus,' 'may plateau')."
+          }
+        ],
+        "fatal_issues": [],
+        "improvements": [
+          "Consider adding one slightly more challenging inference question (e.g., about the role of legislation or the MPA's strategy). 2. For question 11, option A could be slightly refined to more directly contrast with the passage's focus (it currently states a comparison not deeply explored). 3. Ensure all distractors are grammatically parallel (minor issue with option D in Q13)."
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/GPT5.2_ReadingComprehension.json#3",
+      "source_file": "data/readintask/GPT5.2_ReadingComprehension.json",
+      "index_in_file": 3,
+      "title": "When the Medium Fails: Preserving Born-Digital History in an Age of Obsolescence",
+      "score": 85.6,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 544,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": {
+        "predicted_answers": {
+          "16": "D",
+          "17": "A",
+          "18": "B",
+          "19": "C",
+          "20": "D"
+        },
+        "confidence": {
+          "16": 0.95,
+          "17": 0.9,
+          "18": 0.95,
+          "19": 0.95,
+          "20": 0.9
+        },
+        "answer_mismatch_ids": [],
+        "overall_scores": {
+          "option_setting": 8,
+          "question_quality": 9,
+          "grounding": 9,
+          "difficulty": 8,
+          "language": 9
+        },
+        "overall_score": 86.0,
+        "per_question": [
+          {
+            "id": 16,
+            "predicted": "D",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 9,
+              "grounding": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Main argument clearly supported throughout passage: digital fragility requires curation; librarians essential. Distractors plausible but contradicted."
+          },
+          {
+            "id": 17,
+            "predicted": "A",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 9,
+              "grounding": 9,
+              "difficulty": 8,
+              "clarity": 9
+            },
+            "notes": "Inference well-supported: passage contrasts easy access with invisible labor of curation. Other options not supported."
+          },
+          {
+            "id": 18,
+            "predicted": "B",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 8,
+              "grounding": 9,
+              "difficulty": 6,
+              "clarity": 9
+            },
+            "notes": "Vocabulary in context clear: 'carrier' refers to storage medium/format, not the readable information itself."
+          },
+          {
+            "id": 19,
+            "predicted": "C",
+            "confidence": 0.95,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 9,
+              "question_quality": 9,
+              "grounding": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Example perfectly illustrates obsolescence risk; other options not supported or contradicted."
+          },
+          {
+            "id": 20,
+            "predicted": "D",
+            "confidence": 0.9,
+            "matches_provided": true,
+            "scores": {
+              "option_quality": 8,
+              "question_quality": 8,
+              "grounding": 9,
+              "difficulty": 7,
+              "clarity": 9
+            },
+            "notes": "Author's tone clearly alarmed (e.g., 'frightening,' 'horror,' 'nightmare,' 'terrifying'). Other adjectives not supported."
+          }
+        ],
+        "fatal_issues": [],
+        "improvements": [
+          "Option A in Q16 could be slightly rephrased to avoid potential misinterpretation of 'largely unnecessary' (author argues against this, but wording could be clearer). 2. Q18's distractor D ('stable internet connection') is weak",
+          "consider a more plausible alternative. 3. Consider adding one slightly more challenging inference question to increase difficulty spread."
+        ]
+      }
+    }
+  ]
+}

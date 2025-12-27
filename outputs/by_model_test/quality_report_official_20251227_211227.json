@@ -1,0 +1,129 @@
+{
+  "generated_at": "20251227_211227",
+  "model": "official",
+  "settings": {
+    "target": "考研英语",
+    "language": "English",
+    "llm_enabled": false,
+    "model_provider": null,
+    "judge_model_version": null
+  },
+  "totals": {
+    "cloze": {
+      "count": 1,
+      "fatal": 0,
+      "warning": 0,
+      "info": 0,
+      "avg_score": 85.0
+    },
+    "reading": {
+      "count": 4,
+      "fatal": 0,
+      "warning": 2,
+      "info": 0,
+      "avg_score": 81.0
+    }
+  },
+  "items": [
+    {
+      "type": "cloze",
+      "path": "data/clozetest/official__ClozeTest.json#0",
+      "source_file": "data/clozetest/official__ClozeTest.json",
+      "index_in_file": 0,
+      "id": 1,
+      "score": 85.0,
+      "rule_issues": [],
+      "rule_stats": {
+        "placeholders_count": 20,
+        "options_count": 20,
+        "answers_count": 20,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": null
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/official__ReadingComprehension.json#0",
+      "source_file": "data/readintask/official__ReadingComprehension.json",
+      "index_in_file": 0,
+      "title": "Text 1",
+      "score": 77.0,
+      "rule_issues": [
+        {
+          "severity": "warning",
+          "code": "READING_PASSAGE_SHORT",
+          "message": "Passage may be short for 考研-style reading.",
+          "location": "content"
+        }
+      ],
+      "rule_stats": {
+        "word_count": 4,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 1,
+        "info_count": 0
+      },
+      "llm_judge": null
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/official__ReadingComprehension.json#1",
+      "source_file": "data/readintask/official__ReadingComprehension.json",
+      "index_in_file": 1,
+      "title": "Text 2",
+      "score": 85.0,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 297,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": null
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/official__ReadingComprehension.json#2",
+      "source_file": "data/readintask/official__ReadingComprehension.json",
+      "index_in_file": 2,
+      "title": "Text 3",
+      "score": 85.0,
+      "rule_issues": [],
+      "rule_stats": {
+        "word_count": 205,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "llm_judge": null
+    },
+    {
+      "type": "reading",
+      "path": "data/readintask/official__ReadingComprehension.json#3",
+      "source_file": "data/readintask/official__ReadingComprehension.json",
+      "index_in_file": 3,
+      "title": "Text 4",
+      "score": 77.0,
+      "rule_issues": [
+        {
+          "severity": "warning",
+          "code": "READING_PASSAGE_SHORT",
+          "message": "Passage may be short for 考研-style reading.",
+          "location": "content"
+        }
+      ],
+      "rule_stats": {
+        "word_count": 174,
+        "question_count": 5,
+        "fatal_count": 0,
+        "warning_count": 1,
+        "info_count": 0
+      },
+      "llm_judge": null
+    }
+  ]
+}

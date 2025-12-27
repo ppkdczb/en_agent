@@ -60,16 +60,19 @@ def _is_mostly_english(text: str, min_alpha_ratio: float = 0.6) -> bool:
 
 def _detect_placeholders(text: str) -> List[int]:
     # Extract <question_i> indices from cloze content.
+    # Returns list of integers (may have duplicates).
     return [int(m.group(1)) for m in re.finditer(r"<question_(\d+)>", text or "")]
 
 
 def _has_duplicate_options(options: Dict[str, str]) -> bool:
+    # Check if there are duplicate option texts (A/B/C/D).
     values = [v.strip().lower() for v in options.values()]
     values = [v for v in values if v]
     return len(values) != len(set(values))
 
 
 def _choice_text(options: Dict[str, str], choice: str) -> Optional[str]:
+    # Get the text for a given choice letter (A/B/C/D).
     return options.get(choice) if options else None
 
 

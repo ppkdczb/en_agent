@@ -1,0 +1,27 @@
+{
+"id": 1,
+"content": "Located on the <question_0> Peloponnesian peninsula, Pavlopetri (the modern name of the site) <question_1> as a Neolithic settlement around 3500 B.C. and later became an important <question_2> center for Mycenaean Greece (1650–1180 B.C.). The surrounding Aegean waters are <question_3> to earthquakes and tsunamis, events that caused the city to <question_4> sink. <question_5>, a slow rise in Mediterranean sea levels ultimately <question_6> the city about 3,000 years ago.\n\nFor <question_7>, the city's remains lay <question_8> beneath roughly 13 feet of water, <question_9> by a thick layer of sand off the island of Laconia. In recent decades, shifting currents and climate change have <question_10> a natural <question_11> that once protected Pavlopetri. In 1967, a scientific survey of the Peloponnesian coast was <question_12> data to analyze changes in sea levels when British oceanographer Nicholas Flemming first <question_13> the sunken structures. A year later, he returned with a few students to <question_14> the location and map the site. <question_15> the excitement of these initial finds, the site remained <question_16> for decades before archaeologists came back.\n\nIn 2009, archaeologists Chrysanthi Gallou and Jon Henderson <question_17> the excavation of Pavlopetri in cooperation with the Greek Ministry of Culture. Since the 1960s, underwater-archaeology techniques and tools had made huge <question_18>. The team <question_19> robotics, sonar mapping, and state-of-the-art graphics to survey the site. From 2009 to 2013, they brought the underwater town to light, revealing three main roads crossing some 50 rectangular buildings with open courtyards. Excavations uncovered many Minoan-style loom weights, implying that Pavlopetri was a flourishing trade hub supported by a strong textile industry.",
+"options": [
+{ "A": "eastern", "B": "southern", "C": "lower", "D": "coastal" },
+{ "A": "surfaced", "B": "rose", "C": "sprang", "D": "emerged" },
+{ "A": "trading", "B": "touring", "C": "housing", "D": "farming" },
+{ "A": "immune", "B": "accustomed", "C": "prone", "D": "restricted" },
+{ "A": "gradually", "B": "abruptly", "C": "evenly", "D": "entirely" },
+{ "A": "Nevertheless", "B": "Instead", "C": "Likewise", "D": "Meanwhile" },
+{ "A": "exposed", "B": "submerged", "C": "framed", "D": "secured" },
+{ "A": "For days", "B": "For centuries", "C": "For millennia", "D": "For decades" },
+{ "A": "unseen", "B": "intact", "C": "accessible", "D": "celebrated" },
+{ "A": "shielded", "B": "surrounded", "C": "anchored", "D": "blanketed" },
+{ "A": "restored", "B": "eroded", "C": "polished", "D": "reinforced" },
+{ "A": "shortcut", "B": "framework", "C": "barrier", "D": "harbor" },
+{ "A": "gathering", "B": "distributing", "C": "withholding", "D": "erasing" },
+{ "A": "constructed", "B": "spotted", "C": "financed", "D": "debated" },
+{ "A": "postpone", "B": "ignore", "C": "relocate", "D": "examine" },
+{ "A": "Because of", "B": "Given", "C": "Despite", "D": "Along with" },
+{ "A": "undisturbed", "B": "overcrowded", "C": "unprotected", "D": "documented" },
+{ "A": "abandoned", "B": "outsourced", "C": "authorized", "D": "resumed" },
+{ "A": "setbacks", "B": "advances", "C": "imitations", "D": "concessions" },
+{ "A": "avoided", "B": "imagined", "C": "employed", "D": "condemned" }
+],
+"answers": ["B", "D", "A", "C", "A", "D", "B", "C", "A", "D", "B", "C", "A", "B", "D", "C", "A", "D", "B", "C"]
+}
